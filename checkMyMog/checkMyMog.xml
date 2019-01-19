@@ -1,0 +1,48 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ../../../BlizzardInterfaceCode/UI.xsd">
+	<!-- The Check My Mog button template -->
+	<Button name="checkMyMog_buttonTemplate" virtual="true" hidden="false" inherits="UIPanelButtonTemplate">
+		<Size><AbsDimension x="48" y="24" /></Size>
+		<NormalTexture file="Interface\AddOns\checkMyMog\texture\CmmButton">
+			<TexCoords left="0" top="0" right=".5" bottom="0.5" />
+		</NormalTexture>
+		<PushedTexture file="Interface\AddOns\checkMyMog\texture\CmmButton">
+			<TexCoords left="0" top="0.5" right=".5" bottom="1" />
+		</PushedTexture>
+		<DisabledTexture file="Interface\AddOns\checkMyMog\texture\CmmButton">
+			<TexCoords left="0.5" top="0.5" right="1" bottom="1" />
+		</DisabledTexture>
+		<HighlightTexture file="Interface\AddOns\checkMyMog\texture\CmmButton" alphaMode="ADD">
+			<TexCoords left=".5" top="0" right="1" bottom="0.5" />
+		</HighlightTexture>
+	</Button>
+
+
+        <!-- The Check My Mog on the inspect window -->
+	<Button name="checkMyMog_buttonInspect" virtual="true" inherits="checkMyMog_buttonTemplate">
+		<Anchors><Anchor point="BOTTOMLEFT" relativeTo="InspectPaperDollFrame" /></Anchors>
+	</Button>
+	
+	<Frame name="CmmFrame" toplevel="true" parent="UIParent" hidden="true" movable="true" enableMouse="true">
+		<Scripts>
+			<OnLoad>
+				tinsert(UISpecialFrames, self:GetName()) -- closes when you press Escape
+				self:RegisterEvent("ADDON_LOADED")
+				self:RegisterEvent("PLAYER_LOGIN")
+				self:RegisterEvent("PLAYER_LOGOUT")
+				self:RegisterEvent("UNIT_INVENTORY_CHANGED")
+				self:RegisterEvent("ITEM_LOCKED")
+				self:RegisterEvent("PLAYER_SPECIALIZATION_CHANGED")
+				self:RegisterEvent("ARTIFACT_UPDATE")
+				self:RegisterEvent("INSPECT_READY")
+				self:RegisterEvent("GET_ITEM_INFO_RECEIVED")
+				self:RegisterEvent("ITEM_DATA_LOAD_RESULT")
+			</OnLoad>
+			<OnEvent>
+				CmmOnEvent(event, ...)
+			</OnEvent>
+			<OnMouseDown>self:StartMoving()</OnMouseDown>
+			<OnMouseUp>self:StopMovingOrSizing()</OnMouseUp>
+			<OnDragStop>self:StopMovingOrSizing()</OnDragStop>
+		</Scripts>
+	</Frame>
+ </Ui>
