@@ -5,8 +5,10 @@ import requests
 import re
 import sys
 import os
+import json
 
-def loop_over_files(location_tab):
+def loop_over_files(location_json):
+	print (location_json)
 	for files in os.listdir("../links"):
 		filename = "../links/" + files
 		with open(filename) as f:
@@ -15,6 +17,7 @@ def loop_over_files(location_tab):
 				page_response = requests.get(item, timeout=10)
 				page_content = BeautifulSoup(page_response.content, "html.parser")
 				name = page_content.find("h1", {"class" : "heading-size-1"}).getText()
+				print(name)
 				while 1:
 					i = 0 + 1
 
@@ -23,10 +26,14 @@ def create_location_tab():
 	page_response = requests.get("https://www.wowhead.com/zones")
 	page_content = BeautifulSoup(page_response.content, "html.parser")
 	strcontent = str(page_content.prettify())
-	print (strcontent)
+	begin_cut = strcontent.find(";zonedata.zones = [{")
+	end_cut = strcontent.find("zonedata.zones});")
+	locatestring = strcontent[begin_cut:end_cut]
+	locatestring = locatestring[18:(locatestring.find("new Listview") - 2)]
+	return json.loads(locatestring)
 
 def main():
-	location_tab = create_location_tab()
-	#loop_over_files(location_tab)
+	location_json = create_location_tab()
+	loop_over_files(location_json)
 
 main()

@@ -89,7 +89,7 @@ local function SetTabs(frame, numTabs, ...)
 		tab:SetScript("OnClick", Tab_OnClick);
 		
 		tab.content = CreateFrame("Frame", nil, UIConfig.ScrollFrame);
-		tab.content:SetSize(308, 500);
+		tab.content:SetSize(160, 260);
 		tab.content:Hide();
 		
 		-- just for tutorial only:
@@ -148,7 +148,7 @@ local function SetTabs(frame, numTabs, ...)
 		tab:SetScript("OnClick", Tab_OnClick);
 		
 		tab.content = CreateFrame("Frame", nil, UIConfig.ScrollFrame);
-		tab.content:SetSize(950, 600);
+		tab.content:SetSize(350, 450);
 		tab.content:Hide();
 		
 		table.insert(contents, tab.content);
@@ -241,7 +241,7 @@ end
 
 function Config:CreateMenu()
 	UIConfig = CreateFrame("Frame", "CheckMyMogConfig", UIParent, "UIPanelDialogTemplate");
-	UIConfig:SetSize(1000, 500);
+	UIConfig:SetSize(350, 450);
 	UIConfig:SetPoint("CENTER");
 
 	UIConfig.Title:ClearAllPoints();
@@ -260,7 +260,7 @@ function Config:CreateMenu()
 	UIConfig.ScrollFrame.ScrollBar:SetPoint("BOTTOMRIGHT", UIConfig.ScrollFrame, "BOTTOMRIGHT", -7, 18);
 
 	local child = CreateFrame("Frame", nil, UIConfig.ScrollFrame);
-	child:SetSize(950, 600);
+	child:SetSize(350, 450);
 	UIConfig.ScrollFrame:SetScrollChild(child);	
 
 	headContent, shoulderContent, backContent, chestContent,
