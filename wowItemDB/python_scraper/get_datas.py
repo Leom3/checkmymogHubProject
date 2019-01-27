@@ -30,12 +30,13 @@ category_dic = {
 	15 : 'Outdoor Zone'
 }
 
-########################################################
-#fonction qui récupère la donnée json dans la page HTML#
-#3 types de regex possibles :                          #
-#  - classification.*location.*name.*count.*outof\:\d+ #
-#  - \"boss\"\:\d+.*name.*count.*outof\:\d+            #
-########################################################
+#######################################################################
+#fonction qui récupère la donnée json dans la page html 			  #
+#3 types de regex possibles :                          				  #
+#  - classification.*location.*name.*count.*outof\:\d+ 				  #
+#  - \"boss\"\:\d+.*name.*count.*outof\:\d+            				  #
+#  - \'quest\'.*data\:.*category.*\"money\"\:\d+\,\"name.*\"xp\"\:\d+ #
+#######################################################################
 
 def find_json_data_in_file(page):
 	data = re.search('\"boss\"\:\d+[\s\'\,\"\\\/classificationlocation\d+id\:\[\]maxlevel\w\-\-\_]+', page)
@@ -48,7 +49,7 @@ def find_json_data_in_file(page):
 			json_str = data[-1]
 			return json_str
 		else:
-			data = re.findall('azerazer', page)
+			data = re.findall('\'quest\'.*data\:.*category.*\"money\"\:\d+\,\"name.*\"xp\"\:\d+', page)
 			if data:
 				json_str = data[-1]
 				return json_str
@@ -63,6 +64,8 @@ def find_json_data_in_file(page):
 
 def get_location(locate_id, location_json, object_dic):
 	locate_str = ""
+	if not locate_id:
+		return object_dic
 	for keys in location_json:
 		if (int(keys["id"]) == int(locate_id)):
 			if (keys.get("expansion") != None) and keys["expansion"] in expansion_dic:
@@ -83,7 +86,7 @@ def calculate_loot_rate(loot_rate):
 	value_tab = loot_rate.split(":")
 	value1 = value_tab[0]
 	value2 = value_tab[1]
-	if (value1 == 0 or value2 == 0):
+	if (int(value1) == 0 or int(value2) == 0):
 		loot_rate = 0
 		return loot_rate
 	else:
@@ -100,6 +103,9 @@ def calculate_loot_rate(loot_rate):
 def loop_over_files(location_json):
 	#print (location_json)
 	for files in os.listdir("../links"):
+		db_file_name = files.replace("_url.txt", "_db.lua")
+		db_file = open(db_file_name, "w")
+		db_file.write(files.replace(".txt", "_db") + " = {")
 		filename = "../links/" + files
 		with open(filename) as f:
 			content = f.read().splitlines()
@@ -113,9 +119,9 @@ def loop_over_files(location_json):
 					'expansion' : '',
 					'drop_rate' : ''
 				}
-				page_response = requests.get("https://www.wowhead.com/item=159097/paku-blessed-greatbow", timeout=10)
+				loot_rate = ''
+				page_response = requests.get(item, timeout=10)
 				page_content = BeautifulSoup(page_response.content, "html.parser")
-				print (page_content)
 				name = page_content.find("h1", {"class" : "heading-size-1"}).getText()
 				object_dic['name'] = name
 				json_string = find_json_data_in_file(page_content.prettify())
@@ -123,25 +129,34 @@ def loop_over_files(location_json):
 					print("No source found for " + object_dic['name'])
 					continue
 				else:
-					#print (json_string)
 					locate_id = re.search('location\"\:\[[\d\,]+\]', json_string)
 					if (locate_id):
 						locate_id = ((locate_id.group(0)).replace('location":[', '')).replace(']', '')
 						if (locate_id.find(",") != -1):
 							locate_id = locate_id[0:locate_id.find(',')]
-					object_dic = get_location(locate_id, location_json, object_dic)
-					source_name = re.search('name\"\:\"[\\\/\w\,\s\'\-\_]+\"', json_string)
-					source_name = ((((source_name.group(0)).replace('name', '')).replace('\'', '')).replace('":"', '')).replace('"', '')
-					object_dic['source'] = source_name
-					loot_rate = re.search('count\:\d+\,outof\:\d+', json_string)
-					if (loot_rate):
-						loot_rate = ((loot_rate.group(0)).replace('count:', '')).replace(',outof', '')
 					else:
-						loot_rate = 'Unknown'
-					loot_rate = calculate_loot_rate(loot_rate)
+						locate_id = re.search('category\"\:\d+', json_string)
+						if (locate_id):
+							locate_id = ((locate_id.group(0)).replace('category":', ''))
+							loot_rate = 'quest'
+					object_dic = get_location(locate_id, location_json, object_dic)
+					source_name = re.search('name\"\:\"[\\\/\w\,\s\'\-\_\!\?]+\"', json_string)
+					if (source_name):
+						source_name = ((((source_name.group(0)).replace('name', '')).replace('\'', '')).replace('":"', '')).replace('"', '')
+					else:
+						print (json_string)
+					object_dic['source'] = source_name
+					if not loot_rate:
+						loot_rate = re.search('count\:\d+\,outof\:\d+', json_string)
+						if (loot_rate):
+							loot_rate = ((loot_rate.group(0)).replace('count:', '')).replace(',outof', '')
+							loot_rate = calculate_loot_rate(loot_rate)
+						else:
+							loot_rate = 'Unknown'
 					object_dic["drop_rate"] = loot_rate
-					print (object_dic)
-
+					db_file.write(str(object_dic))
+					db_file.write(" , ")
+			db_file.write(' "d" }')
 ####################################################################################
 #  Fonction qui va créer le tableau de localisation basé sur la BDD wowhead        #
 #  Et en faire un objet JSON que nous utiliserons pour récupérer le nom de la zone #
