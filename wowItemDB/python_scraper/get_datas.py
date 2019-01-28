@@ -94,6 +94,12 @@ def calculate_loot_rate(loot_rate):
 		loot_rate = round(loot_rate, 2)
 		return loot_rate
 
+def write_into_file(db_file, object_dic):
+	db_file.write("\t" + str(object_dic['id']) + " = {\n")
+	for keys, value in object_dic.items():
+		db_file.write("\t\t" + keys + " = " + '"' + str(value) + '",\n')
+	db_file.write("\t},\n")
+
 #####################################################################
 #fonction qui boucle sur le fichier d'url pour récuperer les données#
 # et les remplir dans un objet. Nous utiliserons alors cet objet    #
@@ -104,11 +110,12 @@ def loop_over_files(location_json):
 	#print (location_json)
 	for files in os.listdir("../links"):
 		db_file_name = files.replace("_url.txt", "_db.lua")
-		db_file = open(db_file_name, "w")
-		db_file.write(files.replace(".txt", "_db") + " = {")
+		db_file = open("../DB/" + db_file_name, "w")
+		db_file.write(files.replace(".txt", "_db") + " = {\n")
 		filename = "../links/" + files
 		with open(filename) as f:
 			content = f.read().splitlines()
+			number = 0
 			for item in content:
 				object_dic = {
 					'name' : '',
@@ -117,12 +124,17 @@ def loop_over_files(location_json):
 					'territory' : '',
 					'category_territory' : '',
 					'expansion' : '',
-					'drop_rate' : ''
+					'drop_rate' : '',
+					'id' : number
 				}
 				loot_rate = ''
 				page_response = requests.get(item, timeout=10)
 				page_content = BeautifulSoup(page_response.content, "html.parser")
-				name = page_content.find("h1", {"class" : "heading-size-1"}).getText()
+				name = page_content.find("h1", {"class" : "heading-size-1"})
+				if not name:
+					continue
+				else:
+					name = name.getText()
 				object_dic['name'] = name
 				json_string = find_json_data_in_file(page_content.prettify())
 				if (json_string == -1):
@@ -139,13 +151,16 @@ def loop_over_files(location_json):
 						if (locate_id):
 							locate_id = ((locate_id.group(0)).replace('category":', ''))
 							loot_rate = 'quest'
+						else:
+							continue
 					object_dic = get_location(locate_id, location_json, object_dic)
-					source_name = re.search('name\"\:\"[\\\/\w\,\s\'\-\_\!\?]+\"', json_string)
+					source_name = re.search('name\"\:\"[\\\/\w\,\s\'\-\_\!\?\:]+\"', json_string)
 					if (source_name):
 						source_name = ((((source_name.group(0)).replace('name', '')).replace('\'', '')).replace('":"', '')).replace('"', '')
+						object_dic['source'] = source_name
 					else:
 						print (json_string)
-					object_dic['source'] = source_name
+						continue
 					if not loot_rate:
 						loot_rate = re.search('count\:\d+\,outof\:\d+', json_string)
 						if (loot_rate):
@@ -154,9 +169,10 @@ def loop_over_files(location_json):
 						else:
 							loot_rate = 'Unknown'
 					object_dic["drop_rate"] = loot_rate
-					db_file.write(str(object_dic))
-					db_file.write(" , ")
-			db_file.write(' "d" }')
+					write_into_file(db_file, object_dic)
+					number = number + 1
+			db_file.write('\tlol = "d"\n}')
+
 ####################################################################################
 #  Fonction qui va créer le tableau de localisation basé sur la BDD wowhead        #
 #  Et en faire un objet JSON que nous utiliserons pour récupérer le nom de la zone #
@@ -170,12 +186,18 @@ def create_location_tab():
 	strcontent = str(page_content.prettify())
 	begin_cut = strcontent.find(";zonedata.zones = [{")
 	end_cut = strcontent.find("zonedata.zones});")
-	locatestring = strcontent[begin_cut:end_cut]
-	locatestring = locatestring[18:(locatestring.find("new Listview") - 2)]
-	return json.loads(locatestring)
+	if (begin_cut != -1 and end_cut != -1):
+		locatestring = strcontent[begin_cut:end_cut]
+		locatestring = locatestring[18:(locatestring.find("new Listview") - 2)]
+		return json.loads(locatestring)
+	return -1
 
 def main():
 	location_json = create_location_tab()
-	loop_over_files(location_json)
+	if location_json != -1:
+		loop_over_files(location_json)
+	else:
+		print("Error ")
+		exit(84)
 
 main()
