@@ -157,7 +157,8 @@ def loop_over_files(location_json):
 					source_name = re.search('name\"\:\"[\\\/\w\,\s\'\-\_\!\?\:]+\"', json_string)
 					if (source_name):
 						source_name = ((((source_name.group(0)).replace('name', '')).replace('\'', '')).replace('":"', '')).replace('"', '')
-						object_dic['source'] = source_name
+						if (source_name):
+							object_dic['source'] = str(source_name)
 					else:
 						print (json_string)
 						continue
