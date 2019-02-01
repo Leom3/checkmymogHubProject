@@ -1,11 +1,24 @@
-#!/usr/bin/env python3
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 
 from bs4 import BeautifulSoup
 import requests
 import re
 import sys
+import time
 import os
 import json
+import progressbar
+
+from progressbar import AnimatedMarker, Bar, BouncingBar, Counter, ETA, \
+    AdaptiveETA, FileTransferSpeed, FormatLabel, Percentage, \
+    ProgressBar, ReverseBar, RotatingMarker, \
+    SimpleProgress, Timer, UnknownLength
+
+widgets = [SimpleProgress(),
+              Bar(marker='#',left='[',right=']'),
+               ' ', ETA(), ' ', FileTransferSpeed()]
 
 expansion_dic = {
 	7 : 'Battle For Azeroth',
@@ -31,7 +44,7 @@ category_dic = {
 }
 
 #######################################################################
-#fonction qui récupère la donnée json dans la page html 			  #
+#fonction qui recupere la donnee json dans la page html 			  #
 #3 types de regex possibles :                          				  #
 #  - classification.*location.*name.*count.*outof\:\d+ 				  #
 #  - \"boss\"\:\d+.*name.*count.*outof\:\d+            				  #
@@ -57,7 +70,7 @@ def find_json_data_in_file(page):
 				return -1
 
 ###########################################################
-# Fonction qui va récuperer l'expansion, le territoire,   #
+# Fonction qui va recuperer l'expansion, le territoire,   #
 # la categorie de localisation et son nom                 #
 #	en remplissant l'objet data_object                    #
 ###########################################################
@@ -96,14 +109,18 @@ def calculate_loot_rate(loot_rate):
 
 def write_into_file(db_file, object_dic):
 	db_file.write("\t" + str(object_dic['id']) + " = {\n")
+	lastkey = list(object_dic.keys())[-1]
 	for keys, value in object_dic.items():
-		db_file.write("\t\t" + keys + " = " + '"' + str(value) + '",\n')
+		if (keys == lastkey):
+			db_file.write("\t\t" + keys + " = " + '"' + str(value) + '"\n')
+		else:
+			db_file.write("\t\t" + keys + " = " + '"' + str(value) + '",\n')
 	db_file.write("\t},\n")
 
 #####################################################################
-#fonction qui boucle sur le fichier d'url pour récuperer les données#
+#fonction qui boucle sur le fichier d'url pour recuperer les donnees#
 # et les remplir dans un objet. Nous utiliserons alors cet objet    #
-# pour écrire dans le fichier servant de base de donnée LUA         #
+# pour ecrire dans le fichier servant de base de donnee LUA         #
 #####################################################################
 
 def loop_over_files(location_json):
@@ -113,10 +130,11 @@ def loop_over_files(location_json):
 		db_file = open("../DB/" + db_file_name, "w")
 		db_file.write(files.replace(".txt", "_db") + " = {\n")
 		filename = "../links/" + files
+		print("ENTERING " + db_file_name)
 		with open(filename) as f:
 			content = f.read().splitlines()
 			number = 0
-			for item in content:
+			for item in progressbar.progressbar(content, widgets = widgets):
 				object_dic = {
 					'name' : '',
 					'location' : '',
@@ -128,7 +146,12 @@ def loop_over_files(location_json):
 					'id' : number
 				}
 				loot_rate = ''
-				page_response = requests.get(item, timeout=10)
+				try:
+					page_response = requests.get(item, timeout=10)
+				except:
+					print("Timeout occured requesting " + item)
+					continue
+
 				page_content = BeautifulSoup(page_response.content, "html.parser")
 				name = page_content.find("h1", {"class" : "heading-size-1"})
 				if not name:
@@ -138,7 +161,7 @@ def loop_over_files(location_json):
 				object_dic['name'] = name
 				json_string = find_json_data_in_file(page_content.prettify())
 				if (json_string == -1):
-					print("No source found for " + object_dic['name'])
+					#print("No source found for " + object_dic['name'])
 					continue
 				else:
 					locate_id = re.search('location\"\:\[[\d\,]+\]', json_string)
@@ -157,10 +180,14 @@ def loop_over_files(location_json):
 					source_name = re.search('name\"\:\"[\\\/\w\,\s\'\-\_\!\?\:]+\"', json_string)
 					if (source_name):
 						source_name = ((((source_name.group(0)).replace('name', '')).replace('\'', '')).replace('":"', '')).replace('"', '')
-						if (source_name):
-							object_dic['source'] = str(source_name)
+						if (source_name is not None):
+							try:
+								object_dic['source'] = str(source_name)
+							except:
+								print("Error Assigning source name")
+								continue
 					else:
-						print (json_string)
+						#print (json_string)
 						continue
 					if not loot_rate:
 						loot_rate = re.search('count\:\d+\,outof\:\d+', json_string)
@@ -172,11 +199,11 @@ def loop_over_files(location_json):
 					object_dic["drop_rate"] = loot_rate
 					write_into_file(db_file, object_dic)
 					number = number + 1
-			db_file.write('\tlol = "d"\n}')
+			db_file.write('\tend = "true"\n}')
 
 ####################################################################################
-#  Fonction qui va créer le tableau de localisation basé sur la BDD wowhead        #
-#  Et en faire un objet JSON que nous utiliserons pour récupérer le nom de la zone #
+#  Fonction qui va creer le tableau de localisation base sur la BDD wowhead        #
+#  Et en faire un objet JSON que nous utiliserons pour recuperer le nom de la zone #
 #  Le type de territoire ainsi que l'expansion de sortie                           #
 ####################################################################################
 
@@ -184,7 +211,7 @@ def create_location_tab():
 	locations = {}
 	page_response = requests.get("https://www.wowhead.com/zones")
 	page_content = BeautifulSoup(page_response.content, "html.parser")
-	strcontent = str(page_content.prettify())
+	strcontent = page_content.prettify()
 	begin_cut = strcontent.find(";zonedata.zones = [{")
 	end_cut = strcontent.find("zonedata.zones});")
 	if (begin_cut != -1 and end_cut != -1):
