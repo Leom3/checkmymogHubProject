@@ -264,7 +264,7 @@ function Config:CreateMenu()
 	UIConfig.ScrollFrame:SetScrollChild(child);	
 
 	headContent, shoulderContent, backContent, chestContent,
-	handsContent, beltContent, legsContent, bootsContent, weaponsContent = SetTabs(UIConfig, 9, "Head", "Shoulders", "Back", "Chest", "Hands", "Belt", "Legs", "Boots", "weapons");
+	handsContent, beltContent, legsContent, bootsContent, weaponsContent = SetTabs(UIConfig, 9, "H", "S", "B", "C", "G", "W", "L", "B", "WP");
 
 	UIConfig:Hide();
 	return UIConfig;

@@ -1,0 +1,7 @@
+## Interface: 80000
+## Title: checkMyMog
+## Notes: Check others mog
+## Version: 1.0.0
+
+checkMyMog.lua
+checkMyMog.xml
