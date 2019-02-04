@@ -1,5 +1,5 @@
 cloaks_url_db = {
-	0 = {
+	id0 = {
 		source = "Deep Ocean, Vast Sea",
 		drop_rate = "quest",
 		name = "7.3 Raid - World Boss - Keeper Aedis - Cloak 1",
@@ -9,7 +9,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Darkshore"
 	},
-	1 = {
+	id1 = {
 		source = "Cyclarus",
 		drop_rate = "0.0",
 		name = "Moonpriest's Cloak",
@@ -19,7 +19,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Darkshore"
 	},
-	2 = {
+	id2 = {
 		source = "Commander Ralesh",
 		drop_rate = "0.0",
 		name = "Darkwood Sentinel's Drape",
@@ -29,7 +29,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Darkshore"
 	},
-	3 = {
+	id3 = {
 		source = "Gren Tornfur",
 		drop_rate = "0.0",
 		name = "Kaldorei Archer's Greatcloak",
@@ -39,7 +39,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Darkshore"
 	},
-	4 = {
+	id4 = {
 		source = "Commander Ralesh",
 		drop_rate = "0.0",
 		name = "Wardenguard's Drape",
@@ -49,7 +49,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Darkshore"
 	},
-	5 = {
+	id5 = {
 		source = "Alashanir",
 		drop_rate = "0.0",
 		name = "Plaguebringer's Drape",
@@ -59,7 +59,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Darkshore"
 	},
-	6 = {
+	id6 = {
 		source = "Madfeather",
 		drop_rate = "0.0",
 		name = "Deathstalker's Cloak",
@@ -69,7 +69,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Darkshore"
 	},
-	7 = {
+	id7 = {
 		source = "Scalefiend",
 		drop_rate = "0.0",
 		name = "Blightguard's Cloak",
@@ -79,7 +79,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Darkshore"
 	},
-	8 = {
+	id8 = {
 		source = "Sapper Odette",
 		drop_rate = "0.0",
 		name = "Deathguard's Greatcloak",
@@ -89,7 +89,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Darkshore"
 	},
-	9 = {
+	id9 = {
 		source = "Zul",
 		drop_rate = "0.0",
 		name = "Cloak of Rippling Whispers",
@@ -99,7 +99,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Uldir"
 	},
-	10 = {
+	id10 = {
 		source = "Fetid Devourer",
 		drop_rate = "0.0",
 		name = "Fetid Horror's Tanglecloak",
@@ -109,7 +109,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Uldir"
 	},
-	11 = {
+	id11 = {
 		source = "Vectis",
 		drop_rate = "0.0",
 		name = "Plasma-Spattered Greatcloak",
@@ -119,7 +119,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Uldir"
 	},
-	12 = {
+	id12 = {
 		source = "Rixxa Fluxflame",
 		drop_rate = "0.0",
 		name = "Wolfpelt Greatcloak",
@@ -129,7 +129,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The MOTHERLODE!!"
 	},
-	13 = {
+	id13 = {
 		source = "Gnomish Spider Tank",
 		drop_rate = "0.0",
 		name = "Jula's Jovial Drape",
@@ -139,7 +139,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Tiragarde Sound"
 	},
-	14 = {
+	id14 = {
 		source = "Jiarak",
 		drop_rate = "Unknown",
 		name = "Windswept Dinorider's Cape",
@@ -149,7 +149,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Zuldazar"
 	},
-	15 = {
+	id15 = {
 		source = "Dunegorger Kraulok",
 		drop_rate = "Unknown",
 		name = "Desert Nomad's Wrap",
@@ -159,7 +159,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Vol'dun"
 	},
-	16 = {
+	id16 = {
 		source = "Pakus Aspect",
 		drop_rate = "0.0",
 		name = "Loa Exultant's Shroud",
@@ -169,7 +169,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Battle of Dazar'alor"
 	},
-	17 = {
+	id17 = {
 		source = "Grong",
 		drop_rate = "Unknown",
 		name = "Silverback Cloak",
@@ -179,7 +179,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Battle of Dazar'alor"
 	},
-	18 = {
+	id18 = {
 		source = "High Tinker Mekkatorque",
 		drop_rate = "Unknown",
 		name = "High Tinker's Cape",
@@ -189,7 +189,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Battle of Dazar'alor"
 	},
-	19 = {
+	id19 = {
 		source = "7th Legion Medic",
 		drop_rate = "0.0",
 		name = "Drape of Valiant Defense",
@@ -199,7 +199,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Battle of Dazar'alor"
 	},
-	20 = {
+	id20 = {
 		source = "Hoarder Jena",
 		drop_rate = "Unknown",
 		name = "Dune Shroud",
@@ -209,7 +209,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Vol'dun"
 	},
-	21 = {
+	id21 = {
 		source = "Natalhakata",
 		drop_rate = "Unknown",
 		name = "Dinomancer's Cloak",
@@ -219,7 +219,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Dazar'alor"
 	},
-	22 = {
+	id22 = {
 		source = "Provisioner Lija",
 		drop_rate = "Unknown",
 		name = "Drape of the Blood Purge",
@@ -229,7 +229,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Nazmir"
 	},
-	23 = {
+	id23 = {
 		source = "Ransa Greyfeather",
 		drop_rate = "Unknown",
 		name = "Drape of the Horde's Fury",
@@ -239,7 +239,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Zuldazar"
 	},
-	24 = {
+	id24 = {
 		source = "Sister Lilyana",
 		drop_rate = "Unknown",
 		name = "Cape of the Divine Depths",
@@ -249,7 +249,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Stormsong Valley"
 	},
-	25 = {
+	id25 = {
 		source = "Provisioner Fray",
 		drop_rate = "Unknown",
 		name = "Navy Blue Boat Cloak",
@@ -259,7 +259,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Boralus"
 	},
-	26 = {
+	id26 = {
 		source = "Quartermaster Alcorn",
 		drop_rate = "Unknown",
 		name = "Witch Hunter's Cape",
@@ -269,7 +269,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Drustvar"
 	},
-	27 = {
+	id27 = {
 		source = "Vindicator Jaelaana",
 		drop_rate = "Unknown",
 		name = "7th Legionnaire's Cloak",
@@ -279,7 +279,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Boralus"
 	},
-	28 = {
+	id28 = {
 		source = "Magni Bronzebeard",
 		drop_rate = "Unknown",
 		name = "Drape of the Azerothian Champion",
@@ -289,7 +289,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Silithus"
 	},
-	29 = {
+	id29 = {
 		source = "Collector Kojo",
 		drop_rate = "Unknown",
 		name = "Cape of the Scroll Keepers",
@@ -299,7 +299,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Zuldazar"
 	},
-	30 = {
+	id30 = {
 		source = "Skycapn Kragg",
 		drop_rate = "Unknown",
 		name = "Parrotfeather Cloak",
@@ -309,7 +309,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Freehold"
 	},
-	31 = {
+	id31 = {
 		source = "Volkaal",
 		drop_rate = "Unknown",
 		name = "Drape of the Loyal Vassal",
@@ -319,7 +319,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Atal'Dazar"
 	},
-	32 = {
+	id32 = {
 		source = "Rixxa Fluxflame",
 		drop_rate = "Unknown",
 		name = "Cloak of Questionable Intent",
@@ -329,7 +329,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The MOTHERLODE!!"
 	},
-	33 = {
+	id33 = {
 		source = "Akaali the Conqueror",
 		drop_rate = "Unknown",
 		name = "Cloak of the Restless Tribes",
@@ -339,7 +339,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Kings' Rest"
 	},
-	34 = {
+	id34 = {
 		source = "Lord Stormsong",
 		drop_rate = "Unknown",
 		name = "Void-Drenched Cape",
@@ -349,7 +349,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Shrine of the Storm"
 	},
-	35 = {
+	id35 = {
 		source = "Sporecaller Zancha",
 		drop_rate = "0.0",
 		name = "Sporecaller's Shroud",
@@ -359,7 +359,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "The Underrot"
 	},
-	36 = {
+	id36 = {
 		source = "Jes Howlis",
 		drop_rate = "0.0",
 		name = "Turncoat's Cape",
@@ -369,7 +369,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Tol Dagor"
 	},
-	37 = {
+	id37 = {
 		source = "Raal the Gluttonous",
 		drop_rate = "0.0",
 		name = "Raal's Bib",
@@ -379,7 +379,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Waycrest Manor"
 	},
-	38 = {
+	id38 = {
 		source = "Sister Absinthe",
 		drop_rate = "0.0",
 		name = "Beryl-Tide Greatcloak",
@@ -389,7 +389,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Stormsong Valley"
 	},
-	39 = {
+	id39 = {
 		source = "Grimscowl the Harebrained",
 		drop_rate = "0.0",
 		name = "Yeti-Rager's Cloak",
@@ -399,7 +399,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Stormsong Valley"
 	},
-	40 = {
+	id40 = {
 		source = "Quillrat Matriarch",
 		drop_rate = "0.0",
 		name = "Quillstitch Greatcloak",
@@ -409,7 +409,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Drustvar"
 	},
-	41 = {
+	id41 = {
 		source = "Kandak",
 		drop_rate = "0.0",
 		name = "Sauroscale Cloak of Adaptation",
@@ -419,7 +419,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Zuldazar"
 	},
-	42 = {
+	id42 = {
 		source = "Nimar the Slayer",
 		drop_rate = "0.0",
 		name = "7th Legionnaire's Silk Cloak",
@@ -429,7 +429,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Arathi Highlands"
 	},
-	43 = {
+	id43 = {
 		source = "Doomrider Helgrim",
 		drop_rate = "0.0",
 		name = "7th Legionnaire's Long Cloak",
@@ -439,7 +439,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Arathi Highlands"
 	},
-	44 = {
+	id44 = {
 		source = "Horrific Apparition",
 		drop_rate = "0.0",
 		name = "7th Legionnaire's Chain Drape",
@@ -449,7 +449,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Arathi Highlands"
 	},
-	45 = {
+	id45 = {
 		source = "Nimar the Slayer",
 		drop_rate = "0.0",
 		name = "7th Legionnaire's Bloody Drape",
@@ -459,7 +459,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Arathi Highlands"
 	},
-	46 = {
+	id46 = {
 		source = "Overseer Krix",
 		drop_rate = "0.0",
 		name = "Honorbound Artificer's Cloak",
@@ -469,7 +469,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Arathi Highlands"
 	},
-	47 = {
+	id47 = {
 		source = "Darbel Montrose",
 		drop_rate = "0.0",
 		name = "Honorbound Outrider's Drape",
@@ -479,7 +479,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Arathi Highlands"
 	},
-	48 = {
+	id48 = {
 		source = "Ragebeak",
 		drop_rate = "0.0",
 		name = "Honorbound Vanguard's Cloak",
@@ -489,7 +489,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Arathi Highlands"
 	},
-	49 = {
+	id49 = {
 		source = "Fozruk",
 		drop_rate = "0.0",
 		name = "Honorbound Centurion's Long Cloak",
@@ -499,7 +499,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Arathi Highlands"
 	},
-	50 = {
+	id50 = {
 		source = "Ghuun",
 		drop_rate = "0.0",
 		name = "Morass Prowler's Cloak",
@@ -509,7 +509,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Uldir"
 	},
-	51 = {
+	id51 = {
 		source = "Invasive Quillrat",
 		drop_rate = "0.0",
 		name = "Heartsbane Greatcloak",
@@ -519,7 +519,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Drustvar"
 	},
-	52 = {
+	id52 = {
 		source = "Dread Captain Lockwood",
 		drop_rate = "0.0",
 		name = "Foxhollow Drape",
@@ -529,7 +529,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Siege of Boralus"
 	},
-	53 = {
+	id53 = {
 		source = "Aqusirr",
 		drop_rate = "0.0",
 		name = "Sagehold Cloak",
@@ -539,7 +539,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Shrine of the Storm"
 	},
-	54 = {
+	id54 = {
 		source = "Dread Captain Lockwood",
 		drop_rate = "0.0",
 		name = "Freehold Cape",
@@ -549,7 +549,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Siege of Boralus"
 	},
-	55 = {
+	id55 = {
 		source = "Jes Howlis",
 		drop_rate = "0.0",
 		name = "Mistfall Greatcloak",
@@ -559,7 +559,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Tol Dagor"
 	},
-	56 = {
+	id56 = {
 		source = "Overseer Korgus",
 		drop_rate = "0.0",
 		name = "Ashvane Company Cloak",
@@ -569,7 +569,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Tol Dagor"
 	},
-	57 = {
+	id57 = {
 		source = "Volzith the Whisperer",
 		drop_rate = "0.0",
 		name = "Briarback Greatcloak",
@@ -579,7 +579,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Shrine of the Storm"
 	},
-	58 = {
+	id58 = {
 		source = "Cellar Crawler",
 		drop_rate = "0.0",
 		name = "Eventide Cape",
@@ -589,7 +589,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Stormsong Valley"
 	},
-	59 = {
+	id59 = {
 		source = "Aqusirr",
 		drop_rate = "0.0",
 		name = "Brineworks Drape",
@@ -599,7 +599,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Shrine of the Storm"
 	},
-	60 = {
+	id60 = {
 		source = "Thorned Snarler",
 		drop_rate = "0.0",
 		name = "Crimsonwood Drape",
@@ -609,7 +609,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Drustvar"
 	},
-	61 = {
+	id61 = {
 		source = "Mudfisher Crab",
 		drop_rate = "0.0",
 		name = "Barrowknoll Cloak",
@@ -619,7 +619,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Drustvar"
 	},
-	62 = {
+	id62 = {
 		source = "Raal the Gluttonous",
 		drop_rate = "0.0",
 		name = "Corlain Cape",
@@ -629,7 +629,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Waycrest Manor"
 	},
-	63 = {
+	id63 = {
 		source = "Jao-Ti the Thunderous",
 		drop_rate = "0.0",
 		name = "Pterroleather Cloak",
@@ -639,7 +639,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Zuldazar"
 	},
-	64 = {
+	id64 = {
 		source = "Faithless Deadeye",
 		drop_rate = "0.0",
 		name = "Faithless Skycloak",
@@ -649,7 +649,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Vol'dun"
 	},
-	65 = {
+	id65 = {
 		source = "Garothi Worldbreaker",
 		drop_rate = "Unknown",
 		name = "Cloak of the Burning Vanguard",
@@ -659,7 +659,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	66 = {
+	id66 = {
 		source = "Imonar the Soulhunter",
 		drop_rate = "Unknown",
 		name = "Drape of the Spirited Hunt",
@@ -669,7 +669,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	67 = {
+	id67 = {
 		source = "Aggramar",
 		drop_rate = "Unknown",
 		name = "Greatcloak of the Dark Pantheon",
@@ -679,7 +679,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	68 = {
+	id68 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Dreadwake Greatcloak",
@@ -689,7 +689,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	69 = {
+	id69 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Felreaper Drape",
@@ -699,7 +699,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	70 = {
+	id70 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Bearmantle Cloak",
@@ -709,7 +709,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	71 = {
+	id71 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Serpentstalker Drape",
@@ -719,7 +719,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	72 = {
+	id72 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Runebound Cape",
@@ -729,7 +729,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	73 = {
+	id73 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Cloak of Chi'Ji",
@@ -739,7 +739,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	74 = {
+	id74 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Light's Vanguard Greatcloak",
@@ -749,7 +749,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	75 = {
+	id75 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Gilded Seraph's Drape",
@@ -759,7 +759,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	76 = {
+	id76 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Cloak of the Dashing Scoundrel",
@@ -769,7 +769,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	77 = {
+	id77 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Drape of Venerated Spirits",
@@ -779,7 +779,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	78 = {
+	id78 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Grim Inquisitor's Cloak",
@@ -789,7 +789,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	79 = {
+	id79 = {
 		source = "Admiral Svirax",
 		drop_rate = "0.0",
 		name = "Juggernaut Cloak",
@@ -799,7 +799,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antorus, the Burning Throne"
 	},
-	80 = {
+	id80 = {
 		source = "Vindicator Jaelaana",
 		drop_rate = "Unknown",
 		name = "Embroidered Lightforged Drape",
@@ -809,7 +809,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Antoran Wastes"
 	},
-	81 = {
+	id81 = {
 		source = "Goroth",
 		drop_rate = "0.0",
 		name = "Cloak of Stifling Brimstone",
@@ -819,7 +819,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	82 = {
+	id82 = {
 		source = "Mistress Sasszine",
 		drop_rate = "0.0",
 		name = "Shroud of the Drowned Adherent",
@@ -829,7 +829,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	83 = {
+	id83 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Gravewarden Cloak",
@@ -839,7 +839,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	84 = {
+	id84 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Demonbane Shroud",
@@ -849,7 +849,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	85 = {
+	id85 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Stormheart Drape",
@@ -859,7 +859,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	86 = {
+	id86 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Wildstalker Cape",
@@ -869,7 +869,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	87 = {
+	id87 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Drape of the Arcane Tempest",
@@ -879,7 +879,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	88 = {
+	id88 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Xuen's Cloak",
@@ -889,7 +889,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	89 = {
+	id89 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Radiant Lightbringer Cape",
@@ -899,7 +899,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	90 = {
+	id90 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Shawl of Blind Absolution",
@@ -909,7 +909,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	91 = {
+	id91 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Fanged Slayer's Shroud",
@@ -919,7 +919,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	92 = {
+	id92 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Drape of the Skybreaker",
@@ -929,7 +929,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	93 = {
+	id93 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Diabolic Shroud",
@@ -939,7 +939,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	94 = {
+	id94 = {
 		source = "Engine of Souls",
 		drop_rate = "0.0",
 		name = "Titanic Onslaught Cloak",
@@ -949,7 +949,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	95 = {
+	id95 = {
 		source = "Fallen Avatar",
 		drop_rate = "Unknown",
 		name = "Cape of Mindless Fury",
@@ -959,7 +959,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Tomb of Sargeras"
 	},
-	96 = {
+	id96 = {
 		source = "Malificus",
 		drop_rate = "Unknown",
 		name = "Cloak of Growing Mistrust",
@@ -969,7 +969,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Broken Shore"
 	},
-	97 = {
+	id97 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Dreadwyrm Greatcloak",
@@ -979,7 +979,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	98 = {
+	id98 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Cloak of Everburning Knowledge",
@@ -989,7 +989,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	99 = {
+	id99 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Cloak of the Astral Warden",
@@ -999,7 +999,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	100 = {
+	id100 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Cloak of Enveloped Dissonance",
@@ -1009,7 +1009,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	101 = {
+	id101 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Eagletalon Cloak",
@@ -1019,7 +1019,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	102 = {
+	id102 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Greatmantle of the Highlord",
@@ -1029,7 +1029,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	103 = {
+	id103 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Purifier's Drape",
@@ -1039,7 +1039,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	104 = {
+	id104 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Doomblade Shadowwrap",
@@ -1049,7 +1049,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	105 = {
+	id105 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Cloak of Shackled Elements",
@@ -1059,7 +1059,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	106 = {
+	id106 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Cloak of Azj'Aqir",
@@ -1069,7 +1069,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	107 = {
+	id107 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Greatcloak of the Obsidian Aspect",
@@ -1079,7 +1079,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	108 = {
+	id108 = {
 		source = "Trilliax",
 		drop_rate = "0.0",
 		name = "Cape of Second Sight",
@@ -1089,7 +1089,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	109 = {
+	id109 = {
 		source = "Tichondrius",
 		drop_rate = "0.0",
 		name = "Dreadlord's Tattered Wingcover",
@@ -1099,7 +1099,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	110 = {
+	id110 = {
 		source = "Star Augur Etraeus",
 		drop_rate = "0.0",
 		name = "Astromancer's Greatcloak",
@@ -1109,7 +1109,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	111 = {
+	id111 = {
 		source = "Elisande",
 		drop_rate = "Unknown",
 		name = "Cloak of Temporal Recalibration",
@@ -1119,7 +1119,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	112 = {
+	id112 = {
 		source = "Ana-Mouz",
 		drop_rate = "Unknown",
 		name = "Imp Mother's Loincloth",
@@ -1129,7 +1129,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Suramar"
 	},
-	113 = {
+	id113 = {
 		source = "Drugon the Frostblood",
 		drop_rate = "Unknown",
 		name = "Giant's Handkerchief",
@@ -1139,7 +1139,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	114 = {
+	id114 = {
 		source = "Flotsam",
 		drop_rate = "Unknown",
 		name = "Ragged Azsharan Sail Fragment",
@@ -1149,7 +1149,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	115 = {
+	id115 = {
 		source = "Humongris",
 		drop_rate = "Unknown",
 		name = "Coerced Wizard's Cloak",
@@ -1159,7 +1159,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Val'sharah"
 	},
-	116 = {
+	id116 = {
 		source = "Sharthos",
 		drop_rate = "Unknown",
 		name = "Despoiled Dreamthread Cloak",
@@ -1169,7 +1169,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Val'sharah"
 	},
-	117 = {
+	id117 = {
 		source = "Withered Jim",
 		drop_rate = "Unknown",
 		name = "Drape of the Mana-Starved",
@@ -1179,7 +1179,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	118 = {
+	id118 = {
 		source = "Mana Devourer",
 		drop_rate = "Unknown",
 		name = "Wine-Stained Mantle",
@@ -1189,7 +1189,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Return to Karazhan"
 	},
-	119 = {
+	id119 = {
 		source = "Blood in the Tides",
 		drop_rate = "quest",
 		name = "Keelson's Bloody Drape",
@@ -1199,7 +1199,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Tiragarde Sound"
 	},
-	120 = {
+	id120 = {
 		source = "Hands Off My Booty!",
 		drop_rate = "quest",
 		name = "Master Cannoneer's Cloak",
@@ -1209,7 +1209,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Tiragarde Sound"
 	},
-	121 = {
+	id121 = {
 		source = "Fighting With Fire",
 		drop_rate = "quest",
 		name = "Waycrest Inquisitor's Cloak",
@@ -1219,7 +1219,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Drustvar"
 	},
-	122 = {
+	id122 = {
 		source = "Reclaiming our Defenses",
 		drop_rate = "quest",
 		name = "Proudmoore Battalion Cloak",
@@ -1229,7 +1229,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Stormsong Valley"
 	},
-	123 = {
+	id123 = {
 		source = "Cleaning Bills",
 		drop_rate = "quest",
 		name = "Nola's Shawl",
@@ -1239,7 +1239,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Stormsong Valley"
 	},
-	124 = {
+	id124 = {
 		source = "Deterrent",
 		drop_rate = "quest",
 		name = "Golden City Greatcloak",
@@ -1249,7 +1249,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Zuldazar"
 	},
-	125 = {
+	id125 = {
 		source = "Grand Theft Telemancy",
 		drop_rate = "quest",
 		name = "Reliquary Explorer's Drape",
@@ -1259,7 +1259,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Zuldazar"
 	},
-	126 = {
+	id126 = {
 		source = "Skycaller Soltok",
 		drop_rate = "quest",
 		name = "Soltok's Drape",
@@ -1269,7 +1269,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Zuldazar"
 	},
-	127 = {
+	id127 = {
 		source = "Paybacks a Lich",
 		drop_rate = "quest",
 		name = "Zardax's Tattered Drape",
@@ -1279,7 +1279,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Nazmir"
 	},
-	128 = {
+	id128 = {
 		source = "Hunt the Hunter",
 		drop_rate = "quest",
 		name = "Bloody Warmother's Greatcloak",
@@ -1289,7 +1289,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Nazmir"
 	},
-	129 = {
+	id129 = {
 		source = "Powerful Conductors",
 		drop_rate = "quest",
 		name = "Akunda Adherent's Cloak",
@@ -1299,7 +1299,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Vol'dun"
 	},
-	130 = {
+	id130 = {
 		source = "The Grinning Idols",
 		drop_rate = "quest",
 		name = "Zem'lan Crewman's Cloak",
@@ -1309,7 +1309,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Vol'dun"
 	},
-	131 = {
+	id131 = {
 		source = "A Powerful Prisoner",
 		drop_rate = "quest",
 		name = "Devoted Defender's Cloak",
@@ -1319,7 +1319,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Vol'dun"
 	},
-	132 = {
+	id132 = {
 		source = "The Burden of Proof",
 		drop_rate = "quest",
 		name = "Ravenfeather Drape",
@@ -1329,7 +1329,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Drustvar"
 	},
-	133 = {
+	id133 = {
 		source = "The Perfect Horse, of Course",
 		drop_rate = "quest",
 		name = "Lucktail Riding Cloak",
@@ -1339,7 +1339,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Tiragarde Sound"
 	},
-	134 = {
+	id134 = {
 		source = "Drustfall",
 		drop_rate = "quest",
 		name = "Shimmering Quicksilver Drape",
@@ -1349,7 +1349,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Drustvar"
 	},
-	135 = {
+	id135 = {
 		source = "Warmother",
 		drop_rate = "quest",
 		name = "Bloodsiege Drape",
@@ -1359,7 +1359,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Zuldazar"
 	},
-	136 = {
+	id136 = {
 		source = "Cease all Summoning",
 		drop_rate = "quest",
 		name = "Fen Summoner's Cloak",
@@ -1369,7 +1369,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Nazmir"
 	},
-	137 = {
+	id137 = {
 		source = "Warm and Cozy",
 		drop_rate = "quest",
 		name = "Griddon's Satin Towel",
@@ -1379,7 +1379,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Tiragarde Sound"
 	},
-	138 = {
+	id138 = {
 		source = "Dont Go in the Basement",
 		drop_rate = "quest",
 		name = "Apiarist's Protective Drape",
@@ -1389,7 +1389,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Stormsong Valley"
 	},
-	139 = {
+	id139 = {
 		source = "Anchors Aweigh Too Much",
 		drop_rate = "quest",
 		name = "Mud-Slicked Capote",
@@ -1399,7 +1399,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Stormsong Valley"
 	},
-	140 = {
+	id140 = {
 		source = "Wrath of the Tiger",
 		drop_rate = "quest",
 		name = "Honorable Tiger's Cloak",
@@ -1409,7 +1409,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Vol'dun"
 	},
-	141 = {
+	id141 = {
 		source = "Maiden of Virtue",
 		drop_rate = "0.0",
 		name = "Drape of Shame",
@@ -1419,7 +1419,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Return to Karazhan"
 	},
-	142 = {
+	id142 = {
 		source = "Coggleston",
 		drop_rate = "0.0",
 		name = "Cloak of Sweltering Flame",
@@ -1429,7 +1429,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Return to Karazhan"
 	},
-	143 = {
+	id143 = {
 		source = "Guarm",
 		drop_rate = "Unknown",
 		name = "Windwhipped Sailcloth",
@@ -1439,7 +1439,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Trial of Valor"
 	},
-	144 = {
+	id144 = {
 		source = "Odyn",
 		drop_rate = "Unknown",
 		name = "Mantle of the Victorious Dead",
@@ -1449,7 +1449,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Trial of Valor"
 	},
-	145 = {
+	id145 = {
 		source = "Kvaldir Reefcaller",
 		drop_rate = "0.0",
 		name = "Drape of the Forgotten Souls",
@@ -1459,7 +1459,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Trial of Valor"
 	},
-	146 = {
+	id146 = {
 		source = "Elerethe Renferal",
 		drop_rate = "0.0",
 		name = "Gossamer-Spun Greatcloak",
@@ -1469,7 +1469,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Emerald Nightmare"
 	},
-	147 = {
+	id147 = {
 		source = "Marin Bladewing",
 		drop_rate = "Unknown",
 		name = "Drape of the Patient Hunter",
@@ -1479,7 +1479,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	148 = {
+	id148 = {
 		source = "Fenryr",
 		drop_rate = "0.0",
 		name = "Goldscar Pelt",
@@ -1489,7 +1489,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Halls of Valor"
 	},
-	149 = {
+	id149 = {
 		source = "Odyn",
 		drop_rate = "Unknown",
 		name = "Cape of Valarjar Courage",
@@ -1499,7 +1499,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Trial of Valor"
 	},
-	150 = {
+	id150 = {
 		source = "Harbaron",
 		drop_rate = "0.0",
 		name = "Seacursed Wrap",
@@ -1509,7 +1509,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Maw of Souls"
 	},
-	151 = {
+	id151 = {
 		source = "Corstilax",
 		drop_rate = "0.0",
 		name = "Cape of Rigid Order",
@@ -1519,7 +1519,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Arcway"
 	},
-	152 = {
+	id152 = {
 		source = "Blood-Princess Thalena",
 		drop_rate = "0.0",
 		name = "Stole of Malefic Repose",
@@ -1529,7 +1529,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Violet Hold"
 	},
-	153 = {
+	id153 = {
 		source = "Shade of Xavius",
 		drop_rate = "0.0",
 		name = "Cloak of Fading Echoes",
@@ -1539,7 +1539,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Darkheart Thicket"
 	},
-	154 = {
+	id154 = {
 		source = "King Deepbeard",
 		drop_rate = "0.0",
 		name = "Mainsail Cloak",
@@ -1549,7 +1549,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Eye of Azshara"
 	},
-	155 = {
+	id155 = {
 		source = "Fel Lord Betrug",
 		drop_rate = "0.0",
 		name = "Rugged Marauder Cape",
@@ -1559,7 +1559,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Violet Hold"
 	},
-	156 = {
+	id156 = {
 		source = "Naltira",
 		drop_rate = "0.0",
 		name = "Cloak of Mana-Spun Silk",
@@ -1569,7 +1569,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Arcway"
 	},
-	157 = {
+	id157 = {
 		source = "Shivermaw",
 		drop_rate = "0.0",
 		name = "Iceblood Shroud",
@@ -1579,7 +1579,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Violet Hold"
 	},
-	158 = {
+	id158 = {
 		source = "Illysanna Ravencrest",
 		drop_rate = "0.0",
 		name = "Cloak of Unwavering Loyalty",
@@ -1589,7 +1589,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Black Rook Hold"
 	},
-	159 = {
+	id159 = {
 		source = "Lord Kurtalos Ravencrest",
 		drop_rate = "Unknown",
 		name = "Drape of the Raven Lord",
@@ -1599,7 +1599,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Black Rook Hold"
 	},
-	160 = {
+	id160 = {
 		source = "Amalgam of Souls",
 		drop_rate = "0.0",
 		name = "Shadowfeather Shawl",
@@ -1609,7 +1609,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Black Rook Hold"
 	},
-	161 = {
+	id161 = {
 		source = "Patrol Captain Gerdo",
 		drop_rate = "0.0",
 		name = "Cape of the Duskwatch",
@@ -1619,7 +1619,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Court of Stars"
 	},
-	162 = {
+	id162 = {
 		source = "Inquisitor Tormentorum",
 		drop_rate = "0.0",
 		name = "Drape of Vile Misfortune",
@@ -1629,7 +1629,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Vault of the Wardens"
 	},
-	163 = {
+	id163 = {
 		source = "Cordana Felsong",
 		drop_rate = "0.0",
 		name = "Cloak of Enthralling Darkness",
@@ -1639,7 +1639,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Vault of the Wardens"
 	},
-	164 = {
+	id164 = {
 		source = "Veridis Fallon",
 		drop_rate = "Unknown",
 		name = "Cadet's Gaudy Scarf",
@@ -1649,7 +1649,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	165 = {
+	id165 = {
 		source = "Agronox",
 		drop_rate = "0.0",
 		name = "Felpruner's Shroud",
@@ -1659,7 +1659,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Cathedral of Eternal Night"
 	},
-	166 = {
+	id166 = {
 		source = "Domatrax",
 		drop_rate = "Unknown",
 		name = "Cloak of the Unending Assault",
@@ -1669,7 +1669,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Cathedral of Eternal Night"
 	},
-	167 = {
+	id167 = {
 		source = "Legion Venomretcher",
 		drop_rate = "0.0",
 		name = "Treia's Handcrafted Shroud",
@@ -1679,7 +1679,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Broken Shore"
 	},
-	168 = {
+	id168 = {
 		source = "Ravenous Felstalker",
 		drop_rate = "0.0",
 		name = "Cloak of Martayl Oceanstrider",
@@ -1689,7 +1689,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Broken Shore"
 	},
-	169 = {
+	id169 = {
 		source = "Felsiege Infernal",
 		drop_rate = "0.0",
 		name = "Nightmare Shroud",
@@ -1699,7 +1699,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	170 = {
+	id170 = {
 		source = "Legion Brutallizer",
 		drop_rate = "0.0",
 		name = "Moon Guard Drape",
@@ -1709,7 +1709,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	171 = {
+	id171 = {
 		source = "Thargokk",
 		drop_rate = "0.0",
 		name = "Trembling Mightstone Drape",
@@ -1719,7 +1719,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	172 = {
+	id172 = {
 		source = "Eredar Portal-Keeper",
 		drop_rate = "0.0",
 		name = "Stormsky Greatcloak",
@@ -1729,7 +1729,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	173 = {
+	id173 = {
 		source = "Felsiege Infernal",
 		drop_rate = "0.0",
 		name = "Herringbone Drape",
@@ -1739,7 +1739,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	174 = {
+	id174 = {
 		source = "Shadowdirge Soul Reaper",
 		drop_rate = "0.0",
 		name = "Nightborne Noble's Cloak",
@@ -1749,7 +1749,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Stormheim"
 	},
-	175 = {
+	id175 = {
 		source = "Shadowdirge Soul Reaper",
 		drop_rate = "0.0",
 		name = "Disgraced Court Cloak",
@@ -1759,7 +1759,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Stormheim"
 	},
-	176 = {
+	id176 = {
 		source = "Legion Brutallizer",
 		drop_rate = "0.0",
 		name = "Netherwracked Greatcloak",
@@ -1769,7 +1769,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	177 = {
+	id177 = {
 		source = "Theldraz",
 		drop_rate = "0.0",
 		name = "Vault Watcher's Cloak",
@@ -1779,7 +1779,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Stormheim"
 	},
-	178 = {
+	id178 = {
 		source = "Felsiege Infernal",
 		drop_rate = "0.0",
 		name = "Dreamwalker's Cloak",
@@ -1789,7 +1789,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	179 = {
+	id179 = {
 		source = "Felsiege Infernal",
 		drop_rate = "0.0",
 		name = "Tribal Unification Cloak",
@@ -1799,7 +1799,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	180 = {
+	id180 = {
 		source = "Fel Commander Erixtol",
 		drop_rate = "0.0",
 		name = "Nethercaller Cloak",
@@ -1809,7 +1809,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	181 = {
+	id181 = {
 		source = "Arcane Thirst",
 		drop_rate = "quest",
 		name = "Cloak of the Everliving Keeper",
@@ -1819,7 +1819,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Suramar"
 	},
-	182 = {
+	id182 = {
 		source = "Maia the White",
 		drop_rate = "0.0",
 		name = "Cloak of the White Prowler",
@@ -1829,7 +1829,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Suramar"
 	},
-	183 = {
+	id183 = {
 		source = "Tanithria",
 		drop_rate = "Unknown",
 		name = "Silkweave Cover",
@@ -1839,7 +1839,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Dalaran"
 	},
-	184 = {
+	id184 = {
 		source = "Tanithria",
 		drop_rate = "Unknown",
 		name = "Silkweave Drape",
@@ -1849,7 +1849,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Dalaran"
 	},
-	185 = {
+	id185 = {
 		source = "Tanithria",
 		drop_rate = "Unknown",
 		name = "Silkweave Shade",
@@ -1859,7 +1859,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Dalaran"
 	},
-	186 = {
+	id186 = {
 		source = "Tanithria",
 		drop_rate = "Unknown",
 		name = "Silkweave Flourish",
@@ -1869,7 +1869,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Dalaran"
 	},
-	187 = {
+	id187 = {
 		source = "Holly McTilla",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Cape of Cruelty",
@@ -1879,7 +1879,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	188 = {
+	id188 = {
 		source = "Holly McTilla",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Cape of Prowess",
@@ -1889,7 +1889,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	189 = {
+	id189 = {
 		source = "Holly McTilla",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Drape of Cruelty",
@@ -1899,7 +1899,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	190 = {
+	id190 = {
 		source = "Holly McTilla",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Drape of Prowess",
@@ -1909,7 +1909,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	191 = {
+	id191 = {
 		source = "Holly McTilla",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Drape of Meditation",
@@ -1919,7 +1919,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	192 = {
+	id192 = {
 		source = "Holly McTilla",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Drape of Contemplation",
@@ -1929,7 +1929,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	193 = {
+	id193 = {
 		source = "Holly McTilla",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Cloak of Cruelty",
@@ -1939,7 +1939,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	194 = {
+	id194 = {
 		source = "Holly McTilla",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Cloak of Prowess",
@@ -1949,7 +1949,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	195 = {
+	id195 = {
 		source = "Holly McTilla",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Cloak of Endurance",
@@ -1959,7 +1959,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	196 = {
+	id196 = {
 		source = "Malukah Lightsong",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Cape of Cruelty",
@@ -1969,7 +1969,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	197 = {
+	id197 = {
 		source = "Malukah Lightsong",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Cape of Prowess",
@@ -1979,7 +1979,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	198 = {
+	id198 = {
 		source = "Malukah Lightsong",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Drape of Cruelty",
@@ -1989,7 +1989,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	199 = {
+	id199 = {
 		source = "Malukah Lightsong",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Drape of Prowess",
@@ -1999,7 +1999,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	200 = {
+	id200 = {
 		source = "Malukah Lightsong",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Drape of Meditation",
@@ -2009,7 +2009,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	201 = {
+	id201 = {
 		source = "Malukah Lightsong",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Drape of Contemplation",
@@ -2019,7 +2019,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	202 = {
+	id202 = {
 		source = "Malukah Lightsong",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Cloak of Cruelty",
@@ -2029,7 +2029,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	203 = {
+	id203 = {
 		source = "Malukah Lightsong",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Cloak of Prowess",
@@ -2039,7 +2039,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	204 = {
+	id204 = {
 		source = "Malukah Lightsong",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Cloak of Endurance",
@@ -2049,7 +2049,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	205 = {
+	id205 = {
 		source = "Legionnaire Gutcrush",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Greatcloak",
@@ -2059,7 +2059,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	206 = {
+	id206 = {
 		source = "Alixandr Fallor",
 		drop_rate = "Unknown",
 		name = "Warmongering Gladiator's Greatcloak",
@@ -2069,7 +2069,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	207 = {
+	id207 = {
 		source = "Archimonde",
 		drop_rate = "0.0",
 		name = "Cloak of Incendiary Wrath",
@@ -2079,7 +2079,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	208 = {
+	id208 = {
 		source = "Supreme Lord Kazzak",
 		drop_rate = "Unknown",
 		name = "Gossamer Felscorched Scarf",
@@ -2089,7 +2089,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	209 = {
+	id209 = {
 		source = "Supreme Lord Kazzak",
 		drop_rate = "Unknown",
 		name = "Spellcloak of Suramar",
@@ -2099,7 +2099,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	210 = {
+	id210 = {
 		source = "Supreme Lord Kazzak",
 		drop_rate = "Unknown",
 		name = "Nether-Touched Cloak",
@@ -2109,7 +2109,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	211 = {
+	id211 = {
 		source = "Supreme Lord Kazzak",
 		drop_rate = "Unknown",
 		name = "Drape of the Doomguard",
@@ -2119,7 +2119,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	212 = {
+	id212 = {
 		source = "Supreme Lord Kazzak",
 		drop_rate = "Unknown",
 		name = "Marked Cloak of Command",
@@ -2129,7 +2129,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	213 = {
+	id213 = {
 		source = "Mannoroth",
 		drop_rate = "0.0",
 		name = "Cloak of Tangible Dread",
@@ -2139,7 +2139,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	214 = {
+	id214 = {
 		source = "Residual Energy",
 		drop_rate = "Unknown",
 		name = "Cloak of Hideous Unity",
@@ -2149,7 +2149,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	215 = {
+	id215 = {
 		source = "Xhulhorac",
 		drop_rate = "0.0",
 		name = "Void Lord's Wizened Cloak",
@@ -2159,7 +2159,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	216 = {
+	id216 = {
 		source = "Amelia Clarke",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Cape of Cruelty",
@@ -2169,7 +2169,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	217 = {
+	id217 = {
 		source = "Amelia Clarke",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Cape of Prowess",
@@ -2179,7 +2179,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	218 = {
+	id218 = {
 		source = "Amelia Clarke",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Drape of Cruelty",
@@ -2189,7 +2189,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	219 = {
+	id219 = {
 		source = "Amelia Clarke",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Drape of Prowess",
@@ -2199,7 +2199,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	220 = {
+	id220 = {
 		source = "Amelia Clarke",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Drape of Meditation",
@@ -2209,7 +2209,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	221 = {
+	id221 = {
 		source = "Amelia Clarke",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Drape of Contemplation",
@@ -2219,7 +2219,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	222 = {
+	id222 = {
 		source = "Amelia Clarke",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Cloak of Cruelty",
@@ -2229,7 +2229,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	223 = {
+	id223 = {
 		source = "Amelia Clarke",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Cloak of Prowess",
@@ -2239,7 +2239,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	224 = {
+	id224 = {
 		source = "Amelia Clarke",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Cloak of Endurance",
@@ -2249,7 +2249,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	225 = {
+	id225 = {
 		source = "Cladd Dawnstrider",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Cape of Cruelty",
@@ -2259,7 +2259,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	226 = {
+	id226 = {
 		source = "Cladd Dawnstrider",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Cape of Prowess",
@@ -2269,7 +2269,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	227 = {
+	id227 = {
 		source = "Cladd Dawnstrider",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Drape of Cruelty",
@@ -2279,7 +2279,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	228 = {
+	id228 = {
 		source = "Cladd Dawnstrider",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Drape of Prowess",
@@ -2289,7 +2289,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	229 = {
+	id229 = {
 		source = "Cladd Dawnstrider",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Drape of Meditation",
@@ -2299,7 +2299,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	230 = {
+	id230 = {
 		source = "Cladd Dawnstrider",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Drape of Contemplation",
@@ -2309,7 +2309,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	231 = {
+	id231 = {
 		source = "Cladd Dawnstrider",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Cloak of Cruelty",
@@ -2319,7 +2319,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	232 = {
+	id232 = {
 		source = "Cladd Dawnstrider",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Cloak of Prowess",
@@ -2329,7 +2329,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	233 = {
+	id233 = {
 		source = "Cladd Dawnstrider",
 		drop_rate = "Unknown",
 		name = "Wild Gladiator's Cloak of Endurance",
@@ -2339,8 +2339,8 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	234 = {
-		source = "Li \",
+	id234 = {
+		source = "Li ",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Cape of Cruelty",
 		category_territory = "",
@@ -2349,8 +2349,8 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	235 = {
-		source = "Li \",
+	id235 = {
+		source = "Li",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Cape of Prowess",
 		category_territory = "",
@@ -2359,8 +2359,8 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	236 = {
-		source = "Li \",
+	id236 = {
+		source = "Li ",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Drape of Cruelty",
 		category_territory = "",
@@ -2369,8 +2369,8 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	237 = {
-		source = "Li \",
+	id237 = {
+		source = "Li ",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Drape of Prowess",
 		category_territory = "",
@@ -2379,8 +2379,8 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	238 = {
-		source = "Li \",
+	id238 = {
+		source = "Li ",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Drape of Meditation",
 		category_territory = "",
@@ -2389,8 +2389,8 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	239 = {
-		source = "Li \",
+	id239 = {
+		source = "Li",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Drape of Contemplation",
 		category_territory = "",
@@ -2399,8 +2399,8 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	240 = {
-		source = "Li \",
+	id240 = {
+		source = "Li ",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Cloak of Cruelty",
 		category_territory = "",
@@ -2409,8 +2409,8 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	241 = {
-		source = "Li \",
+	id241 = {
+		source = "Li ",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Cloak of Prowess",
 		category_territory = "",
@@ -2419,8 +2419,8 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	242 = {
-		source = "Li \",
+	id242 = {
+		source = "Li ",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Cloak of Endurance",
 		category_territory = "",
@@ -2429,7 +2429,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	243 = {
+	id243 = {
 		source = "Warlord Noktyn",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Cape of Cruelty",
@@ -2439,7 +2439,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Ashran"
 	},
-	244 = {
+	id244 = {
 		source = "Warlord Noktyn",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Cape of Prowess",
@@ -2449,7 +2449,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Ashran"
 	},
-	245 = {
+	id245 = {
 		source = "Warlord Noktyn",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Drape of Cruelty",
@@ -2459,7 +2459,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Ashran"
 	},
-	246 = {
+	id246 = {
 		source = "Warlord Noktyn",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Drape of Prowess",
@@ -2469,7 +2469,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Ashran"
 	},
-	247 = {
+	id247 = {
 		source = "Warlord Noktyn",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Drape of Meditation",
@@ -2479,7 +2479,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Ashran"
 	},
-	248 = {
+	id248 = {
 		source = "Warlord Noktyn",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Drape of Contemplation",
@@ -2489,7 +2489,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Ashran"
 	},
-	249 = {
+	id249 = {
 		source = "Warlord Noktyn",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Cloak of Cruelty",
@@ -2499,7 +2499,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Ashran"
 	},
-	250 = {
+	id250 = {
 		source = "Warlord Noktyn",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Cloak of Prowess",
@@ -2509,7 +2509,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Ashran"
 	},
-	251 = {
+	id251 = {
 		source = "Warlord Noktyn",
 		drop_rate = "Unknown",
 		name = "Warmongering Combatant's Cloak of Endurance",
@@ -2519,7 +2519,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Ashran"
 	},
-	252 = {
+	id252 = {
 		source = "Captive Wyrmtongue",
 		drop_rate = "Unknown",
 		name = "Demon Commander's Drape",
@@ -2529,7 +2529,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	253 = {
+	id253 = {
 		source = "Shadow-Lord Iskar",
 		drop_rate = "0.0",
 		name = "Cloak of Desperate Temerity",
@@ -2539,7 +2539,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	254 = {
+	id254 = {
 		source = "Kilrogg Deadeye",
 		drop_rate = "0.0",
 		name = "Shawl of Sanguinary Ritual",
@@ -2549,7 +2549,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	255 = {
+	id255 = {
 		source = "Gorefiend",
 		drop_rate = "Unknown",
 		name = "Cloak of Insatiable Greed",
@@ -2559,7 +2559,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	256 = {
+	id256 = {
 		source = "Soulbound Construct",
 		drop_rate = "Unknown",
 		name = "Drape of Beckoned Souls",
@@ -2569,7 +2569,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	257 = {
+	id257 = {
 		source = "Soulbound Construct",
 		drop_rate = "Unknown",
 		name = "Soulbinder's Greatcloak",
@@ -2579,7 +2579,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	258 = {
+	id258 = {
 		source = "Gorefiend",
 		drop_rate = "Unknown",
 		name = "Drape of Gluttony",
@@ -2589,7 +2589,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	259 = {
+	id259 = {
 		source = "Siegemaster Martak",
 		drop_rate = "Unknown",
 		name = "Forward Observer's Camouflage Cloak",
@@ -2599,7 +2599,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	260 = {
+	id260 = {
 		source = "Blademaster Jubeithos",
 		drop_rate = "Unknown",
 		name = "Windswept Wanderer's Drape",
@@ -2609,7 +2609,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	261 = {
+	id261 = {
 		source = "Siegemaster Martak",
 		drop_rate = "Unknown",
 		name = "Sparkburnt Welder's Cloak",
@@ -2619,7 +2619,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	262 = {
+	id262 = {
 		source = "Kormrok",
 		drop_rate = "Unknown",
 		name = "Polymorphic Cloak of Absorption",
@@ -2629,7 +2629,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	263 = {
+	id263 = {
 		source = "Blademaster Jubeithos",
 		drop_rate = "Unknown",
 		name = "Rugged Bloodcaked Drape",
@@ -2639,7 +2639,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	264 = {
+	id264 = {
 		source = "Iron Reaver",
 		drop_rate = "0.0",
 		name = "Ironthread Greatcloak",
@@ -2649,7 +2649,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	265 = {
+	id265 = {
 		source = "Kormrok",
 		drop_rate = "Unknown",
 		name = "Sigil-Stitched Drape",
@@ -2659,7 +2659,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	266 = {
+	id266 = {
 		source = "Kormrok",
 		drop_rate = "Unknown",
 		name = "Splashcover Cloak",
@@ -2669,7 +2669,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	267 = {
+	id267 = {
 		source = "Gorefiend",
 		drop_rate = "Unknown",
 		name = "Greatcloak of the Terrible Feast",
@@ -2679,7 +2679,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	268 = {
+	id268 = {
 		source = "Tyrant Velhari",
 		drop_rate = "Unknown",
 		name = "Impertinent Student's Cloak",
@@ -2689,7 +2689,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	269 = {
+	id269 = {
 		source = "Blood Guard Axelash",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Cape of Cruelty",
@@ -2699,7 +2699,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	270 = {
+	id270 = {
 		source = "Blood Guard Axelash",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Cape of Prowess",
@@ -2709,7 +2709,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	271 = {
+	id271 = {
 		source = "Blood Guard Axelash",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Drape of Cruelty",
@@ -2719,7 +2719,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	272 = {
+	id272 = {
 		source = "Blood Guard Axelash",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Drape of Prowess",
@@ -2729,7 +2729,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	273 = {
+	id273 = {
 		source = "Blood Guard Axelash",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Drape of Meditation",
@@ -2739,7 +2739,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	274 = {
+	id274 = {
 		source = "Blood Guard Axelash",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Drape of Contemplation",
@@ -2749,7 +2749,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	275 = {
+	id275 = {
 		source = "Blood Guard Axelash",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Cloak of Cruelty",
@@ -2759,7 +2759,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	276 = {
+	id276 = {
 		source = "Blood Guard Axelash",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Cloak of Prowess",
@@ -2769,7 +2769,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	277 = {
+	id277 = {
 		source = "Kargath Bladefist",
 		drop_rate = "0.0",
 		name = "Fireproof Greatcloak",
@@ -2779,7 +2779,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	278 = {
+	id278 = {
 		source = "The Butcher",
 		drop_rate = "0.0",
 		name = "Cloak of Frenzied Rage",
@@ -2789,7 +2789,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	279 = {
+	id279 = {
 		source = "Brackenspore",
 		drop_rate = "0.0",
 		name = "Cloak of Creeping Necrosis",
@@ -2799,7 +2799,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	280 = {
+	id280 = {
 		source = "Phemos",
 		drop_rate = "0.0",
 		name = "Cloak of Ruminant Deception",
@@ -2809,7 +2809,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	281 = {
+	id281 = {
 		source = "Koragh",
 		drop_rate = "0.0",
 		name = "Cloak of Searing Shadows",
@@ -2819,7 +2819,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	282 = {
+	id282 = {
 		source = "Imperator Margok",
 		drop_rate = "0.0",
 		name = "Force Nova Cloak",
@@ -2829,7 +2829,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	283 = {
+	id283 = {
 		source = "Gruul",
 		drop_rate = "0.0",
 		name = "Gronn-Stitched Greatcloak",
@@ -2839,7 +2839,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	284 = {
+	id284 = {
 		source = "Oregorger",
 		drop_rate = "0.0",
 		name = "Barrage Dodger Cloak",
@@ -2849,7 +2849,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	285 = {
+	id285 = {
 		source = "Oregorger",
 		drop_rate = "0.0",
 		name = "Ravenous Greatcloak",
@@ -2859,7 +2859,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	286 = {
+	id286 = {
 		source = "Flamebender Kagraz",
 		drop_rate = "0.0",
 		name = "Charbreath Firecloak",
@@ -2869,7 +2869,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	287 = {
+	id287 = {
 		source = "Kromog",
 		drop_rate = "Unknown",
 		name = "Cloak of Delving Secrets",
@@ -2879,7 +2879,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	288 = {
+	id288 = {
 		source = "Kromog",
 		drop_rate = "Unknown",
 		name = "Runefrenzy Greatcloak",
@@ -2889,7 +2889,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	289 = {
+	id289 = {
 		source = "Beastlord Darmac",
 		drop_rate = "0.0",
 		name = "Flame Infusion Drape",
@@ -2899,7 +2899,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	290 = {
+	id290 = {
 		source = "Enforcer Sorka",
 		drop_rate = "0.0",
 		name = "Drape of the Dark Hunt",
@@ -2909,7 +2909,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	291 = {
+	id291 = {
 		source = "Enforcer Sorka",
 		drop_rate = "0.0",
 		name = "Cloak of Sanguine Terror",
@@ -2919,7 +2919,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	292 = {
+	id292 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Exceptional Crystal-Edged Bladecloak",
@@ -2929,7 +2929,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	293 = {
+	id293 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Exceptional Crystalclasp Stormcloak",
@@ -2939,7 +2939,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	294 = {
+	id294 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Exceptional Refractory Heartcloak",
@@ -2949,7 +2949,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	295 = {
+	id295 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Exceptional Crystal Reinforced Doomcloak",
@@ -2959,7 +2959,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	296 = {
+	id296 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Exceptional Shard-Covered Dreadcloak",
@@ -2969,7 +2969,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	297 = {
+	id297 = {
 		source = "Ingrid Blackingot",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Cape of Cruelty",
@@ -2979,7 +2979,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	298 = {
+	id298 = {
 		source = "Ingrid Blackingot",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Cape of Prowess",
@@ -2989,7 +2989,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	299 = {
+	id299 = {
 		source = "Ingrid Blackingot",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Drape of Cruelty",
@@ -2999,7 +2999,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	300 = {
+	id300 = {
 		source = "Ingrid Blackingot",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Drape of Prowess",
@@ -3009,7 +3009,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	301 = {
+	id301 = {
 		source = "Ingrid Blackingot",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Drape of Meditation",
@@ -3019,7 +3019,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	302 = {
+	id302 = {
 		source = "Ingrid Blackingot",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Drape of Contemplation",
@@ -3029,7 +3029,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	303 = {
+	id303 = {
 		source = "Ingrid Blackingot",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Cloak of Cruelty",
@@ -3039,7 +3039,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	304 = {
+	id304 = {
 		source = "Ingrid Blackingot",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Cloak of Prowess",
@@ -3049,7 +3049,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	305 = {
+	id305 = {
 		source = "Operator Thogar",
 		drop_rate = "0",
 		name = "Deadshot Longcloak",
@@ -3059,7 +3059,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	306 = {
+	id306 = {
 		source = "Franzok",
 		drop_rate = "0",
 		name = "Scorchburn Cloak",
@@ -3069,7 +3069,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	307 = {
+	id307 = {
 		source = "Beastlord Darmac",
 		drop_rate = "0",
 		name = "Dreaded Wing",
@@ -3079,7 +3079,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	308 = {
+	id308 = {
 		source = "Gruul",
 		drop_rate = "0",
 		name = "Cloak of Unfulfilled Potential",
@@ -3089,7 +3089,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	309 = {
+	id309 = {
 		source = "Oregorger",
 		drop_rate = "0",
 		name = "Greatcloak of Insatiable Hunger",
@@ -3099,7 +3099,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	310 = {
+	id310 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Flawless Shard-Covered Dreadcloak",
@@ -3109,7 +3109,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	311 = {
+	id311 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Flawless Crystal-Edged Bladecloak",
@@ -3119,7 +3119,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	312 = {
+	id312 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Flawless Crystalclasp Stormcloak",
@@ -3129,7 +3129,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	313 = {
+	id313 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Flawless Refractory Heartcloak",
@@ -3139,7 +3139,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	314 = {
+	id314 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Flawless Crystal Reinforced Doomcloak",
@@ -3149,7 +3149,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	315 = {
+	id315 = {
 		source = "Gromkar Leadslinger",
 		drop_rate = "0.0",
 		name = "Highmaul Magi Scarf",
@@ -3159,7 +3159,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	316 = {
+	id316 = {
 		source = "Gromkar Punisher",
 		drop_rate = "0.0",
 		name = "Rinnila's Regal Cloak",
@@ -3169,7 +3169,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Talador"
 	},
-	317 = {
+	id317 = {
 		source = "Warsong Outrider",
 		drop_rate = "0.0",
 		name = "Flamelicked Cloak of Kaufebyrd",
@@ -3179,7 +3179,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Nagrand"
 	},
-	318 = {
+	id318 = {
 		source = "Sargerei Binder",
 		drop_rate = "0.0",
 		name = "Berserker's Windwrap",
@@ -3189,7 +3189,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Shadowmoon Valley"
 	},
-	319 = {
+	id319 = {
 		source = "Blackfang Prowler",
 		drop_rate = "0.0",
 		name = "Gorenscale Mesh Cloak",
@@ -3199,7 +3199,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	320 = {
+	id320 = {
 		source = "Night-Twisted Devout",
 		drop_rate = "0.0",
 		name = "Eye-Blinder Greatcloak",
@@ -3209,7 +3209,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	321 = {
+	id321 = {
 		source = "Night-Twisted Devout",
 		drop_rate = "0.0",
 		name = "Magic-Breaker Cape",
@@ -3219,7 +3219,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	322 = {
+	id322 = {
 		source = "Night-Twisted Devout",
 		drop_rate = "0.0",
 		name = "Milenah's Intricate Cloak",
@@ -3229,7 +3229,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	323 = {
+	id323 = {
 		source = "Night-Twisted Devout",
 		drop_rate = "0.0",
 		name = "Kyu-Sy's Tarflame Doomcloak",
@@ -3239,7 +3239,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	324 = {
+	id324 = {
 		source = "Night-Twisted Devout",
 		drop_rate = "0.0",
 		name = "Gill's Glorious Windcloak",
@@ -3249,7 +3249,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	325 = {
+	id325 = {
 		source = "Gruul",
 		drop_rate = "0.0",
 		name = "Runescribed Gronncloak",
@@ -3259,7 +3259,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Blackrock Foundry"
 	},
-	326 = {
+	id326 = {
 		source = "Blood Guard Axelash",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Cloak of Endurance",
@@ -3269,7 +3269,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	327 = {
+	id327 = {
 		source = "Ingrid Blackingot",
 		drop_rate = "Unknown",
 		name = "Primal Gladiator's Cloak of Endurance",
@@ -3279,7 +3279,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	328 = {
+	id328 = {
 		source = "Commander Drogan",
 		drop_rate = "0.0",
 		name = "Fire-Smothering Greatcloak",
@@ -3289,7 +3289,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Lunarfall"
 	},
-	329 = {
+	id329 = {
 		source = "Gaur",
 		drop_rate = "0.0",
 		name = "Gorian Strategy Map",
@@ -3299,7 +3299,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Frostwall"
 	},
-	330 = {
+	id330 = {
 		source = "Commander Drogan",
 		drop_rate = "0.0",
 		name = "Voidwhisper Drape",
@@ -3309,7 +3309,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Lunarfall"
 	},
-	331 = {
+	id331 = {
 		source = "Annihilon",
 		drop_rate = "0.0",
 		name = "Starblotter's Spellwrap",
@@ -3319,7 +3319,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Lunarfall"
 	},
-	332 = {
+	id332 = {
 		source = "Gaur",
 		drop_rate = "0.0",
 		name = "Blackrock Ironweave Cloak",
@@ -3329,7 +3329,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Frostwall"
 	},
-	333 = {
+	id333 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Ethereal Shard-Covered Dreadcloak",
@@ -3339,7 +3339,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	334 = {
+	id334 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Ethereal Crystal-Edged Bladecloak",
@@ -3349,7 +3349,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	335 = {
+	id335 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Ethereal Crystalclasp Stormcloak",
@@ -3359,7 +3359,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	336 = {
+	id336 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Ethereal Refractory Heartcloak",
@@ -3369,7 +3369,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	337 = {
+	id337 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Ethereal Crystal Reinforced Doomcloak",
@@ -3379,7 +3379,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	338 = {
+	id338 = {
 		source = "Iron Reaver",
 		drop_rate = "0",
 		name = "Unfired Ejection Parachute",
@@ -3389,7 +3389,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	339 = {
+	id339 = {
 		source = "Iron Reaver",
 		drop_rate = "0",
 		name = "Commander's Seat Cushion Cover",
@@ -3399,7 +3399,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	340 = {
+	id340 = {
 		source = "Shadow-Lord Iskar",
 		drop_rate = "0",
 		name = "Cursefeather Cloak",
@@ -3409,7 +3409,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	341 = {
+	id341 = {
 		source = "Xhulhorac",
 		drop_rate = "0",
 		name = "Voidthread Spineguard",
@@ -3419,7 +3419,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	342 = {
+	id342 = {
 		source = "Residual Energy",
 		drop_rate = "Unknown",
 		name = "Bloodcrystal Chaincloak",
@@ -3429,7 +3429,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	343 = {
+	id343 = {
 		source = "Soulbound Construct",
 		drop_rate = "Unknown",
 		name = "Haunting Nightmare Cloak",
@@ -3439,7 +3439,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Hellfire Citadel"
 	},
-	344 = {
+	id344 = {
 		source = "Fate of the Queens Reprisal",
 		drop_rate = "quest",
 		name = "Cloak of the Greywatch",
@@ -3449,7 +3449,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	345 = {
+	id345 = {
 		source = "Narthalas Still Suffers",
 		drop_rate = "quest",
 		name = "Nar'thalas Protector's Cape",
@@ -3459,7 +3459,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	346 = {
+	id346 = {
 		source = "Fate of the Queens Reprisal",
 		drop_rate = "quest",
 		name = "Royal Apothecary Drape",
@@ -3469,7 +3469,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	347 = {
+	id347 = {
 		source = "Moozys Adventure",
 		drop_rate = "quest",
 		name = "Whitewater Safety Blanket",
@@ -3479,7 +3479,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	348 = {
+	id348 = {
 		source = "Slugg Spinbolt",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Cape of Cruelty",
@@ -3489,7 +3489,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	349 = {
+	id349 = {
 		source = "Slugg Spinbolt",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Cape of Prowess",
@@ -3499,7 +3499,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	350 = {
+	id350 = {
 		source = "Slugg Spinbolt",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Drape of Cruelty",
@@ -3509,7 +3509,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	351 = {
+	id351 = {
 		source = "Slugg Spinbolt",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Drape of Prowess",
@@ -3519,7 +3519,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	352 = {
+	id352 = {
 		source = "Slugg Spinbolt",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Drape of Meditation",
@@ -3529,7 +3529,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	353 = {
+	id353 = {
 		source = "Slugg Spinbolt",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Drape of Contemplation",
@@ -3539,7 +3539,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	354 = {
+	id354 = {
 		source = "Slugg Spinbolt",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Cloak of Cruelty",
@@ -3549,7 +3549,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	355 = {
+	id355 = {
 		source = "Slugg Spinbolt",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Cloak of Prowess",
@@ -3559,7 +3559,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	356 = {
+	id356 = {
 		source = "Slugg Spinbolt",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Cloak of Endurance",
@@ -3569,7 +3569,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	357 = {
+	id357 = {
 		source = "Taeloxe Soulshrivel",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Cape of Cruelty",
@@ -3579,7 +3579,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	358 = {
+	id358 = {
 		source = "Taeloxe Soulshrivel",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Cape of Prowess",
@@ -3589,7 +3589,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	359 = {
+	id359 = {
 		source = "Taeloxe Soulshrivel",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Drape of Cruelty",
@@ -3599,7 +3599,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	360 = {
+	id360 = {
 		source = "Taeloxe Soulshrivel",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Drape of Prowess",
@@ -3609,7 +3609,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	361 = {
+	id361 = {
 		source = "Taeloxe Soulshrivel",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Drape of Meditation",
@@ -3619,7 +3619,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	362 = {
+	id362 = {
 		source = "Taeloxe Soulshrivel",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Drape of Contemplation",
@@ -3629,7 +3629,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	363 = {
+	id363 = {
 		source = "Taeloxe Soulshrivel",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Cloak of Cruelty",
@@ -3639,7 +3639,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	364 = {
+	id364 = {
 		source = "Taeloxe Soulshrivel",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Cloak of Prowess",
@@ -3649,7 +3649,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	365 = {
+	id365 = {
 		source = "Taeloxe Soulshrivel",
 		drop_rate = "Unknown",
 		name = "Wild Combatant's Cloak of Endurance",
@@ -3659,7 +3659,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	366 = {
+	id366 = {
 		source = "The Night Haunter",
 		drop_rate = "0.0",
 		name = "Haunter's Kurzed Cloak",
@@ -3669,7 +3669,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	367 = {
+	id367 = {
 		source = "Rendrak",
 		drop_rate = "0.0",
 		name = "Musky Bat Fur Cloak",
@@ -3679,7 +3679,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	368 = {
+	id368 = {
 		source = "Steelsnout",
 		drop_rate = "0.0",
 		name = "Steelsnout's Steely Hide",
@@ -3689,7 +3689,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	369 = {
+	id369 = {
 		source = "Demissya Gladestrider",
 		drop_rate = "Unknown",
 		name = "Voras' Silk Drape",
@@ -3699,7 +3699,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Mardum, the Shattered Abyss"
 	},
-	370 = {
+	id370 = {
 		source = "Mordvigbjorn",
 		drop_rate = "0.0",
 		name = "Indomitable Bearskin Cloak",
@@ -3709,7 +3709,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Stormheim"
 	},
-	371 = {
+	id371 = {
 		source = "Ragemaw",
 		drop_rate = "0.0",
 		name = "Ragemaw's Hide",
@@ -3719,7 +3719,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	372 = {
+	id372 = {
 		source = "Flog the Captain-Eater",
 		drop_rate = "0.0",
 		name = "Bosun's Acid-Blotched Cape",
@@ -3729,7 +3729,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	373 = {
+	id373 = {
 		source = "Dreadbog",
 		drop_rate = "0.0",
 		name = "Dreadbog Fungalflesh Cape",
@@ -3739,7 +3739,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Val'sharah"
 	},
-	374 = {
+	id374 = {
 		source = "Mynta Talonscreech",
 		drop_rate = "0.0",
 		name = "Harefoot Pinnacle Wrap",
@@ -3749,7 +3749,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	375 = {
+	id375 = {
 		source = "Demissya Gladestrider",
 		drop_rate = "Unknown",
 		name = "Illidari Drape",
@@ -3759,7 +3759,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Mardum, the Shattered Abyss"
 	},
-	376 = {
+	id376 = {
 		source = "Nightfallen Hungerer",
 		drop_rate = "0.0",
 		name = "Azurewing Defender's Drape",
@@ -3769,7 +3769,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	377 = {
+	id377 = {
 		source = "Irewing",
 		drop_rate = "0.0",
 		name = "Thunder Totem Cloak",
@@ -3779,7 +3779,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	378 = {
+	id378 = {
 		source = "Dread-Rider Plaguebringer",
 		drop_rate = "0.0",
 		name = "Stormwing Drape",
@@ -3789,7 +3789,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Stormheim"
 	},
-	379 = {
+	id379 = {
 		source = "Ancient Annihilator",
 		drop_rate = "0.0",
 		name = "Vale Walker's Cloak",
@@ -3799,7 +3799,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Val'sharah"
 	},
-	380 = {
+	id380 = {
 		source = "Searing Infernal",
 		drop_rate = "0.0",
 		name = "Nightfallen Outcast's Cloak",
@@ -3809,7 +3809,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "The Nighthold"
 	},
-	381 = {
+	id381 = {
 		source = "To Weather the Storm",
 		drop_rate = "quest",
 		name = "Galeborn's Oiled Cloak",
@@ -3819,7 +3819,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Stormheim"
 	},
-	382 = {
+	id382 = {
 		source = "Death to the Witchmother",
 		drop_rate = "quest",
 		name = "Witchmother Drape",
@@ -3829,7 +3829,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Val'sharah"
 	},
-	383 = {
+	id383 = {
 		source = "To Light the Way",
 		drop_rate = "quest",
 		name = "Drape of the Undying Raider",
@@ -3839,7 +3839,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Helheim"
 	},
-	384 = {
+	id384 = {
 		source = "Shadows in the Mists",
 		drop_rate = "quest",
 		name = "Sigrid's Phantom Shroud",
@@ -3849,7 +3849,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Stormheim"
 	},
-	385 = {
+	id385 = {
 		source = "Maievs Trail",
 		drop_rate = "quest",
 		name = "Farseeker Drape",
@@ -3859,7 +3859,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Val'sharah"
 	},
-	386 = {
+	id386 = {
 		source = "Hulns War - The Nathrezim",
 		drop_rate = "quest",
 		name = "Highmountain Trueshot Cape",
@@ -3869,7 +3869,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Highmountain"
 	},
-	387 = {
+	id387 = {
 		source = "Saving Stellagosa",
 		drop_rate = "quest",
 		name = "Cape of Azure Fury",
@@ -3879,7 +3879,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	388 = {
+	id388 = {
 		source = "Brackenspore",
 		drop_rate = "0",
 		name = "Rotmelter Mosscloak",
@@ -3889,7 +3889,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	389 = {
+	id389 = {
 		source = "Koragh",
 		drop_rate = "0",
 		name = "Cloak of Overflowing Energies",
@@ -3899,7 +3899,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	390 = {
+	id390 = {
 		source = "Imperator Margok",
 		drop_rate = "0",
 		name = "Greatcloak of Impactful Pulses",
@@ -3909,7 +3909,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	391 = {
+	id391 = {
 		source = "The Butcher",
 		drop_rate = "0",
 		name = "Fleshhook Cloak",
@@ -3919,7 +3919,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	392 = {
+	id392 = {
 		source = "Kargath Bladefist",
 		drop_rate = "0",
 		name = "Flamescarred Drape",
@@ -3929,7 +3929,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Highmaul"
 	},
-	393 = {
+	id393 = {
 		source = "Ahune",
 		drop_rate = "Unknown",
 		name = "Cloak of the Frigid Winds",
@@ -3939,7 +3939,7 @@ cloaks_url_db = {
 		expansion = "The Burning Crusade",
 		location = "The Slave Pens"
 	},
-	394 = {
+	id394 = {
 		source = "Ahune",
 		drop_rate = "Unknown",
 		name = "Shroud of Winter's Chill",
@@ -3949,7 +3949,7 @@ cloaks_url_db = {
 		expansion = "The Burning Crusade",
 		location = "The Slave Pens"
 	},
-	395 = {
+	id395 = {
 		source = "Ahune",
 		drop_rate = "Unknown",
 		name = "The Frost Lord's Battle Shroud",
@@ -3959,7 +3959,7 @@ cloaks_url_db = {
 		expansion = "The Burning Crusade",
 		location = "The Slave Pens"
 	},
-	396 = {
+	id396 = {
 		source = "Ahune",
 		drop_rate = "Unknown",
 		name = "The Frost Lord's War Cloak",
@@ -3969,7 +3969,7 @@ cloaks_url_db = {
 		expansion = "The Burning Crusade",
 		location = "The Slave Pens"
 	},
-	397 = {
+	id397 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Cloak of Cascading Blades",
@@ -3979,7 +3979,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	398 = {
+	id398 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Deadshot Greatcloak",
@@ -3989,7 +3989,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	399 = {
+	id399 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Cloak of Violent Harmony",
@@ -3999,7 +3999,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	400 = {
+	id400 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Felbone Drape",
@@ -4009,7 +4009,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	401 = {
+	id401 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Cloak of Arcane Mysteries",
@@ -4019,7 +4019,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	402 = {
+	id402 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Drape of Iron Sutures",
@@ -4029,7 +4029,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	403 = {
+	id403 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Cloak of Mending Magics",
@@ -4039,7 +4039,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	404 = {
+	id404 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Cape of Annealing Flesh",
@@ -4049,7 +4049,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	405 = {
+	id405 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Bloody-Blade Drape",
@@ -4059,7 +4059,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	406 = {
+	id406 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Headscythe Greatcloak",
@@ -4069,7 +4069,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	407 = {
+	id407 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Drape of Dripping Runnels",
@@ -4079,7 +4079,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	408 = {
+	id408 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Rigid Scale Cloak",
@@ -4089,7 +4089,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	409 = {
+	id409 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Drape of Swirling Deflection",
@@ -4099,7 +4099,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	410 = {
+	id410 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Three-Clefthoof Cape",
@@ -4109,7 +4109,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	411 = {
+	id411 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Soot-Scarred Longcloak",
@@ -4119,7 +4119,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	412 = {
+	id412 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Forgeflame Greatcloak",
@@ -4129,7 +4129,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	413 = {
+	id413 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Drape of Frozen Dreams",
@@ -4139,7 +4139,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	414 = {
+	id414 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Mistwoven Windcloak",
@@ -4149,7 +4149,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	415 = {
+	id415 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Skullcracker Cloak",
@@ -4159,7 +4159,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	416 = {
+	id416 = {
 		source = "Terongor",
 		drop_rate = "Unknown",
 		name = "Cloak of Steeled Nerves",
@@ -4169,7 +4169,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	417 = {
+	id417 = {
 		source = "Bregg Coppercast",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Cape of Cruelty",
@@ -4179,7 +4179,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	418 = {
+	id418 = {
 		source = "Bregg Coppercast",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Cape of Prowess",
@@ -4189,7 +4189,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	419 = {
+	id419 = {
 		source = "Bregg Coppercast",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Drape of Cruelty",
@@ -4199,7 +4199,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	420 = {
+	id420 = {
 		source = "Bregg Coppercast",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Drape of Prowess",
@@ -4209,7 +4209,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	421 = {
+	id421 = {
 		source = "Bregg Coppercast",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Drape of Meditation",
@@ -4219,7 +4219,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	422 = {
+	id422 = {
 		source = "Bregg Coppercast",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Drape of Contemplation",
@@ -4229,7 +4229,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	423 = {
+	id423 = {
 		source = "Bregg Coppercast",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Cloak of Cruelty",
@@ -4239,7 +4239,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	424 = {
+	id424 = {
 		source = "Bregg Coppercast",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Cloak of Prowess",
@@ -4249,7 +4249,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	425 = {
+	id425 = {
 		source = "Turaaka",
 		drop_rate = "0.0",
 		name = "Tura'aka's Clipped Wing",
@@ -4259,7 +4259,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Nagrand"
 	},
-	426 = {
+	id426 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Shard-Covered Dreadcloak",
@@ -4269,7 +4269,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	427 = {
+	id427 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Crystal-Edged Bladecloak",
@@ -4279,7 +4279,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	428 = {
+	id428 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Crystalclasp Stormcloak",
@@ -4289,7 +4289,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	429 = {
+	id429 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Refractory Heartcloak",
@@ -4299,7 +4299,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	430 = {
+	id430 = {
 		source = "Dawn-Seeker Verroak",
 		drop_rate = "Unknown",
 		name = "Crystal Reinforced Doomcloak",
@@ -4309,7 +4309,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Stormshield"
 	},
-	431 = {
+	id431 = {
 		source = "Grizzlemaw",
 		drop_rate = "0.0",
 		name = "Grizzled Wolfskin Cloak",
@@ -4319,7 +4319,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Nagrand"
 	},
-	432 = {
+	id432 = {
 		source = "Felsworn Soultwister",
 		drop_rate = "0.0",
 		name = "Dunewalker Wrap",
@@ -4329,7 +4329,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	433 = {
+	id433 = {
 		source = "Iron Sniper",
 		drop_rate = "0.0",
 		name = "Embroidered Wolfsfur Cloak",
@@ -4339,7 +4339,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	434 = {
+	id434 = {
 		source = "Gibblette the Cowardly",
 		drop_rate = "0.0",
 		name = "Craven Coward's Cloak",
@@ -4349,7 +4349,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Frostfire Ridge"
 	},
-	435 = {
+	id435 = {
 		source = "Strategist Ankor",
 		drop_rate = "0.0",
 		name = "Sargerei Councilor's Drape",
@@ -4359,7 +4359,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Talador"
 	},
-	436 = {
+	id436 = {
 		source = "King Slime",
 		drop_rate = "0.0",
 		name = "Slime Coated Kingscloak",
@@ -4369,7 +4369,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Gorgrond"
 	},
-	437 = {
+	id437 = {
 		source = "Grove Warden Yal",
 		drop_rate = "0.0",
 		name = "Yal's Leafwrap Cloak",
@@ -4379,7 +4379,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Gorgrond"
 	},
-	438 = {
+	id438 = {
 		source = "Stone Guard Brokefist",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Cape of Cruelty",
@@ -4389,7 +4389,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	439 = {
+	id439 = {
 		source = "Stone Guard Brokefist",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Cape of Prowess",
@@ -4399,7 +4399,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	440 = {
+	id440 = {
 		source = "Stone Guard Brokefist",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Drape of Cruelty",
@@ -4409,7 +4409,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	441 = {
+	id441 = {
 		source = "Stone Guard Brokefist",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Drape of Prowess",
@@ -4419,7 +4419,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	442 = {
+	id442 = {
 		source = "Stone Guard Brokefist",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Drape of Meditation",
@@ -4429,7 +4429,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	443 = {
+	id443 = {
 		source = "Stone Guard Brokefist",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Drape of Contemplation",
@@ -4439,7 +4439,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	444 = {
+	id444 = {
 		source = "Stone Guard Brokefist",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Cloak of Cruelty",
@@ -4449,7 +4449,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	445 = {
+	id445 = {
 		source = "Stone Guard Brokefist",
 		drop_rate = "Unknown",
 		name = "Primal Combatant's Cloak of Prowess",
@@ -4459,7 +4459,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Warspear"
 	},
-	446 = {
+	id446 = {
 		source = "Pit Beast",
 		drop_rate = "0.0",
 		name = "Pristine Hide of the Pit Beast",
@@ -4469,7 +4469,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Nagrand"
 	},
-	447 = {
+	id447 = {
 		source = "The Debt We Share",
 		drop_rate = "quest",
 		name = "Gar'rok's Sun-Faded Cloak",
@@ -4479,7 +4479,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Nagrand"
 	},
-	448 = {
+	id448 = {
 		source = "The Debt We Share",
 		drop_rate = "quest",
 		name = "Gar'rok's Weathered Cloak",
@@ -4489,7 +4489,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Nagrand"
 	},
-	449 = {
+	id449 = {
 		source = "The Debt We Share",
 		drop_rate = "quest",
 		name = "Gar'rok's Patchwork Cloak",
@@ -4499,7 +4499,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Nagrand"
 	},
-	450 = {
+	id450 = {
 		source = "Uncontrolled Distortion",
 		drop_rate = "0.0",
 		name = "Oshu'gun Cloak",
@@ -4509,7 +4509,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Tanaan Jungle"
 	},
-	451 = {
+	id451 = {
 		source = "The Debt We Share",
 		drop_rate = "quest",
 		name = "Gar'rok's Roadworn Cloak",
@@ -4519,7 +4519,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Nagrand"
 	},
-	452 = {
+	id452 = {
 		source = "The Debt We Share",
 		drop_rate = "quest",
 		name = "Gar'rok's Sunshade Cloak",
@@ -4529,7 +4529,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Nagrand"
 	},
-	453 = {
+	id453 = {
 		source = "Gromkar Blademaster",
 		drop_rate = "0.0",
 		name = "Ancestral Cloak",
@@ -4539,7 +4539,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Talador"
 	},
-	454 = {
+	id454 = {
 		source = "Servants of a Dead God",
 		drop_rate = "quest",
 		name = "Hollowblood Drape",
@@ -4549,7 +4549,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Spires of Arak"
 	},
-	455 = {
+	id455 = {
 		source = "Servants of a Dead God",
 		drop_rate = "quest",
 		name = "Hollowblood Greatcloak",
@@ -4559,7 +4559,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Spires of Arak"
 	},
-	456 = {
+	id456 = {
 		source = "Servants of a Dead God",
 		drop_rate = "quest",
 		name = "Hollowblood Cloak",
@@ -4569,7 +4569,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Spires of Arak"
 	},
-	457 = {
+	id457 = {
 		source = "Servants of a Dead God",
 		drop_rate = "quest",
 		name = "Hollowblood Scale Cloak",
@@ -4579,7 +4579,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Spires of Arak"
 	},
-	458 = {
+	id458 = {
 		source = "Servants of a Dead God",
 		drop_rate = "quest",
 		name = "Hollowblood Scarf",
@@ -4589,7 +4589,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Spires of Arak"
 	},
-	459 = {
+	id459 = {
 		source = "Hen-Mother Hami",
 		drop_rate = "0.0",
 		name = "Hami-Down Cloak",
@@ -4599,7 +4599,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Talador"
 	},
-	460 = {
+	id460 = {
 		source = "Gromkar Footsoldier",
 		drop_rate = "0.0",
 		name = "Tarred Greatcloak",
@@ -4609,7 +4609,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Iron Docks"
 	},
-	461 = {
+	id461 = {
 		source = "Fungal Lurcher",
 		drop_rate = "0.0",
 		name = "Double Layered Frostboar Cloak",
@@ -4619,7 +4619,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Gorgrond"
 	},
-	462 = {
+	id462 = {
 		source = "Kaelynara Sunchaser",
 		drop_rate = "quest",
 		name = "Kaelynara's Drape",
@@ -4629,7 +4629,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Talador"
 	},
-	463 = {
+	id463 = {
 		source = "Kaelynara Sunchaser",
 		drop_rate = "quest",
 		name = "Kaelynara's Scarf",
@@ -4639,7 +4639,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Talador"
 	},
-	464 = {
+	id464 = {
 		source = "Kaelynara Sunchaser",
 		drop_rate = "quest",
 		name = "Kaelynara's Traveling Cloak",
@@ -4649,7 +4649,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Talador"
 	},
-	465 = {
+	id465 = {
 		source = "Spore Drifter",
 		drop_rate = "0.0",
 		name = "Shadowsage Cloak",
@@ -4659,7 +4659,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Spires of Arak"
 	},
-	466 = {
+	id466 = {
 		source = "Solar Magnifier",
 		drop_rate = "0.0",
 		name = "Ruhkmari Cloak",
@@ -4669,7 +4669,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Skyreach"
 	},
-	467 = {
+	id467 = {
 		source = "Kaelynara Sunchaser",
 		drop_rate = "quest",
 		name = "Kaelynara's Rugged Cloak",
@@ -4679,7 +4679,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Talador"
 	},
-	468 = {
+	id468 = {
 		source = "Kaelynara Sunchaser",
 		drop_rate = "quest",
 		name = "Kaelynara's Manaweave Cloak",
@@ -4689,7 +4689,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Talador"
 	},
-	469 = {
+	id469 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Cape of Prowess",
@@ -4699,7 +4699,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	470 = {
+	id470 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Drape of Cruelty",
@@ -4709,7 +4709,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	471 = {
+	id471 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Cape of Cruelty",
@@ -4719,7 +4719,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	472 = {
+	id472 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Drape of Meditation",
@@ -4729,7 +4729,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	473 = {
+	id473 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Cloak of Alacrity",
@@ -4739,7 +4739,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	474 = {
+	id474 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Cloak of Prowess",
@@ -4749,7 +4749,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	475 = {
+	id475 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Drape of Prowess",
@@ -4759,7 +4759,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	476 = {
+	id476 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Cape of Cruelty",
@@ -4769,7 +4769,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	477 = {
+	id477 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Cape of Prowess",
@@ -4779,7 +4779,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	478 = {
+	id478 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Drape of Cruelty",
@@ -4789,7 +4789,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	479 = {
+	id479 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Drape of Prowess",
@@ -4799,7 +4799,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	480 = {
+	id480 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Drape of Meditation",
@@ -4809,7 +4809,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	481 = {
+	id481 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Cloak of Alacrity",
@@ -4819,7 +4819,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	482 = {
+	id482 = {
 		source = "Chi-Ji",
 		drop_rate = "Unknown",
 		name = "Prideful Gladiator's Cloak of Prowess",
@@ -4829,7 +4829,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	483 = {
+	id483 = {
 		source = "Spore Drifter",
 		drop_rate = "0.0",
 		name = "Sunsworn Cloak",
@@ -4839,7 +4839,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Spires of Arak"
 	},
-	484 = {
+	id484 = {
 		source = "Jinrokh the Breaker",
 		drop_rate = "0.0",
 		name = "Drape of Booming Nights",
@@ -4849,7 +4849,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	485 = {
+	id485 = {
 		source = "Horridon",
 		drop_rate = "0.0",
 		name = "Wastewalker's Sandblasted Drape",
@@ -4859,7 +4859,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	486 = {
+	id486 = {
 		source = "Horridon",
 		drop_rate = "0.0",
 		name = "Horn-Rimmed Doomcloak",
@@ -4869,7 +4869,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	487 = {
+	id487 = {
 		source = "Tortos",
 		drop_rate = "0.0",
 		name = "Beakbreaker Greatcloak",
@@ -4879,7 +4879,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	488 = {
+	id488 = {
 		source = "Tortos",
 		drop_rate = "0.0",
 		name = "Shimmershell Cape",
@@ -4889,7 +4889,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	489 = {
+	id489 = {
 		source = "Ji-Kun",
 		drop_rate = "0.0",
 		name = "Pinionfeather Greatcloak",
@@ -4899,7 +4899,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	490 = {
+	id490 = {
 		source = "Durumu the Forgotten",
 		drop_rate = "0.0",
 		name = "Reinforced Mirror-Sheen Cloak",
@@ -4909,7 +4909,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	491 = {
+	id491 = {
 		source = "Durumu the Forgotten",
 		drop_rate = "0.0",
 		name = "Deadly Glare Cape",
@@ -4919,7 +4919,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	492 = {
+	id492 = {
 		source = "Primordius",
 		drop_rate = "0.0",
 		name = "Hydra-Scale Bloodcloak",
@@ -4929,7 +4929,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	493 = {
+	id493 = {
 		source = "Dark Animus",
 		drop_rate = "0.0",
 		name = "Constantly Accelerating Cloak",
@@ -4939,7 +4939,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	494 = {
+	id494 = {
 		source = "Jinrokh the Breaker",
 		drop_rate = "0.0",
 		name = "Drape of Booming Nights",
@@ -4949,7 +4949,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	495 = {
+	id495 = {
 		source = "Horridon",
 		drop_rate = "0.0",
 		name = "Wastewalker's Sandblasted Drape",
@@ -4959,7 +4959,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	496 = {
+	id496 = {
 		source = "Horridon",
 		drop_rate = "0.0",
 		name = "Horn-Rimmed Doomcloak",
@@ -4969,7 +4969,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	497 = {
+	id497 = {
 		source = "Tortos",
 		drop_rate = "0.0",
 		name = "Beakbreaker Greatcloak",
@@ -4979,7 +4979,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	498 = {
+	id498 = {
 		source = "Tortos",
 		drop_rate = "0.0",
 		name = "Shimmershell Cape",
@@ -4989,7 +4989,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	499 = {
+	id499 = {
 		source = "Ji-Kun",
 		drop_rate = "0.0",
 		name = "Pinionfeather Greatcloak",
@@ -4999,7 +4999,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	500 = {
+	id500 = {
 		source = "Durumu the Forgotten",
 		drop_rate = "0.0",
 		name = "Reinforced Mirror-Sheen Cloak",
@@ -5009,7 +5009,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	501 = {
+	id501 = {
 		source = "Durumu the Forgotten",
 		drop_rate = "0.0",
 		name = "Deadly Glare Cape",
@@ -5019,7 +5019,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	502 = {
+	id502 = {
 		source = "Primordius",
 		drop_rate = "0.0",
 		name = "Hydra-Scale Bloodcloak",
@@ -5029,7 +5029,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	503 = {
+	id503 = {
 		source = "Dark Animus",
 		drop_rate = "0.0",
 		name = "Constantly Accelerating Cloak",
@@ -5039,7 +5039,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	504 = {
+	id504 = {
 		source = "Rook Stonetoe",
 		drop_rate = "Unknown",
 		name = "Gloomwrap Greatcloak",
@@ -5049,7 +5049,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	505 = {
+	id505 = {
 		source = "Amalgam of Corruption",
 		drop_rate = "0.0",
 		name = "Drape of the Despairing Pit",
@@ -5059,7 +5059,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	506 = {
+	id506 = {
 		source = "Wavebinder Kardris",
 		drop_rate = "Unknown",
 		name = "Poisonmist Nightcloak",
@@ -5069,7 +5069,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	507 = {
+	id507 = {
 		source = "Malkorok",
 		drop_rate = "0.0",
 		name = "Black-Blooded Drape",
@@ -5079,7 +5079,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	508 = {
+	id508 = {
 		source = "Korkron Blood Axe",
 		drop_rate = "0.0",
 		name = "Turtleshell Greatcloak",
@@ -5089,7 +5089,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	509 = {
+	id509 = {
 		source = "Thok the Bloodthirsty",
 		drop_rate = "0.0",
 		name = "Aeth's Swiftcinder Cloak",
@@ -5099,7 +5099,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	510 = {
+	id510 = {
 		source = "Korkron Blood Axe",
 		drop_rate = "0.0",
 		name = "Cape of the Alpha",
@@ -5109,7 +5109,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	511 = {
+	id511 = {
 		source = "Dragonmaw Cannoneer",
 		drop_rate = "0.0",
 		name = "Drape of the Omega",
@@ -5119,7 +5119,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	512 = {
+	id512 = {
 		source = "Korkron Blood Axe",
 		drop_rate = "0.0",
 		name = "Brave Niunai's Cloak",
@@ -5129,7 +5129,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	513 = {
+	id513 = {
 		source = "To Catch a Shadow",
 		drop_rate = "quest",
 		name = "Foulspawn Drape",
@@ -5139,7 +5139,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Shadowmoon Valley"
 	},
-	514 = {
+	id514 = {
 		source = "To Catch a Shadow",
 		drop_rate = "quest",
 		name = "Flayed Flesh Cloak",
@@ -5149,7 +5149,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Shadowmoon Valley"
 	},
-	515 = {
+	id515 = {
 		source = "To Catch a Shadow",
 		drop_rate = "quest",
 		name = "Felblood-Starched Cloak",
@@ -5159,7 +5159,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Shadowmoon Valley"
 	},
-	516 = {
+	id516 = {
 		source = "Tailthrasher Brute",
 		drop_rate = "0.0",
 		name = "Eldodin's Elegant Drape",
@@ -5169,7 +5169,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Gorgrond"
 	},
-	517 = {
+	id517 = {
 		source = "Sargerei Soulpriest",
 		drop_rate = "0.0",
 		name = "Soulkeeper Cloak",
@@ -5179,7 +5179,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Auchindoun"
 	},
-	518 = {
+	id518 = {
 		source = "Laying Dionor to Rest",
 		drop_rate = "quest",
 		name = "Grace of Dionor",
@@ -5189,7 +5189,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Gorgrond"
 	},
-	519 = {
+	id519 = {
 		source = "Laying Dionor to Rest",
 		drop_rate = "quest",
 		name = "Wisdom of Dionor",
@@ -5199,7 +5199,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Gorgrond"
 	},
-	520 = {
+	id520 = {
 		source = "Laying Dionor to Rest",
 		drop_rate = "quest",
 		name = "Strength of Dionor",
@@ -5209,7 +5209,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Gorgrond"
 	},
-	521 = {
+	id521 = {
 		source = "Laying Dionor to Rest",
 		drop_rate = "quest",
 		name = "Fortitude of Dionor",
@@ -5219,7 +5219,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Gorgrond"
 	},
-	522 = {
+	id522 = {
 		source = "Laying Dionor to Rest",
 		drop_rate = "quest",
 		name = "Clarity of Dionor",
@@ -5229,7 +5229,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Gorgrond"
 	},
-	523 = {
+	id523 = {
 		source = "Jinrokh the Breaker",
 		drop_rate = "0.0",
 		name = "Drape of Booming Nights",
@@ -5239,7 +5239,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	524 = {
+	id524 = {
 		source = "Horridon",
 		drop_rate = "0.0",
 		name = "Wastewalker's Sandblasted Drape",
@@ -5249,7 +5249,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	525 = {
+	id525 = {
 		source = "Horridon",
 		drop_rate = "0.0",
 		name = "Horn-Rimmed Doomcloak",
@@ -5259,7 +5259,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	526 = {
+	id526 = {
 		source = "Tortos",
 		drop_rate = "0.0",
 		name = "Beakbreaker Greatcloak",
@@ -5269,7 +5269,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	527 = {
+	id527 = {
 		source = "Tortos",
 		drop_rate = "0.0",
 		name = "Shimmershell Cape",
@@ -5279,7 +5279,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	528 = {
+	id528 = {
 		source = "Ji-Kun",
 		drop_rate = "0.0",
 		name = "Pinionfeather Greatcloak",
@@ -5289,7 +5289,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	529 = {
+	id529 = {
 		source = "Durumu the Forgotten",
 		drop_rate = "0.0",
 		name = "Reinforced Mirror-Sheen Cloak",
@@ -5299,7 +5299,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	530 = {
+	id530 = {
 		source = "Durumu the Forgotten",
 		drop_rate = "0.0",
 		name = "Deadly Glare Cape",
@@ -5309,7 +5309,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	531 = {
+	id531 = {
 		source = "Tortos",
 		drop_rate = "Unknown",
 		name = "Hydra-Scale Bloodcloak",
@@ -5319,7 +5319,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	532 = {
+	id532 = {
 		source = "Dark Animus",
 		drop_rate = "0.0",
 		name = "Constantly Accelerating Cloak",
@@ -5329,7 +5329,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	533 = {
+	id533 = {
 		source = "Lakebottom Zapper",
 		drop_rate = "0.0",
 		name = "Zangarra Cloak",
@@ -5339,7 +5339,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Talador"
 	},
-	534 = {
+	id534 = {
 		source = "Jinrokh the Breaker",
 		drop_rate = "0.0",
 		name = "Drape of Booming Nights",
@@ -5349,7 +5349,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	535 = {
+	id535 = {
 		source = "Horridon",
 		drop_rate = "0.0",
 		name = "Horn-Rimmed Doomcloak",
@@ -5359,7 +5359,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	536 = {
+	id536 = {
 		source = "Horridon",
 		drop_rate = "0.0",
 		name = "Wastewalker's Sandblasted Drape",
@@ -5369,7 +5369,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	537 = {
+	id537 = {
 		source = "Tortos",
 		drop_rate = "0.0",
 		name = "Beakbreaker Greatcloak",
@@ -5379,7 +5379,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	538 = {
+	id538 = {
 		source = "Tortos",
 		drop_rate = "0.0",
 		name = "Shimmershell Cape",
@@ -5389,7 +5389,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	539 = {
+	id539 = {
 		source = "Ji-Kun",
 		drop_rate = "0.0",
 		name = "Pinionfeather Greatcloak",
@@ -5399,7 +5399,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	540 = {
+	id540 = {
 		source = "Durumu the Forgotten",
 		drop_rate = "0.0",
 		name = "Reinforced Mirror-Sheen Cloak",
@@ -5409,7 +5409,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	541 = {
+	id541 = {
 		source = "Durumu the Forgotten",
 		drop_rate = "0.0",
 		name = "Deadly Glare Cape",
@@ -5419,7 +5419,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	542 = {
+	id542 = {
 		source = "Primordius",
 		drop_rate = "0.0",
 		name = "Hydra-Scale Bloodcloak",
@@ -5429,7 +5429,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	543 = {
+	id543 = {
 		source = "Dark Animus",
 		drop_rate = "0.0",
 		name = "Constantly Accelerating Cloak",
@@ -5439,7 +5439,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	544 = {
+	id544 = {
 		source = "Teng of the Flying Daggers",
 		drop_rate = "Unknown",
 		name = "Spikeshard Greatcloak",
@@ -5449,7 +5449,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	545 = {
+	id545 = {
 		source = "Teng of the Flying Daggers",
 		drop_rate = "Unknown",
 		name = "Many-Layered Scalecloak",
@@ -5459,7 +5459,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	546 = {
+	id546 = {
 		source = "Teng of the Flying Daggers",
 		drop_rate = "Unknown",
 		name = "Longshot Forestcloak",
@@ -5469,7 +5469,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	547 = {
+	id547 = {
 		source = "Teng of the Flying Daggers",
 		drop_rate = "Unknown",
 		name = "Shadowspike Cloak",
@@ -5479,7 +5479,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	548 = {
+	id548 = {
 		source = "Teng of the Flying Daggers",
 		drop_rate = "Unknown",
 		name = "Dreamweaver Drape",
@@ -5489,7 +5489,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	549 = {
+	id549 = {
 		source = "Acon Deathwielder",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Cape of Prowess",
@@ -5499,7 +5499,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	550 = {
+	id550 = {
 		source = "Acon Deathwielder",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Drape of Cruelty",
@@ -5509,7 +5509,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	551 = {
+	id551 = {
 		source = "Acon Deathwielder",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Cape of Cruelty",
@@ -5519,7 +5519,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	552 = {
+	id552 = {
 		source = "Acon Deathwielder",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Drape of Meditation",
@@ -5529,7 +5529,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	553 = {
+	id553 = {
 		source = "Acon Deathwielder",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Cloak of Alacrity",
@@ -5539,7 +5539,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	554 = {
+	id554 = {
 		source = "Acon Deathwielder",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Cloak of Prowess",
@@ -5549,7 +5549,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	555 = {
+	id555 = {
 		source = "Acon Deathwielder",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Drape of Prowess",
@@ -5559,7 +5559,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	556 = {
+	id556 = {
 		source = "Ethan Natice",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Cape of Cruelty",
@@ -5569,7 +5569,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	557 = {
+	id557 = {
 		source = "Ethan Natice",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Cape of Prowess",
@@ -5579,7 +5579,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	558 = {
+	id558 = {
 		source = "Ethan Natice",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Drape of Cruelty",
@@ -5589,7 +5589,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	559 = {
+	id559 = {
 		source = "Ethan Natice",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Drape of Prowess",
@@ -5599,7 +5599,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	560 = {
+	id560 = {
 		source = "Ethan Natice",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Drape of Meditation",
@@ -5609,7 +5609,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	561 = {
+	id561 = {
 		source = "Ethan Natice",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Cloak of Alacrity",
@@ -5619,7 +5619,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	562 = {
+	id562 = {
 		source = "Ethan Natice",
 		drop_rate = "Unknown",
 		name = "Grievous Gladiator's Cloak of Prowess",
@@ -5629,7 +5629,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	563 = {
+	id563 = {
 		source = "Darktalon",
 		drop_rate = "0.0",
 		name = "Darktalon's Drape",
@@ -5639,7 +5639,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Shadowmoon Valley"
 	},
-	564 = {
+	id564 = {
 		source = "Imperial Vizier Zorlok",
 		drop_rate = "0.0",
 		name = "Hisek's Chrysanthemum Cape",
@@ -5649,7 +5649,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	565 = {
+	id565 = {
 		source = "Blade Lord Tayak",
 		drop_rate = "0.0",
 		name = "Drape of Gathering Clouds",
@@ -5659,7 +5659,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	566 = {
+	id566 = {
 		source = "Garalon",
 		drop_rate = "Unknown",
 		name = "Legbreaker Greatcloak",
@@ -5669,7 +5669,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	567 = {
+	id567 = {
 		source = "Garalon",
 		drop_rate = "Unknown",
 		name = "Stormwake Mistcloak",
@@ -5679,7 +5679,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	568 = {
+	id568 = {
 		source = "Wind Lord Meljarak",
 		drop_rate = "0.0",
 		name = "Cloak of Raining Blades",
@@ -5689,7 +5689,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	569 = {
+	id569 = {
 		source = "Protector Kaolan",
 		drop_rate = "Unknown",
 		name = "Cloak of Overwhelming Corruption",
@@ -5699,7 +5699,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Terrace of Endless Spring"
 	},
-	570 = {
+	id570 = {
 		source = "Elder Regail",
 		drop_rate = "Unknown",
 		name = "Cloak of Overwhelming Corruption",
@@ -5709,7 +5709,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Terrace of Endless Spring"
 	},
-	571 = {
+	id571 = {
 		source = "Gurun",
 		drop_rate = "0.0",
 		name = "Skog's Drape",
@@ -5719,7 +5719,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Frostfire Ridge"
 	},
-	572 = {
+	id572 = {
 		source = "Zerpy Clampshock",
 		drop_rate = "Unknown",
 		name = "Wildfire Windcloak",
@@ -5729,7 +5729,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Blasted Lands"
 	},
-	573 = {
+	id573 = {
 		source = "Zerpy Clampshock",
 		drop_rate = "Unknown",
 		name = "Frostshaper Cape",
@@ -5739,7 +5739,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Blasted Lands"
 	},
-	574 = {
+	id574 = {
 		source = "Zerpy Clampshock",
 		drop_rate = "Unknown",
 		name = "Butcher's Wrap",
@@ -5749,7 +5749,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Blasted Lands"
 	},
-	575 = {
+	id575 = {
 		source = "Zerpy Clampshock",
 		drop_rate = "Unknown",
 		name = "Armswake Greatcloak",
@@ -5759,7 +5759,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Blasted Lands"
 	},
-	576 = {
+	id576 = {
 		source = "Zerpy Clampshock",
 		drop_rate = "Unknown",
 		name = "Night Prowler's Cloak",
@@ -5769,7 +5769,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Blasted Lands"
 	},
-	577 = {
+	id577 = {
 		source = "Provisioner Mukra",
 		drop_rate = "Unknown",
 		name = "Fine Crimson Cloak",
@@ -5779,7 +5779,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Dazar'alor"
 	},
-	578 = {
+	id578 = {
 		source = "Provisioner Stoutforge",
 		drop_rate = "Unknown",
 		name = "Royal Blue Cloak",
@@ -5789,7 +5789,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Boralus"
 	},
-	579 = {
+	id579 = {
 		source = "Mulvericks Plight",
 		drop_rate = "quest",
 		name = "Wolfsfur Drape",
@@ -5799,7 +5799,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Frostfire Ridge"
 	},
-	580 = {
+	id580 = {
 		source = "Mulvericks Plight",
 		drop_rate = "quest",
 		name = "Wolfsfur Greatcloak",
@@ -5809,7 +5809,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Frostfire Ridge"
 	},
-	581 = {
+	id581 = {
 		source = "Mulvericks Plight",
 		drop_rate = "quest",
 		name = "Wolfsfur Cloak",
@@ -5819,7 +5819,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Frostfire Ridge"
 	},
-	582 = {
+	id582 = {
 		source = "Pale Spiderwalker",
 		drop_rate = "0.0",
 		name = "Evermorn Cloak",
@@ -5829,7 +5829,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Gorgrond"
 	},
-	583 = {
+	id583 = {
 		source = "Provisioner Mukra",
 		drop_rate = "Unknown",
 		name = "War-Torn Crimson Cloak",
@@ -5839,7 +5839,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Dazar'alor"
 	},
-	584 = {
+	id584 = {
 		source = "Provisioner Stoutforge",
 		drop_rate = "Unknown",
 		name = "War-Torn Royal Blue Cloak",
@@ -5849,7 +5849,7 @@ cloaks_url_db = {
 		expansion = "Battle For Azeroth",
 		location = "Boralus"
 	},
-	585 = {
+	id585 = {
 		source = "Jasper Guardian",
 		drop_rate = "Unknown",
 		name = "Cape of Three Lanterns",
@@ -5859,7 +5859,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	586 = {
+	id586 = {
 		source = "Feng the Accursed",
 		drop_rate = "0.0",
 		name = "Cloak of Peacock Feathers",
@@ -5869,7 +5869,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	587 = {
+	id587 = {
 		source = "Feng the Accursed",
 		drop_rate = "0.0",
 		name = "Arrow Breaking Windcloak",
@@ -5879,7 +5879,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	588 = {
+	id588 = {
 		source = "Meng the Demented",
 		drop_rate = "Unknown",
 		name = "Mindshard Drape",
@@ -5889,7 +5889,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	589 = {
+	id589 = {
 		source = "Elder Regail",
 		drop_rate = "Unknown",
 		name = "Cloak of Overwhelming Corruption",
@@ -5899,7 +5899,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Terrace of Endless Spring"
 	},
-	590 = {
+	id590 = {
 		source = "Jinrokh the Breaker",
 		drop_rate = "0.0",
 		name = "Drape of Booming Nights",
@@ -5909,7 +5909,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	591 = {
+	id591 = {
 		source = "Horridon",
 		drop_rate = "0.0",
 		name = "Wastewalker's Sandblasted Drape",
@@ -5919,7 +5919,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	592 = {
+	id592 = {
 		source = "Horridon",
 		drop_rate = "0.0",
 		name = "Horn-Rimmed Doomcloak",
@@ -5929,7 +5929,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	593 = {
+	id593 = {
 		source = "Tortos",
 		drop_rate = "0.0",
 		name = "Beakbreaker Greatcloak",
@@ -5939,7 +5939,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	594 = {
+	id594 = {
 		source = "Tortos",
 		drop_rate = "0.0",
 		name = "Shimmershell Cape",
@@ -5949,7 +5949,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	595 = {
+	id595 = {
 		source = "Ji-Kun",
 		drop_rate = "0.0",
 		name = "Pinionfeather Greatcloak",
@@ -5959,7 +5959,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	596 = {
+	id596 = {
 		source = "Durumu the Forgotten",
 		drop_rate = "0.0",
 		name = "Reinforced Mirror-Sheen Cloak",
@@ -5969,7 +5969,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	597 = {
+	id597 = {
 		source = "Durumu the Forgotten",
 		drop_rate = "0.0",
 		name = "Deadly Glare Cape",
@@ -5979,7 +5979,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	598 = {
+	id598 = {
 		source = "Primordius",
 		drop_rate = "0.0",
 		name = "Hydra-Scale Bloodcloak",
@@ -5989,7 +5989,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	599 = {
+	id599 = {
 		source = "Dark Animus",
 		drop_rate = "0.0",
 		name = "Constantly Accelerating Cloak",
@@ -5999,7 +5999,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	600 = {
+	id600 = {
 		source = "Bloodmaul Warder",
 		drop_rate = "0.0",
 		name = "Growthshaper Cloak",
@@ -6009,7 +6009,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Bloodmaul Slag Mines"
 	},
-	601 = {
+	id601 = {
 		source = "Sha of Anger",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Drape of Cruelty",
@@ -6019,7 +6019,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	602 = {
+	id602 = {
 		source = "Sha of Anger",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Drape of Meditation",
@@ -6029,7 +6029,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	603 = {
+	id603 = {
 		source = "Sha of Anger",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Drape of Prowess",
@@ -6039,7 +6039,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	604 = {
+	id604 = {
 		source = "Sha of Anger",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Cape of Cruelty",
@@ -6049,7 +6049,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	605 = {
+	id605 = {
 		source = "Sha of Anger",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Cape of Prowess",
@@ -6059,7 +6059,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	606 = {
+	id606 = {
 		source = "Sha of Anger",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Cloak of Prowess",
@@ -6069,7 +6069,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	607 = {
+	id607 = {
 		source = "Sha of Anger",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Cloak of Alacrity",
@@ -6079,7 +6079,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	608 = {
+	id608 = {
 		source = "Jasper Guardian",
 		drop_rate = "Unknown",
 		name = "Cape of Three Lanterns",
@@ -6089,7 +6089,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	609 = {
+	id609 = {
 		source = "Feng the Accursed",
 		drop_rate = "0.0",
 		name = "Cloak of Peacock Feathers",
@@ -6099,7 +6099,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	610 = {
+	id610 = {
 		source = "Feng the Accursed",
 		drop_rate = "0.0",
 		name = "Arrow Breaking Windcloak",
@@ -6109,7 +6109,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	611 = {
+	id611 = {
 		source = "Imperial Vizier Zorlok",
 		drop_rate = "0.0",
 		name = "Hisek's Chrysanthemum Cape",
@@ -6119,7 +6119,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	612 = {
+	id612 = {
 		source = "Blade Lord Tayak",
 		drop_rate = "0.0",
 		name = "Drape of Gathering Clouds",
@@ -6129,7 +6129,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	613 = {
+	id613 = {
 		source = "Garalon",
 		drop_rate = "Unknown",
 		name = "Legbreaker Greatcloak",
@@ -6139,7 +6139,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	614 = {
+	id614 = {
 		source = "Garalon",
 		drop_rate = "Unknown",
 		name = "Stormwake Mistcloak",
@@ -6149,7 +6149,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	615 = {
+	id615 = {
 		source = "Wind Lord Meljarak",
 		drop_rate = "0.0",
 		name = "Cloak of Raining Blades",
@@ -6159,7 +6159,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	616 = {
+	id616 = {
 		source = "Protector Kaolan",
 		drop_rate = "Unknown",
 		name = "Cloak of Overwhelming Corruption",
@@ -6169,7 +6169,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Terrace of Endless Spring"
 	},
-	617 = {
+	id617 = {
 		source = "Jasper Guardian",
 		drop_rate = "Unknown",
 		name = "Cape of Three Lanterns",
@@ -6179,7 +6179,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	618 = {
+	id618 = {
 		source = "Feng the Accursed",
 		drop_rate = "0.0",
 		name = "Cloak of Peacock Feathers",
@@ -6189,7 +6189,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	619 = {
+	id619 = {
 		source = "Feng the Accursed",
 		drop_rate = "0.0",
 		name = "Arrow Breaking Windcloak",
@@ -6199,7 +6199,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	620 = {
+	id620 = {
 		source = "Imperial Vizier Zorlok",
 		drop_rate = "0.0",
 		name = "Hisek's Chrysanthemum Cape",
@@ -6209,7 +6209,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	621 = {
+	id621 = {
 		source = "Blade Lord Tayak",
 		drop_rate = "0.0",
 		name = "Drape of Gathering Clouds",
@@ -6219,7 +6219,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	622 = {
+	id622 = {
 		source = "Garalon",
 		drop_rate = "Unknown",
 		name = "Legbreaker Greatcloak",
@@ -6229,7 +6229,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	623 = {
+	id623 = {
 		source = "Garalon",
 		drop_rate = "Unknown",
 		name = "Stormwake Mistcloak",
@@ -6239,7 +6239,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	624 = {
+	id624 = {
 		source = "Wind Lord Meljarak",
 		drop_rate = "0.0",
 		name = "Cloak of Raining Blades",
@@ -6249,7 +6249,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Heart of Fear"
 	},
-	625 = {
+	id625 = {
 		source = "Elder Regail",
 		drop_rate = "0.0",
 		name = "Cloak of Overwhelming Corruption",
@@ -6259,7 +6259,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Terrace of Endless Spring"
 	},
-	626 = {
+	id626 = {
 		source = "Commander Oxheart",
 		drop_rate = "Unknown",
 		name = "Cloak of the Dark Disciple",
@@ -6269,7 +6269,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	627 = {
+	id627 = {
 		source = "Commander Oxheart",
 		drop_rate = "Unknown",
 		name = "Yi's Cloak of Courage",
@@ -6279,7 +6279,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	628 = {
+	id628 = {
 		source = "Commander Oxheart",
 		drop_rate = "Unknown",
 		name = "Blackguard Cape",
@@ -6289,7 +6289,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	629 = {
+	id629 = {
 		source = "Commander Oxheart",
 		drop_rate = "Unknown",
 		name = "Cloak of Snow Blossoms",
@@ -6299,7 +6299,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	630 = {
+	id630 = {
 		source = "Commander Oxheart",
 		drop_rate = "Unknown",
 		name = "Sagewhisper's Wrap",
@@ -6309,7 +6309,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	631 = {
+	id631 = {
 		source = "Meng the Demented",
 		drop_rate = "Unknown",
 		name = "Mindshard Drape",
@@ -6319,7 +6319,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	632 = {
+	id632 = {
 		source = "Meng the Demented",
 		drop_rate = "Unknown",
 		name = "Mindshard Drape",
@@ -6329,7 +6329,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	633 = {
+	id633 = {
 		source = "Vampiric Cave Bat",
 		drop_rate = "0.0",
 		name = "Zom's Rain-Stained Cloak",
@@ -6339,7 +6339,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	634 = {
+	id634 = {
 		source = "Young Primal Devilsaur",
 		drop_rate = "0.0",
 		name = "Cristof's Crushing Cloak",
@@ -6349,7 +6349,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Giants"
 	},
-	635 = {
+	id635 = {
 		source = "Tormented Initiate",
 		drop_rate = "0.0",
 		name = "Dory's Pageantry",
@@ -6359,7 +6359,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	636 = {
+	id636 = {
 		source = "Zandalari Fire-Dancer",
 		drop_rate = "0.0",
 		name = "Dirl's Drafty Drape",
@@ -6369,7 +6369,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Vaults"
 	},
-	637 = {
+	id637 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cape of Cruelty",
@@ -6379,7 +6379,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	638 = {
+	id638 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cape of Prowess",
@@ -6389,7 +6389,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	639 = {
+	id639 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Cruelty",
@@ -6399,7 +6399,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	640 = {
+	id640 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Prowess",
@@ -6409,7 +6409,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	641 = {
+	id641 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Meditation",
@@ -6419,7 +6419,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	642 = {
+	id642 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cloak of Alacrity",
@@ -6429,7 +6429,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	643 = {
+	id643 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cloak of Prowess",
@@ -6439,7 +6439,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	644 = {
+	id644 = {
 		source = "Doris Chiltonius",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Cape of Cruelty",
@@ -6449,7 +6449,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	645 = {
+	id645 = {
 		source = "Doris Chiltonius",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Cape of Prowess",
@@ -6459,7 +6459,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	646 = {
+	id646 = {
 		source = "Doris Chiltonius",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Drape of Cruelty",
@@ -6469,7 +6469,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	647 = {
+	id647 = {
 		source = "Doris Chiltonius",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Drape of Prowess",
@@ -6479,7 +6479,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	648 = {
+	id648 = {
 		source = "Doris Chiltonius",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Drape of Meditation",
@@ -6489,7 +6489,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	649 = {
+	id649 = {
 		source = "Doris Chiltonius",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Cloak of Alacrity",
@@ -6499,7 +6499,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	650 = {
+	id650 = {
 		source = "Doris Chiltonius",
 		drop_rate = "Unknown",
 		name = "Malevolent Gladiator's Cloak of Prowess",
@@ -6509,7 +6509,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	651 = {
+	id651 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cape of Prowess",
@@ -6519,7 +6519,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	652 = {
+	id652 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Cruelty",
@@ -6529,7 +6529,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	653 = {
+	id653 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cape of Cruelty",
@@ -6539,7 +6539,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	654 = {
+	id654 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Meditation",
@@ -6549,7 +6549,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	655 = {
+	id655 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cloak of Alacrity",
@@ -6559,7 +6559,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	656 = {
+	id656 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cloak of Prowess",
@@ -6569,7 +6569,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	657 = {
+	id657 = {
 		source = "Nalak",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Prowess",
@@ -6579,7 +6579,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	658 = {
+	id658 = {
 		source = "Hiren Loresong",
 		drop_rate = "Unknown",
 		name = "Thunder-Chaser Cloak",
@@ -6589,7 +6589,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	659 = {
+	id659 = {
 		source = "Hiren Loresong",
 		drop_rate = "Unknown",
 		name = "Static-Collecting Cloak",
@@ -6599,7 +6599,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	660 = {
+	id660 = {
 		source = "Hiren Loresong",
 		drop_rate = "Unknown",
 		name = "Shan'ze Gravetender Cloak",
@@ -6609,7 +6609,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	661 = {
+	id661 = {
 		source = "Hiren Loresong",
 		drop_rate = "Unknown",
 		name = "Shan'ze Partisan's Greatcloak",
@@ -6619,7 +6619,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	662 = {
+	id662 = {
 		source = "Hiren Loresong",
 		drop_rate = "Unknown",
 		name = "Cloak of the Immortal Guardian",
@@ -6629,7 +6629,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	663 = {
+	id663 = {
 		source = "Vasarin Redmorn",
 		drop_rate = "Unknown",
 		name = "Thunder-Chaser Cloak",
@@ -6639,7 +6639,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	664 = {
+	id664 = {
 		source = "Vasarin Redmorn",
 		drop_rate = "Unknown",
 		name = "Static-Collecting Cloak",
@@ -6649,7 +6649,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	665 = {
+	id665 = {
 		source = "Vasarin Redmorn",
 		drop_rate = "Unknown",
 		name = "Shan'ze Gravetender Cloak",
@@ -6659,7 +6659,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	666 = {
+	id666 = {
 		source = "Vasarin Redmorn",
 		drop_rate = "Unknown",
 		name = "Shan'ze Partisan's Greatcloak",
@@ -6669,7 +6669,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	667 = {
+	id667 = {
 		source = "Vasarin Redmorn",
 		drop_rate = "Unknown",
 		name = "Cloak of the Immortal Guardian",
@@ -6679,7 +6679,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	668 = {
+	id668 = {
 		source = "Armsmaster Holinka",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cape of Cruelty",
@@ -6689,7 +6689,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	669 = {
+	id669 = {
 		source = "Armsmaster Holinka",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cape of Prowess",
@@ -6699,7 +6699,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	670 = {
+	id670 = {
 		source = "Armsmaster Holinka",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Cruelty",
@@ -6709,7 +6709,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	671 = {
+	id671 = {
 		source = "Armsmaster Holinka",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Prowess",
@@ -6719,7 +6719,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	672 = {
+	id672 = {
 		source = "Armsmaster Holinka",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Meditation",
@@ -6729,7 +6729,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	673 = {
+	id673 = {
 		source = "Armsmaster Holinka",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cloak of Alacrity",
@@ -6739,7 +6739,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	674 = {
+	id674 = {
 		source = "Armsmaster Holinka",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cloak of Prowess",
@@ -6749,7 +6749,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	675 = {
+	id675 = {
 		source = "Roo Desvin",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cape of Prowess",
@@ -6759,7 +6759,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	676 = {
+	id676 = {
 		source = "Roo Desvin",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Cruelty",
@@ -6769,7 +6769,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	677 = {
+	id677 = {
 		source = "Roo Desvin",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cape of Cruelty",
@@ -6779,7 +6779,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	678 = {
+	id678 = {
 		source = "Roo Desvin",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Meditation",
@@ -6789,7 +6789,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	679 = {
+	id679 = {
 		source = "Roo Desvin",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cloak of Alacrity",
@@ -6799,7 +6799,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	680 = {
+	id680 = {
 		source = "Roo Desvin",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Cloak of Prowess",
@@ -6809,7 +6809,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	681 = {
+	id681 = {
 		source = "Roo Desvin",
 		drop_rate = "Unknown",
 		name = "Tyrannical Gladiator's Drape of Prowess",
@@ -6819,7 +6819,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	682 = {
+	id682 = {
 		source = "Liu Flameheart",
 		drop_rate = "0.0",
 		name = "Cape of Entanglement",
@@ -6829,7 +6829,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Temple of the Jade Serpent"
 	},
-	683 = {
+	id683 = {
 		source = "Wise Mari",
 		drop_rate = "0.0",
 		name = "Wind-Soaked Drape",
@@ -6839,7 +6839,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Temple of the Jade Serpent"
 	},
-	684 = {
+	id684 = {
 		source = "Sha of Doubt",
 		drop_rate = "0.0",
 		name = "Cloak of Failing Will",
@@ -6849,7 +6849,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Temple of the Jade Serpent"
 	},
-	685 = {
+	id685 = {
 		source = "Hoptallus",
 		drop_rate = "0.0",
 		name = "Cloak of Hidden Flasks",
@@ -6859,7 +6859,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Stormstout Brewery"
 	},
-	686 = {
+	id686 = {
 		source = "Raigonn",
 		drop_rate = "0.0",
 		name = "Drape of the Screeching Swarm",
@@ -6869,7 +6869,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Gate of the Setting Sun"
 	},
-	687 = {
+	id687 = {
 		source = "General Pavalak",
 		drop_rate = "0.0",
 		name = "Aerial Bombardment Cloak",
@@ -6879,7 +6879,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Niuzao Temple"
 	},
-	688 = {
+	id688 = {
 		source = "Thalnos the Soulrender",
 		drop_rate = "0.0",
 		name = "Soulrender Greatcloak",
@@ -6889,7 +6889,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Scarlet Monastery"
 	},
-	689 = {
+	id689 = {
 		source = "Brother Korloff",
 		drop_rate = "0.0",
 		name = "Scorched Earth Cloak",
@@ -6899,7 +6899,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Scarlet Monastery"
 	},
-	690 = {
+	id690 = {
 		source = "Jandice Barov",
 		drop_rate = "0.0",
 		name = "Phantasmal Drape",
@@ -6909,7 +6909,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Scholomance"
 	},
-	691 = {
+	id691 = {
 		source = "Hayden Christophen",
 		drop_rate = "Unknown",
 		name = "Dreadful Gladiator's Cape of Cruelty",
@@ -6919,7 +6919,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	692 = {
+	id692 = {
 		source = "Hayden Christophen",
 		drop_rate = "Unknown",
 		name = "Dreadful Gladiator's Cape of Prowess",
@@ -6929,7 +6929,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	693 = {
+	id693 = {
 		source = "Hayden Christophen",
 		drop_rate = "Unknown",
 		name = "Dreadful Gladiator's Drape of Prowess",
@@ -6939,7 +6939,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	694 = {
+	id694 = {
 		source = "Hayden Christophen",
 		drop_rate = "Unknown",
 		name = "Dreadful Gladiator's Drape of Cruelty",
@@ -6949,7 +6949,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	695 = {
+	id695 = {
 		source = "Hayden Christophen",
 		drop_rate = "Unknown",
 		name = "Dreadful Gladiator's Drape of Meditation",
@@ -6959,7 +6959,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	696 = {
+	id696 = {
 		source = "Hayden Christophen",
 		drop_rate = "Unknown",
 		name = "Dreadful Gladiator's Cloak of Alacrity",
@@ -6969,7 +6969,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	697 = {
+	id697 = {
 		source = "Hayden Christophen",
 		drop_rate = "Unknown",
 		name = "Dreadful Gladiator's Cloak of Prowess",
@@ -6979,7 +6979,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	698 = {
+	id698 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Quick Strike Cloak",
@@ -6989,7 +6989,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	699 = {
+	id699 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Stormscale Drape",
@@ -6999,7 +6999,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	700 = {
+	id700 = {
 		source = "Thats a Big Bug!",
 		drop_rate = "quest",
 		name = "Carapace Inlaid Drape",
@@ -7009,7 +7009,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Gate of the Setting Sun"
 	},
-	701 = {
+	id701 = {
 		source = "Thats a Big Bug!",
 		drop_rate = "quest",
 		name = "Cloak of the Unending Swarm",
@@ -7019,7 +7019,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Gate of the Setting Sun"
 	},
-	702 = {
+	id702 = {
 		source = "Thats a Big Bug!",
 		drop_rate = "quest",
 		name = "Cloak of Collective Thought",
@@ -7029,7 +7029,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Gate of the Setting Sun"
 	},
-	703 = {
+	id703 = {
 		source = "Thats a Big Bug!",
 		drop_rate = "quest",
 		name = "Drape of the Burning Signal",
@@ -7039,7 +7039,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Gate of the Setting Sun"
 	},
-	704 = {
+	id704 = {
 		source = "Thats a Big Bug!",
 		drop_rate = "quest",
 		name = "Mantid Exterminator's Cloak",
@@ -7049,7 +7049,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Gate of the Setting Sun"
 	},
-	705 = {
+	id705 = {
 		source = "Lingering Corruption",
 		drop_rate = "0.0",
 		name = "Blade-Dulling Greatcloak",
@@ -7059,7 +7059,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Orgrimmar"
 	},
-	706 = {
+	id706 = {
 		source = "Krikthik Rager",
 		drop_rate = "0.0",
 		name = "Aquino's Cloak of Unity",
@@ -7069,7 +7069,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Gate of the Setting Sun"
 	},
-	707 = {
+	id707 = {
 		source = "Skittering Spiderling",
 		drop_rate = "0.0",
 		name = "Drape of Flowing Gauze",
@@ -7079,7 +7079,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Throne of Thunder"
 	},
-	708 = {
+	id708 = {
 		source = "Fleshcrafter Hoku",
 		drop_rate = "0.0",
 		name = "Brilliant Cloak of Wu the Younger",
@@ -7089,7 +7089,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Isle of Thunder"
 	},
-	709 = {
+	id709 = {
 		source = "Sahn Tidehunter",
 		drop_rate = "0.0",
 		name = "Cloak of the Forgotten Emperor",
@@ -7099,7 +7099,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	710 = {
+	id710 = {
 		source = "Sahn Tidehunter",
 		drop_rate = "0.0",
 		name = "Jade Harbinger's Cloak",
@@ -7109,7 +7109,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	711 = {
+	id711 = {
 		source = "Urgolax",
 		drop_rate = "0.0",
 		name = "Cloak of Tranquil Clouds",
@@ -7119,7 +7119,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	712 = {
+	id712 = {
 		source = "Moldo One-Eye",
 		drop_rate = "0.0",
 		name = "Tattered Guo-Lai Dynasty Cloak",
@@ -7129,7 +7129,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	713 = {
+	id713 = {
 		source = "Sahn Tidehunter",
 		drop_rate = "0.0",
 		name = "Softfoot's Drape",
@@ -7139,7 +7139,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	714 = {
+	id714 = {
 		source = "Commander Lo Ping",
 		drop_rate = "Unknown",
 		name = "Bladesong Cloak",
@@ -7149,7 +7149,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	715 = {
+	id715 = {
 		source = "Commander Lo Ping",
 		drop_rate = "Unknown",
 		name = "Cloak of Ancient Curses",
@@ -7159,7 +7159,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	716 = {
+	id716 = {
 		source = "Commander Lo Ping",
 		drop_rate = "Unknown",
 		name = "Pressed Flower Cloak",
@@ -7169,7 +7169,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	717 = {
+	id717 = {
 		source = "Commander Lo Ping",
 		drop_rate = "Unknown",
 		name = "Ribcracker's Cloak",
@@ -7179,7 +7179,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	718 = {
+	id718 = {
 		source = "Commander Lo Ping",
 		drop_rate = "Unknown",
 		name = "Cloak of the Silent Mountain",
@@ -7189,7 +7189,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	719 = {
+	id719 = {
 		source = "General Pavalak",
 		drop_rate = "0.0",
 		name = "Aerial Bombardment Cloak",
@@ -7199,7 +7199,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Niuzao Temple"
 	},
-	720 = {
+	id720 = {
 		source = "Mistweaver Xia",
 		drop_rate = "Unknown",
 		name = "Blackguard Cape",
@@ -7209,7 +7209,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	721 = {
+	id721 = {
 		source = "Mistweaver Xia",
 		drop_rate = "Unknown",
 		name = "Sagewhisper's Wrap",
@@ -7219,7 +7219,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	722 = {
+	id722 = {
 		source = "Liu Flameheart",
 		drop_rate = "0.0",
 		name = "Cape of Entanglement",
@@ -7229,7 +7229,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Temple of the Jade Serpent"
 	},
-	723 = {
+	id723 = {
 		source = "Wise Mari",
 		drop_rate = "0.0",
 		name = "Wind-Soaked Drape",
@@ -7239,7 +7239,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Temple of the Jade Serpent"
 	},
-	724 = {
+	id724 = {
 		source = "Sha of Doubt",
 		drop_rate = "0.0",
 		name = "Cloak of Failing Will",
@@ -7249,7 +7249,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Temple of the Jade Serpent"
 	},
-	725 = {
+	id725 = {
 		source = "Hoptallus",
 		drop_rate = "0.0",
 		name = "Cloak of Hidden Flasks",
@@ -7259,7 +7259,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Stormstout Brewery"
 	},
-	726 = {
+	id726 = {
 		source = "Raigonn",
 		drop_rate = "0.0",
 		name = "Drape of the Screeching Swarm",
@@ -7269,7 +7269,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Gate of the Setting Sun"
 	},
-	727 = {
+	id727 = {
 		source = "General Pavalak",
 		drop_rate = "0.0",
 		name = "Aerial Bombardment Cloak",
@@ -7279,7 +7279,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Siege of Niuzao Temple"
 	},
-	728 = {
+	id728 = {
 		source = "Thalnos the Soulrender",
 		drop_rate = "0.0",
 		name = "Soulrender Greatcloak",
@@ -7289,7 +7289,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Scarlet Monastery"
 	},
-	729 = {
+	id729 = {
 		source = "Brother Korloff",
 		drop_rate = "0.0",
 		name = "Scorched Earth Cloak",
@@ -7299,7 +7299,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Scarlet Monastery"
 	},
-	730 = {
+	id730 = {
 		source = "Jandice Barov",
 		drop_rate = "0.0",
 		name = "Phantasmal Drape",
@@ -7309,7 +7309,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Scholomance"
 	},
-	731 = {
+	id731 = {
 		source = "Bound With Shade",
 		drop_rate = "quest",
 		name = "Shadebound Cape",
@@ -7319,7 +7319,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Dread Wastes"
 	},
-	732 = {
+	id732 = {
 		source = "Bound With Shade",
 		drop_rate = "quest",
 		name = "Vu's Drape",
@@ -7329,7 +7329,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Dread Wastes"
 	},
-	733 = {
+	id733 = {
 		source = "Bound With Shade",
 		drop_rate = "quest",
 		name = "Sapmaster's Cloak",
@@ -7339,7 +7339,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Dread Wastes"
 	},
-	734 = {
+	id734 = {
 		source = "Bound With Shade",
 		drop_rate = "quest",
 		name = "Brewgarden Cape",
@@ -7349,7 +7349,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Dread Wastes"
 	},
-	735 = {
+	id735 = {
 		source = "Bound With Shade",
 		drop_rate = "quest",
 		name = "Sunset Cloak",
@@ -7359,7 +7359,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Dread Wastes"
 	},
-	736 = {
+	id736 = {
 		source = "Icespine Stinger",
 		drop_rate = "0.0",
 		name = "Coldsinger Cloak",
@@ -7369,7 +7369,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Frostfire Ridge"
 	},
-	737 = {
+	id737 = {
 		source = "Thunderlord Stalker",
 		drop_rate = "0.0",
 		name = "Moonwhisper Cloak",
@@ -7379,7 +7379,7 @@ cloaks_url_db = {
 		expansion = "Warlords Of Draenor",
 		location = "Frostfire Ridge"
 	},
-	738 = {
+	id738 = {
 		source = "Riverblade Raider",
 		drop_rate = "0.0",
 		name = "Immaculate Cloak",
@@ -7389,7 +7389,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	739 = {
+	id739 = {
 		source = "Enraged By Hatred",
 		drop_rate = "quest",
 		name = "Cloak of the Hollow",
@@ -7399,7 +7399,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	740 = {
+	id740 = {
 		source = "Enraged By Hatred",
 		drop_rate = "quest",
 		name = "Cloak of Seething Hatred",
@@ -7409,7 +7409,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	741 = {
+	id741 = {
 		source = "Enraged By Hatred",
 		drop_rate = "quest",
 		name = "Scorpion Drape",
@@ -7419,7 +7419,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	742 = {
+	id742 = {
 		source = "Enraged By Hatred",
 		drop_rate = "quest",
 		name = "Fleshripper Cape",
@@ -7429,7 +7429,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	743 = {
+	id743 = {
 		source = "Enraged By Hatred",
 		drop_rate = "quest",
 		name = "Dusklight Drape",
@@ -7439,7 +7439,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	744 = {
+	id744 = {
 		source = "Glade Singer",
 		drop_rate = "0.0",
 		name = "Roffle's Flowing Raiment",
@@ -7449,7 +7449,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	745 = {
+	id745 = {
 		source = "The Burlap Trail: To Kota Basecamp",
 		drop_rate = "quest",
 		name = "Snowfall Shawl",
@@ -7459,7 +7459,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	746 = {
+	id746 = {
 		source = "The Burlap Trail: To Kota Basecamp",
 		drop_rate = "quest",
 		name = "Snowdrift Drape",
@@ -7469,7 +7469,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	747 = {
+	id747 = {
 		source = "The Burlap Trail: To Kota Basecamp",
 		drop_rate = "quest",
 		name = "Snowblind Cape",
@@ -7479,7 +7479,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	748 = {
+	id748 = {
 		source = "The Burlap Trail: To Kota Basecamp",
 		drop_rate = "quest",
 		name = "Snow Boulder Manteau",
@@ -7489,7 +7489,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	749 = {
+	id749 = {
 		source = "The Burlap Trail: To Kota Basecamp",
 		drop_rate = "quest",
 		name = "Snowmask Cloak",
@@ -7499,7 +7499,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Kun-Lai Summit"
 	},
-	750 = {
+	id750 = {
 		source = "Liu Flameheart",
 		drop_rate = "0.0",
 		name = "Cape of Entanglement",
@@ -7509,7 +7509,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Temple of the Jade Serpent"
 	},
-	751 = {
+	id751 = {
 		source = "Family Secrets",
 		drop_rate = "quest",
 		name = "Stormstout Drink Napkin",
@@ -7519,7 +7519,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Stormstout Brewery"
 	},
-	752 = {
+	id752 = {
 		source = "Family Secrets",
 		drop_rate = "quest",
 		name = "Used Bar Rag",
@@ -7529,7 +7529,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Stormstout Brewery"
 	},
-	753 = {
+	id753 = {
 		source = "Family Secrets",
 		drop_rate = "quest",
 		name = "Auntie's Cooking Apron",
@@ -7539,7 +7539,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Stormstout Brewery"
 	},
-	754 = {
+	id754 = {
 		source = "Family Secrets",
 		drop_rate = "quest",
 		name = "Tasting Room Tablecloth",
@@ -7549,7 +7549,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Stormstout Brewery"
 	},
-	755 = {
+	id755 = {
 		source = "Family Secrets",
 		drop_rate = "quest",
 		name = "Blackened Chain Cloak",
@@ -7559,7 +7559,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Stormstout Brewery"
 	},
-	756 = {
+	id756 = {
 		source = "Kargesh Ribcrusher",
 		drop_rate = "0.0",
 		name = "Grummle Cloak",
@@ -7569,7 +7569,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Palace"
 	},
-	757 = {
+	id757 = {
 		source = "Granite Quilen",
 		drop_rate = "0.0",
 		name = "Bejeweled Cloak",
@@ -7579,7 +7579,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	758 = {
+	id758 = {
 		source = "Len at Arms",
 		drop_rate = "Unknown",
 		name = "Wasteland Shawl",
@@ -7589,7 +7589,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	759 = {
+	id759 = {
 		source = "Len at Arms",
 		drop_rate = "Unknown",
 		name = "Wasteland Drape",
@@ -7599,7 +7599,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	760 = {
+	id760 = {
 		source = "Len at Arms",
 		drop_rate = "Unknown",
 		name = "Wasteland Cape",
@@ -7609,7 +7609,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	761 = {
+	id761 = {
 		source = "Len at Arms",
 		drop_rate = "Unknown",
 		name = "Wasteland Manteau",
@@ -7619,7 +7619,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	762 = {
+	id762 = {
 		source = "Len at Arms",
 		drop_rate = "Unknown",
 		name = "Wasteland Cloak",
@@ -7629,7 +7629,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Vale of Eternal Blossoms"
 	},
-	763 = {
+	id763 = {
 		source = "The Pools of Youth",
 		drop_rate = "quest",
 		name = "Drape of the Lagoon",
@@ -7639,7 +7639,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	764 = {
+	id764 = {
 		source = "The Pools of Youth",
 		drop_rate = "quest",
 		name = "Waterfall Drape",
@@ -7649,7 +7649,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	765 = {
+	id765 = {
 		source = "The Pools of Youth",
 		drop_rate = "quest",
 		name = "Canopy Drape",
@@ -7659,7 +7659,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	766 = {
+	id766 = {
 		source = "The Pools of Youth",
 		drop_rate = "quest",
 		name = "Greenback Cape",
@@ -7669,7 +7669,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	767 = {
+	id767 = {
 		source = "The Pools of Youth",
 		drop_rate = "quest",
 		name = "Balmy Drape",
@@ -7679,7 +7679,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	768 = {
+	id768 = {
 		source = "The Great Water Hunt",
 		drop_rate = "quest",
 		name = "Embrace of Trees",
@@ -7689,7 +7689,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	769 = {
+	id769 = {
 		source = "The Great Water Hunt",
 		drop_rate = "quest",
 		name = "Dustback Cloak",
@@ -7699,7 +7699,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	770 = {
+	id770 = {
 		source = "The Great Water Hunt",
 		drop_rate = "quest",
 		name = "Tawnyhide Cape",
@@ -7709,7 +7709,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	771 = {
+	id771 = {
 		source = "The Great Water Hunt",
 		drop_rate = "quest",
 		name = "Mudmug's Cloak",
@@ -7719,7 +7719,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	772 = {
+	id772 = {
 		source = "The Great Water Hunt",
 		drop_rate = "quest",
 		name = "Cloak of the Grassy Cline",
@@ -7729,7 +7729,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	773 = {
+	id773 = {
 		source = "The Stoneplow Convoy",
 		drop_rate = "quest",
 		name = "Imperial Lotus Shawl",
@@ -7739,7 +7739,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	774 = {
+	id774 = {
 		source = "The Stoneplow Convoy",
 		drop_rate = "quest",
 		name = "Imperial Lotus Drape",
@@ -7749,7 +7749,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	775 = {
+	id775 = {
 		source = "The Stoneplow Convoy",
 		drop_rate = "quest",
 		name = "Imperial Lotus Cape",
@@ -7759,7 +7759,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	776 = {
+	id776 = {
 		source = "The Stoneplow Convoy",
 		drop_rate = "quest",
 		name = "Imperial Lotus Manteau",
@@ -7769,7 +7769,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	777 = {
+	id777 = {
 		source = "The Stoneplow Convoy",
 		drop_rate = "quest",
 		name = "Imperial Lotus Cloak",
@@ -7779,7 +7779,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Krasarang Wilds"
 	},
-	778 = {
+	id778 = {
 		source = "Where Silk Comes From",
 		drop_rate = "quest",
 		name = "Silkmaster's Shawl",
@@ -7789,7 +7789,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	779 = {
+	id779 = {
 		source = "Where Silk Comes From",
 		drop_rate = "quest",
 		name = "Silkmaster's Drape",
@@ -7799,7 +7799,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	780 = {
+	id780 = {
 		source = "Where Silk Comes From",
 		drop_rate = "quest",
 		name = "Silkmaster's Cape",
@@ -7809,7 +7809,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	781 = {
+	id781 = {
 		source = "Where Silk Comes From",
 		drop_rate = "quest",
 		name = "Silkmaster's Manteau",
@@ -7819,7 +7819,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	782 = {
+	id782 = {
 		source = "Where Silk Comes From",
 		drop_rate = "quest",
 		name = "Silkmaster's Cloak",
@@ -7829,7 +7829,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	783 = {
+	id783 = {
 		source = "Lord Rhyolith",
 		drop_rate = "0.0",
 		name = "Dreadfire Drape",
@@ -7839,7 +7839,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Firelands"
 	},
-	784 = {
+	id784 = {
 		source = "Alysrazor",
 		drop_rate = "0.0",
 		name = "Wings of Flame",
@@ -7849,7 +7849,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Firelands"
 	},
-	785 = {
+	id785 = {
 		source = "Alizabal",
 		drop_rate = "0.0",
 		name = "Cataclysmic Gladiator's Cloak of Prowess",
@@ -7859,7 +7859,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	786 = {
+	id786 = {
 		source = "Alizabal",
 		drop_rate = "0.0",
 		name = "Cataclysmic Gladiator's Cloak of Alacrity",
@@ -7869,7 +7869,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	787 = {
+	id787 = {
 		source = "Alizabal",
 		drop_rate = "0.0",
 		name = "Cataclysmic Gladiator's Drape of Meditation",
@@ -7879,7 +7879,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	788 = {
+	id788 = {
 		source = "Alizabal",
 		drop_rate = "0.0",
 		name = "Cataclysmic Gladiator's Drape of Diffusion",
@@ -7889,7 +7889,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	789 = {
+	id789 = {
 		source = "Alizabal",
 		drop_rate = "0.0",
 		name = "Cataclysmic Gladiator's Drape of Prowess",
@@ -7899,7 +7899,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	790 = {
+	id790 = {
 		source = "Alizabal",
 		drop_rate = "0.0",
 		name = "Cataclysmic Gladiator's Cape of Prowess",
@@ -7909,7 +7909,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	791 = {
+	id791 = {
 		source = "Alizabal",
 		drop_rate = "0.0",
 		name = "Cataclysmic Gladiator's Cape of Cruelty",
@@ -7919,7 +7919,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	792 = {
+	id792 = {
 		source = "JamusVaz",
 		drop_rate = "Unknown",
 		name = "Batwing Cloak",
@@ -7929,7 +7929,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	793 = {
+	id793 = {
 		source = "JamusVaz",
 		drop_rate = "Unknown",
 		name = "Woundlicker Cover",
@@ -7939,7 +7939,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	794 = {
+	id794 = {
 		source = "JamusVaz",
 		drop_rate = "Unknown",
 		name = "Dreamcrusher Drape",
@@ -7949,7 +7949,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	795 = {
+	id795 = {
 		source = "JamusVaz",
 		drop_rate = "Unknown",
 		name = "Nanoprecise Cape",
@@ -7959,7 +7959,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	796 = {
+	id796 = {
 		source = "JamusVaz",
 		drop_rate = "Unknown",
 		name = "Indefatigable Greatcloak",
@@ -7969,7 +7969,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	797 = {
+	id797 = {
 		source = "Kargesh Highguard",
 		drop_rate = "0.0",
 		name = "Shamanic Cloak",
@@ -7979,7 +7979,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Mogu'shan Palace"
 	},
-	798 = {
+	id798 = {
 		source = "Alin the Finder",
 		drop_rate = "Unknown",
 		name = "Mountainscaler Shawl",
@@ -7989,7 +7989,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	799 = {
+	id799 = {
 		source = "Alin the Finder",
 		drop_rate = "Unknown",
 		name = "Mountainscaler Drape",
@@ -7999,7 +7999,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	800 = {
+	id800 = {
 		source = "Alin the Finder",
 		drop_rate = "Unknown",
 		name = "Mountainscaler Cape",
@@ -8009,7 +8009,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	801 = {
+	id801 = {
 		source = "Alin the Finder",
 		drop_rate = "Unknown",
 		name = "Mountainscaler Manteau",
@@ -8019,7 +8019,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	802 = {
+	id802 = {
 		source = "Alin the Finder",
 		drop_rate = "Unknown",
 		name = "Mountainscaler Cloak",
@@ -8029,7 +8029,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Townlong Steppes"
 	},
-	803 = {
+	id803 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Misthide Drape",
@@ -8039,7 +8039,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	804 = {
+	id804 = {
 		source = "Whats Mined Is Yours",
 		drop_rate = "quest",
 		name = "Veridian Cloak",
@@ -8049,7 +8049,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	805 = {
+	id805 = {
 		source = "Whats Mined Is Yours",
 		drop_rate = "quest",
 		name = "Nectarbreeze Cloak",
@@ -8059,7 +8059,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	806 = {
+	id806 = {
 		source = "Whats Mined Is Yours",
 		drop_rate = "quest",
 		name = "Mann's Cloak",
@@ -8069,7 +8069,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	807 = {
+	id807 = {
 		source = "Whats Mined Is Yours",
 		drop_rate = "quest",
 		name = "Honey-Bear's Cape",
@@ -8079,7 +8079,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	808 = {
+	id808 = {
 		source = "Whats Mined Is Yours",
 		drop_rate = "quest",
 		name = "Cloudfall Cloak",
@@ -8089,7 +8089,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	809 = {
+	id809 = {
 		source = "Wicked Wikkets",
 		drop_rate = "quest",
 		name = "Wikket Surcoat",
@@ -8099,7 +8099,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	810 = {
+	id810 = {
 		source = "Wicked Wikkets",
 		drop_rate = "quest",
 		name = "Wikket Drape",
@@ -8109,7 +8109,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	811 = {
+	id811 = {
 		source = "Wicked Wikkets",
 		drop_rate = "quest",
 		name = "Wikket Cape",
@@ -8119,7 +8119,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	812 = {
+	id812 = {
 		source = "Wicked Wikkets",
 		drop_rate = "quest",
 		name = "Wikket Cloak",
@@ -8129,7 +8129,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	813 = {
+	id813 = {
 		source = "Wicked Wikkets",
 		drop_rate = "quest",
 		name = "Wikket Wrap",
@@ -8139,7 +8139,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	814 = {
+	id814 = {
 		source = "Rugok",
 		drop_rate = "Unknown",
 		name = "Floating Web",
@@ -8149,7 +8149,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	815 = {
+	id815 = {
 		source = "Rugok",
 		drop_rate = "Unknown",
 		name = "Viewless Wings",
@@ -8159,7 +8159,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	816 = {
+	id816 = {
 		source = "Rugok",
 		drop_rate = "Unknown",
 		name = "Gray Hair Cloak",
@@ -8169,7 +8169,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	817 = {
+	id817 = {
 		source = "Rugok",
 		drop_rate = "Unknown",
 		name = "Haunt of Flies",
@@ -8179,7 +8179,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	818 = {
+	id818 = {
 		source = "Rugok",
 		drop_rate = "Unknown",
 		name = "Heavenly Breeze",
@@ -8189,7 +8189,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	819 = {
+	id819 = {
 		source = "Maloriak",
 		drop_rate = "0.0",
 		name = "Cloak of Biting Chill",
@@ -8199,7 +8199,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackwing Descent"
 	},
-	820 = {
+	id820 = {
 		source = "Onyxia",
 		drop_rate = "Unknown",
 		name = "Shadow of Dread",
@@ -8209,7 +8209,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackwing Descent"
 	},
-	821 = {
+	id821 = {
 		source = "Golem Sentry",
 		drop_rate = "0.0",
 		name = "Ironstar's Impenetrable Cover",
@@ -8219,7 +8219,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackwing Descent"
 	},
-	822 = {
+	id822 = {
 		source = "Ignacious",
 		drop_rate = "Unknown",
 		name = "Glittering Epidermis",
@@ -8229,7 +8229,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Bastion of Twilight"
 	},
-	823 = {
+	id823 = {
 		source = "Valiona",
 		drop_rate = "0.0",
 		name = "Drape of the Twins",
@@ -8239,7 +8239,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Bastion of Twilight"
 	},
-	824 = {
+	id824 = {
 		source = "Argaloth",
 		drop_rate = "0.0",
 		name = "Vicious Gladiator's Cloak of Alacrity",
@@ -8249,7 +8249,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	825 = {
+	id825 = {
 		source = "Argaloth",
 		drop_rate = "0.0",
 		name = "Vicious Gladiator's Cloak of Prowess",
@@ -8259,7 +8259,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	826 = {
+	id826 = {
 		source = "Argaloth",
 		drop_rate = "0.0",
 		name = "Vicious Gladiator's Cape of Prowess",
@@ -8269,7 +8269,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	827 = {
+	id827 = {
 		source = "Argaloth",
 		drop_rate = "0.0",
 		name = "Vicious Gladiator's Cape of Cruelty",
@@ -8279,7 +8279,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	828 = {
+	id828 = {
 		source = "Argaloth",
 		drop_rate = "0.0",
 		name = "Vicious Gladiator's Drape of Diffusion",
@@ -8289,7 +8289,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	829 = {
+	id829 = {
 		source = "Argaloth",
 		drop_rate = "0.0",
 		name = "Vicious Gladiator's Drape of Prowess",
@@ -8299,7 +8299,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	830 = {
+	id830 = {
 		source = "Argaloth",
 		drop_rate = "0.0",
 		name = "Vicious Gladiator's Drape of Meditation",
@@ -8309,7 +8309,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	831 = {
+	id831 = {
 		source = "Provisioner Whitecloud",
 		drop_rate = "Unknown",
 		name = "Wrap of the Great Turtle",
@@ -8319,7 +8319,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Mount Hyjal"
 	},
-	832 = {
+	id832 = {
 		source = "Onyxia",
 		drop_rate = "Unknown",
 		name = "Shadow of Dread",
@@ -8329,7 +8329,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackwing Descent"
 	},
-	833 = {
+	id833 = {
 		source = "Maloriak",
 		drop_rate = "0.0",
 		name = "Cloak of Biting Chill",
@@ -8339,7 +8339,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackwing Descent"
 	},
-	834 = {
+	id834 = {
 		source = "Valiona",
 		drop_rate = "0.0",
 		name = "Drape of the Twins",
@@ -8349,7 +8349,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Bastion of Twilight"
 	},
-	835 = {
+	id835 = {
 		source = "Ignacious",
 		drop_rate = "Unknown",
 		name = "Glittering Epidermis",
@@ -8359,7 +8359,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Bastion of Twilight"
 	},
-	836 = {
+	id836 = {
 		source = "Garr",
 		drop_rate = "0.0",
 		name = "Ritssyn's Ruminous Drape",
@@ -8369,7 +8369,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Mount Hyjal"
 	},
-	837 = {
+	id837 = {
 		source = "Garr",
 		drop_rate = "0.0",
 		name = "Dory's Finery",
@@ -8379,7 +8379,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Mount Hyjal"
 	},
-	838 = {
+	id838 = {
 		source = "Garr",
 		drop_rate = "0.0",
 		name = "Drape of Inimitable Fate",
@@ -8389,7 +8389,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Mount Hyjal"
 	},
-	839 = {
+	id839 = {
 		source = "Stonecore Flayer",
 		drop_rate = "0.0",
 		name = "Zom's Electrostatic Cloak",
@@ -8399,7 +8399,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Stonecore"
 	},
-	840 = {
+	id840 = {
 		source = "Hex Lord Malacrass",
 		drop_rate = "0.0",
 		name = "Hex Lord's Bloody Cloak",
@@ -8409,7 +8409,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Zul'Aman"
 	},
-	841 = {
+	id841 = {
 		source = "Bloodlord Mandokir",
 		drop_rate = "0.0",
 		name = "Hakkari Loa Drape",
@@ -8419,7 +8419,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Zul'Gurub"
 	},
-	842 = {
+	id842 = {
 		source = "Zandalari Juggernaut",
 		drop_rate = "0.0",
 		name = "Spiritcaller Cloak",
@@ -8429,7 +8429,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Zul'Gurub"
 	},
-	843 = {
+	id843 = {
 		source = "Chosen of Hethiss",
 		drop_rate = "0.0",
 		name = "Spiritguard Drape",
@@ -8439,7 +8439,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Zul'Gurub"
 	},
-	844 = {
+	id844 = {
 		source = "Occuthar",
 		drop_rate = "0.0",
 		name = "Ruthless Gladiator's Cloak of Alacrity",
@@ -8449,7 +8449,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	845 = {
+	id845 = {
 		source = "Occuthar",
 		drop_rate = "0.0",
 		name = "Ruthless Gladiator's Cloak of Prowess",
@@ -8459,7 +8459,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	846 = {
+	id846 = {
 		source = "Occuthar",
 		drop_rate = "0.0",
 		name = "Ruthless Gladiator's Cape of Prowess",
@@ -8469,7 +8469,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	847 = {
+	id847 = {
 		source = "Occuthar",
 		drop_rate = "0.0",
 		name = "Ruthless Gladiator's Cape of Cruelty",
@@ -8479,7 +8479,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	848 = {
+	id848 = {
 		source = "Occuthar",
 		drop_rate = "0.0",
 		name = "Ruthless Gladiator's Drape of Diffusion",
@@ -8489,7 +8489,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	849 = {
+	id849 = {
 		source = "Occuthar",
 		drop_rate = "0.0",
 		name = "Ruthless Gladiator's Drape of Prowess",
@@ -8499,7 +8499,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	850 = {
+	id850 = {
 		source = "Occuthar",
 		drop_rate = "0.0",
 		name = "Ruthless Gladiator's Drape of Meditation",
@@ -8509,7 +8509,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Baradin Hold"
 	},
-	851 = {
+	id851 = {
 		source = "Naresir Stormfury",
 		drop_rate = "Unknown",
 		name = "Durable Flamewrath Greatcloak",
@@ -8519,7 +8519,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Firelands"
 	},
-	852 = {
+	id852 = {
 		source = "Alysrazor",
 		drop_rate = "0.0",
 		name = "Wings of Flame",
@@ -8529,7 +8529,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Firelands"
 	},
-	853 = {
+	id853 = {
 		source = "Lord Rhyolith",
 		drop_rate = "0.0",
 		name = "Dreadfire Drape",
@@ -8539,7 +8539,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Firelands"
 	},
-	854 = {
+	id854 = {
 		source = "Naresir Stormfury",
 		drop_rate = "Unknown",
 		name = "Bladed Flamewrath Cover",
@@ -8549,7 +8549,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Firelands"
 	},
-	855 = {
+	id855 = {
 		source = "Naresir Stormfury",
 		drop_rate = "Unknown",
 		name = "Sleek Flamewrath Cloak",
@@ -8559,7 +8559,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Firelands"
 	},
-	856 = {
+	id856 = {
 		source = "Naresir Stormfury",
 		drop_rate = "Unknown",
 		name = "Flowing Flamewrath Cape",
@@ -8569,7 +8569,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Firelands"
 	},
-	857 = {
+	id857 = {
 		source = "Naresir Stormfury",
 		drop_rate = "Unknown",
 		name = "Rippling Flamewrath Drape",
@@ -8579,7 +8579,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Firelands"
 	},
-	858 = {
+	id858 = {
 		source = "Ecton Brasstumbler",
 		drop_rate = "Unknown",
 		name = "Ruthless Gladiator's Cape of Cruelty",
@@ -8589,7 +8589,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Tanaris"
 	},
-	859 = {
+	id859 = {
 		source = "Ecton Brasstumbler",
 		drop_rate = "Unknown",
 		name = "Ruthless Gladiator's Cape of Prowess",
@@ -8599,7 +8599,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Tanaris"
 	},
-	860 = {
+	id860 = {
 		source = "Ecton Brasstumbler",
 		drop_rate = "Unknown",
 		name = "Ruthless Gladiator's Drape of Prowess",
@@ -8609,7 +8609,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Tanaris"
 	},
-	861 = {
+	id861 = {
 		source = "Ecton Brasstumbler",
 		drop_rate = "Unknown",
 		name = "Ruthless Gladiator's Drape of Diffusion",
@@ -8619,7 +8619,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Tanaris"
 	},
-	862 = {
+	id862 = {
 		source = "Ecton Brasstumbler",
 		drop_rate = "Unknown",
 		name = "Ruthless Gladiator's Drape of Meditation",
@@ -8629,7 +8629,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Tanaris"
 	},
-	863 = {
+	id863 = {
 		source = "Ecton Brasstumbler",
 		drop_rate = "Unknown",
 		name = "Ruthless Gladiator's Cloak of Alacrity",
@@ -8639,7 +8639,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Tanaris"
 	},
-	864 = {
+	id864 = {
 		source = "Ecton Brasstumbler",
 		drop_rate = "Unknown",
 		name = "Ruthless Gladiator's Cloak of Prowess",
@@ -8649,7 +8649,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Tanaris"
 	},
-	865 = {
+	id865 = {
 		source = "Echo of Sylvanas",
 		drop_rate = "0.0",
 		name = "Cloak of the Banshee Queen",
@@ -8659,7 +8659,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "End Time"
 	},
-	866 = {
+	id866 = {
 		source = "Arcurion",
 		drop_rate = "0.0",
 		name = "Iceward Cloak",
@@ -8669,7 +8669,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Hour of Twilight"
 	},
-	867 = {
+	id867 = {
 		source = "Asira Dawnslayer",
 		drop_rate = "0.0",
 		name = "Cloak of Subtle Light",
@@ -8679,7 +8679,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Hour of Twilight"
 	},
-	868 = {
+	id868 = {
 		source = "Twilight Bruiser",
 		drop_rate = "0.0",
 		name = "Drapes of the Dragonshrine",
@@ -8689,7 +8689,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Hour of Twilight"
 	},
-	869 = {
+	id869 = {
 		source = "General Husam",
 		drop_rate = "0.0",
 		name = "Kaleki Cloak",
@@ -8699,7 +8699,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Lost City of the Tol'vir"
 	},
-	870 = {
+	id870 = {
 		source = "Siamat",
 		drop_rate = "0.0",
 		name = "Geordan's Cloak",
@@ -8709,7 +8709,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Lost City of the Tol'vir"
 	},
-	871 = {
+	id871 = {
 		source = "Rajh",
 		drop_rate = "0.0",
 		name = "Solar Wind Cloak",
@@ -8719,7 +8719,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Halls of Origination"
 	},
-	872 = {
+	id872 = {
 		source = "Drahga Shadowburner",
 		drop_rate = "0.0",
 		name = "Azureborne Cloak",
@@ -8729,7 +8729,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Grim Batol"
 	},
-	873 = {
+	id873 = {
 		source = "Twilight Beguiler",
 		drop_rate = "0.0",
 		name = "Shroud of Dark Memories",
@@ -8739,7 +8739,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Grim Batol"
 	},
-	874 = {
+	id874 = {
 		source = "Lady Nazjar",
 		drop_rate = "0.0",
 		name = "Periwinkle Cloak",
@@ -8749,7 +8749,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Throne of the Tides"
 	},
-	875 = {
+	id875 = {
 		source = "Commander Ulthok",
 		drop_rate = "0.0",
 		name = "Eagle Ray Cloak",
@@ -8759,7 +8759,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Throne of the Tides"
 	},
-	876 = {
+	id876 = {
 		source = "Karsh Steelbender",
 		drop_rate = "0.0",
 		name = "Burned Gatherings",
@@ -8769,7 +8769,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackrock Caverns"
 	},
-	877 = {
+	id877 = {
 		source = "Ascendant Lord Obsidius",
 		drop_rate = "0.0",
 		name = "Twitching Shadows",
@@ -8779,7 +8779,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackrock Caverns"
 	},
-	878 = {
+	id878 = {
 		source = "Asaad",
 		drop_rate = "0.0",
 		name = "Billowing Cape",
@@ -8789,7 +8789,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Vortex Pinnacle"
 	},
-	879 = {
+	id879 = {
 		source = "Asaad",
 		drop_rate = "0.0",
 		name = "Shadow of Perfect Bliss",
@@ -8799,7 +8799,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Vortex Pinnacle"
 	},
-	880 = {
+	id880 = {
 		source = "General Husam",
 		drop_rate = "0.0",
 		name = "Kaleki Cloak",
@@ -8809,7 +8809,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Lost City of the Tol'vir"
 	},
-	881 = {
+	id881 = {
 		source = "Siamat",
 		drop_rate = "0.0",
 		name = "Geordan's Cloak",
@@ -8819,7 +8819,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Lost City of the Tol'vir"
 	},
-	882 = {
+	id882 = {
 		source = "Rajh",
 		drop_rate = "0.0",
 		name = "Solar Wind Cloak",
@@ -8829,7 +8829,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Halls of Origination"
 	},
-	883 = {
+	id883 = {
 		source = "Drahga Shadowburner",
 		drop_rate = "0.0",
 		name = "Azureborne Cloak",
@@ -8839,7 +8839,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Grim Batol"
 	},
-	884 = {
+	id884 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Cloak of Beasts",
@@ -8849,7 +8849,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	885 = {
+	id885 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Cloak of War",
@@ -8859,7 +8859,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	886 = {
+	id886 = {
 		source = "Provisioner Arok",
 		drop_rate = "Unknown",
 		name = "Cloak of Ancient Wisdom",
@@ -8869,7 +8869,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Shimmering Expanse"
 	},
-	887 = {
+	id887 = {
 		source = "Provisioner Arok",
 		drop_rate = "Unknown",
 		name = "Softwind Cape",
@@ -8879,7 +8879,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Shimmering Expanse"
 	},
-	888 = {
+	id888 = {
 		source = "Provisioner Whitecloud",
 		drop_rate = "Unknown",
 		name = "Cloak of the Dryads",
@@ -8889,7 +8889,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Mount Hyjal"
 	},
-	889 = {
+	id889 = {
 		source = "Blacksmith Abasi",
 		drop_rate = "Unknown",
 		name = "Shroud of the Dead",
@@ -8899,7 +8899,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Uldum"
 	},
-	890 = {
+	id890 = {
 		source = "Commander Springvale",
 		drop_rate = "0.0",
 		name = "Springvale's Cloak",
@@ -8909,7 +8909,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Shadowfang Keep"
 	},
-	891 = {
+	id891 = {
 		source = "Glubtok",
 		drop_rate = "0.0",
 		name = "Shadow of the Past",
@@ -8919,7 +8919,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "The Deadmines"
 	},
-	892 = {
+	id892 = {
 		source = "Helix Gearbreaker",
 		drop_rate = "0.0",
 		name = "Cloak of Thredd",
@@ -8929,7 +8929,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "The Deadmines"
 	},
-	893 = {
+	id893 = {
 		source = "Battle of Life and Death",
 		drop_rate = "quest",
 		name = "Cloak of the Red Flight",
@@ -8939,7 +8939,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Twilight Highlands"
 	},
-	894 = {
+	id894 = {
 		source = "Rogoc",
 		drop_rate = "Unknown",
 		name = "Bloodthirsty Gladiator's Cape of Cruelty",
@@ -8949,7 +8949,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	895 = {
+	id895 = {
 		source = "Rogoc",
 		drop_rate = "Unknown",
 		name = "Bloodthirsty Gladiator's Cape of Prowess",
@@ -8959,7 +8959,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	896 = {
+	id896 = {
 		source = "Rogoc",
 		drop_rate = "Unknown",
 		name = "Bloodthirsty Gladiator's Cloak of Alacrity",
@@ -8969,7 +8969,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	897 = {
+	id897 = {
 		source = "Rogoc",
 		drop_rate = "Unknown",
 		name = "Bloodthirsty Gladiator's Cloak of Prowess",
@@ -8979,7 +8979,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	898 = {
+	id898 = {
 		source = "Rogoc",
 		drop_rate = "Unknown",
 		name = "Bloodthirsty Gladiator's Drape of Diffusion",
@@ -8989,7 +8989,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	899 = {
+	id899 = {
 		source = "Rogoc",
 		drop_rate = "Unknown",
 		name = "Bloodthirsty Gladiator's Drape of Meditation",
@@ -8999,7 +8999,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	900 = {
+	id900 = {
 		source = "Rogoc",
 		drop_rate = "Unknown",
 		name = "Bloodthirsty Gladiator's Drape of Prowess",
@@ -9009,8 +9009,8 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Orgrimmar"
 	},
-	901 = {
-		source = "\",
+	id901 = {
+		source = "Boss",
 		drop_rate = "Unknown",
 		name = "Cape of the Brotherhood",
 		category_territory = "Dungeon",
@@ -9019,7 +9019,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "The Deadmines"
 	},
-	902 = {
+	id902 = {
 		source = "The Fall of Neferset City",
 		drop_rate = "quest",
 		name = "Drape of Neferset Destruction",
@@ -9029,7 +9029,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Uldum"
 	},
-	903 = {
+	id903 = {
 		source = "Stone Bat",
 		drop_rate = "0.0",
 		name = "Cloak of Rich Anger",
@@ -9039,7 +9039,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Deepholm"
 	},
-	904 = {
+	id904 = {
 		source = "Wildhammer Warbrand",
 		drop_rate = "0.0",
 		name = "Shade of Death",
@@ -9049,7 +9049,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Twilight Highlands"
 	},
-	905 = {
+	id905 = {
 		source = "Darkwood Lurker",
 		drop_rate = "0.0",
 		name = "Thousand Bandage Drape",
@@ -9059,7 +9059,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Tol Barad Peninsula"
 	},
-	906 = {
+	id906 = {
 		source = "Tanithria",
 		drop_rate = "Unknown",
 		name = "Vicious Embersilk Cape",
@@ -9069,7 +9069,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Dalaran"
 	},
-	907 = {
+	id907 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Vicious Fur Cloak",
@@ -9079,7 +9079,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	908 = {
+	id908 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Vicious Hide Cloak",
@@ -9089,7 +9089,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	909 = {
+	id909 = {
 		source = "Lady Nazjar",
 		drop_rate = "0.0",
 		name = "Periwinkle Cloak",
@@ -9099,7 +9099,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Throne of the Tides"
 	},
-	910 = {
+	id910 = {
 		source = "Commander Ulthok",
 		drop_rate = "0.0",
 		name = "Eagle Ray Cloak",
@@ -9109,7 +9109,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Throne of the Tides"
 	},
-	911 = {
+	id911 = {
 		source = "Slabhide",
 		drop_rate = "0.0",
 		name = "Skin of Stone",
@@ -9119,7 +9119,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Stonecore"
 	},
-	912 = {
+	id912 = {
 		source = "Asaad",
 		drop_rate = "0.0",
 		name = "Billowing Cape",
@@ -9129,7 +9129,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Vortex Pinnacle"
 	},
-	913 = {
+	id913 = {
 		source = "Asaad",
 		drop_rate = "0.0",
 		name = "Shadow of Perfect Bliss",
@@ -9139,7 +9139,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Vortex Pinnacle"
 	},
-	914 = {
+	id914 = {
 		source = "General Husam",
 		drop_rate = "0.0",
 		name = "Kaleki Cloak",
@@ -9149,7 +9149,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Lost City of the Tol'vir"
 	},
-	915 = {
+	id915 = {
 		source = "Siamat",
 		drop_rate = "0.0",
 		name = "Geordan's Cloak",
@@ -9159,7 +9159,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Lost City of the Tol'vir"
 	},
-	916 = {
+	id916 = {
 		source = "Drahga Shadowburner",
 		drop_rate = "0.0",
 		name = "Azureborne Cloak",
@@ -9169,7 +9169,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Grim Batol"
 	},
-	917 = {
+	id917 = {
 		source = "Erudax",
 		drop_rate = "0.0",
 		name = "Shroud of Dark Memories",
@@ -9179,7 +9179,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Grim Batol"
 	},
-	918 = {
+	id918 = {
 		source = "Altairus",
 		drop_rate = "0.0",
 		name = "Billowing Skydrape",
@@ -9189,7 +9189,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Vortex Pinnacle"
 	},
-	919 = {
+	id919 = {
 		source = "Drahga Shadowburner",
 		drop_rate = "0.0",
 		name = "Troggstitched Drape",
@@ -9199,7 +9199,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Grim Batol"
 	},
-	920 = {
+	id920 = {
 		source = "Echo of Sylvanas",
 		drop_rate = "0.0",
 		name = "Cloak of the Banshee Queen",
@@ -9209,7 +9209,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "End Time"
 	},
-	921 = {
+	id921 = {
 		source = "Rot Hide Ichor",
 		drop_rate = "quest",
 		name = "Cloak of Elven Might",
@@ -9219,7 +9219,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Silverpine Forest"
 	},
-	922 = {
+	id922 = {
 		source = "Forgemaster Throngus",
 		drop_rate = "0.0",
 		name = "Troggstitched Drape",
@@ -9229,7 +9229,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Grim Batol"
 	},
-	923 = {
+	id923 = {
 		source = "Altairus",
 		drop_rate = "0.0",
 		name = "Billowing Skydrape",
@@ -9239,7 +9239,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Vortex Pinnacle"
 	},
-	924 = {
+	id924 = {
 		source = "Crafter Kwon",
 		drop_rate = "Unknown",
 		name = "Faded Forest Shawl",
@@ -9249,7 +9249,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	925 = {
+	id925 = {
 		source = "Crafter Kwon",
 		drop_rate = "Unknown",
 		name = "Faded Forest Drape",
@@ -9259,7 +9259,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	926 = {
+	id926 = {
 		source = "Crafter Kwon",
 		drop_rate = "Unknown",
 		name = "Faded Forest Cape",
@@ -9269,7 +9269,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	927 = {
+	id927 = {
 		source = "Crafter Kwon",
 		drop_rate = "Unknown",
 		name = "Faded Forest Manteau",
@@ -9279,7 +9279,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	928 = {
+	id928 = {
 		source = "Crafter Kwon",
 		drop_rate = "Unknown",
 		name = "Faded Forest Cloak",
@@ -9289,7 +9289,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Timeless Isle"
 	},
-	929 = {
+	id929 = {
 		source = "Garroshar Grunt",
 		drop_rate = "0.0",
 		name = "Intricate Cloak",
@@ -9299,7 +9299,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "The Jade Forest"
 	},
-	930 = {
+	id930 = {
 		source = "Wyrmhorn Turtle",
 		drop_rate = "0.0",
 		name = "Gemmed Cloak",
@@ -9309,7 +9309,7 @@ cloaks_url_db = {
 		expansion = "Mists Of Pandaria",
 		location = "Valley of the Four Winds"
 	},
-	931 = {
+	id931 = {
 		source = "The World Pillar Fragment",
 		drop_rate = "quest",
 		name = "Stonebinder's Cloak",
@@ -9319,7 +9319,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Deepholm"
 	},
-	932 = {
+	id932 = {
 		source = "Pressing Forward",
 		drop_rate = "quest",
 		name = "Cloak of Valorous Direction",
@@ -9329,7 +9329,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Twilight Highlands"
 	},
-	933 = {
+	id933 = {
 		source = "Pressing Forward",
 		drop_rate = "quest",
 		name = "Cloak of Grand Leadership",
@@ -9339,7 +9339,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Twilight Highlands"
 	},
-	934 = {
+	id934 = {
 		source = "Smoots Samophlange",
 		drop_rate = "quest",
 		name = "Smoot's Shredded Smock",
@@ -9349,7 +9349,7 @@ cloaks_url_db = {
 		expansion = "",
 		location = "Azshara"
 	},
-	935 = {
+	id935 = {
 		source = "Small Comforts",
 		drop_rate = "quest",
 		name = "Drape of Lost Valuables",
@@ -9359,7 +9359,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Twilight Highlands"
 	},
-	936 = {
+	id936 = {
 		source = "Stonecore Warbringer",
 		drop_rate = "0.0",
 		name = "Skin of Stone",
@@ -9369,7 +9369,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Stonecore"
 	},
-	937 = {
+	id937 = {
 		source = "Asaad",
 		drop_rate = "0.0",
 		name = "Billowing Cape",
@@ -9379,7 +9379,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Vortex Pinnacle"
 	},
-	938 = {
+	id938 = {
 		source = "Asaad",
 		drop_rate = "0.0",
 		name = "Shadow of Perfect Bliss",
@@ -9389,7 +9389,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Vortex Pinnacle"
 	},
-	939 = {
+	id939 = {
 		source = "Wayward Child",
 		drop_rate = "quest",
 		name = "Crystal Shimmer Cloak",
@@ -9399,7 +9399,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Stonecore"
 	},
-	940 = {
+	id940 = {
 		source = "A Long Way from Home",
 		drop_rate = "quest",
 		name = "Cloak of Itesh",
@@ -9409,7 +9409,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Vortex Pinnacle"
 	},
-	941 = {
+	id941 = {
 		source = "Skarf",
 		drop_rate = "0.0",
 		name = "Drape of Fiery Dreams",
@@ -9419,7 +9419,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Uldum"
 	},
-	942 = {
+	id942 = {
 		source = "High Shaman MacKilligan",
 		drop_rate = "0.0",
 		name = "Blackwolf Cloak",
@@ -9429,7 +9429,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Twilight Highlands"
 	},
-	943 = {
+	id943 = {
 		source = "The Root of the Corruption",
 		drop_rate = "quest",
 		name = "Corrupted Eggshell Drape",
@@ -9439,7 +9439,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Uldum"
 	},
-	944 = {
+	id944 = {
 		source = "Lady Nazjar",
 		drop_rate = "0.0",
 		name = "Periwinkle Cloak",
@@ -9449,7 +9449,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Throne of the Tides"
 	},
-	945 = {
+	id945 = {
 		source = "Commander Ulthok",
 		drop_rate = "0.0",
 		name = "Eagle Ray Cloak",
@@ -9459,7 +9459,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Throne of the Tides"
 	},
-	946 = {
+	id946 = {
 		source = "Karsh Steelbender",
 		drop_rate = "0.0",
 		name = "Burned Gatherings",
@@ -9469,7 +9469,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackrock Caverns"
 	},
-	947 = {
+	id947 = {
 		source = "Ascendant Lord Obsidius",
 		drop_rate = "0.0",
 		name = "Twitching Shadows",
@@ -9479,7 +9479,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackrock Caverns"
 	},
-	948 = {
+	id948 = {
 		source = "Stonecore Warbringer",
 		drop_rate = "0.0",
 		name = "Vertigo Cloak",
@@ -9489,7 +9489,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Stonecore"
 	},
-	949 = {
+	id949 = {
 		source = "Do My Eyes Deceive Me?",
 		drop_rate = "quest",
 		name = "Beauty's Cootie-Ridden Blankie",
@@ -9499,7 +9499,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackrock Caverns"
 	},
-	950 = {
+	id950 = {
 		source = "Stonecore Warbringer",
 		drop_rate = "0.0",
 		name = "Nethander Cloak",
@@ -9509,7 +9509,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Stonecore"
 	},
-	951 = {
+	id951 = {
 		source = "Twilight Rogue",
 		drop_rate = "0.0",
 		name = "Mereldar Cloak",
@@ -9519,7 +9519,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Twilight Highlands"
 	},
-	952 = {
+	id952 = {
 		source = "Earthen Soldier",
 		drop_rate = "0.0",
 		name = "Thondroril Cloak",
@@ -9529,7 +9529,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Dragon Soul"
 	},
-	953 = {
+	id953 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Hardened Scale Cloak",
@@ -9539,7 +9539,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	954 = {
+	id954 = {
 		source = "Therazanes Mercy",
 		drop_rate = "quest",
 		name = "Stonerender Drape",
@@ -9549,7 +9549,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Deepholm"
 	},
-	955 = {
+	id955 = {
 		source = "Gone Soft",
 		drop_rate = "quest",
 		name = "Cloak of Fungal Growth",
@@ -9559,7 +9559,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Deepholm"
 	},
-	956 = {
+	id956 = {
 		source = "The Firelord",
 		drop_rate = "quest",
 		name = "Hyjal Savior's Drape",
@@ -9569,7 +9569,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Mount Hyjal"
 	},
-	957 = {
+	id957 = {
 		source = "Defending the Rift",
 		drop_rate = "quest",
 		name = "Drape of the Helmsman",
@@ -9579,7 +9579,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Abyssal Depths"
 	},
-	958 = {
+	id958 = {
 		source = "Defending the Rift",
 		drop_rate = "quest",
 		name = "Drape of the Helmsman",
@@ -9589,7 +9589,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Abyssal Depths"
 	},
-	959 = {
+	id959 = {
 		source = "Visions of the Past: The Slaughter of Bielaran Ridge",
 		drop_rate = "quest",
 		name = "Ancient Beth'moran Cloak",
@@ -9599,7 +9599,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Shimmering Expanse"
 	},
-	960 = {
+	id960 = {
 		source = "Visions of the Past: The Slaughter of Bielaran Ridge",
 		drop_rate = "quest",
 		name = "Ancient Beth'moran Cloak",
@@ -9609,7 +9609,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Shimmering Expanse"
 	},
-	961 = {
+	id961 = {
 		source = "Stonecore Warbringer",
 		drop_rate = "0.0",
 		name = "Mirkfallon Cloak",
@@ -9619,7 +9619,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "The Stonecore"
 	},
-	962 = {
+	id962 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Savage Cloak",
@@ -9629,7 +9629,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	963 = {
+	id963 = {
 		source = "Testing the Trap",
 		drop_rate = "quest",
 		name = "Bait-Stained Drape",
@@ -9639,7 +9639,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Deepholm"
 	},
-	964 = {
+	id964 = {
 		source = "High Overlord Saurfang",
 		drop_rate = "Unknown",
 		name = "Shadowvault Slayer's Cloak",
@@ -9649,7 +9649,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Icecrown Citadel"
 	},
-	965 = {
+	id965 = {
 		source = "Rotface",
 		drop_rate = "0.0",
 		name = "Winding Sheet",
@@ -9659,7 +9659,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Icecrown Citadel"
 	},
-	966 = {
+	id966 = {
 		source = "Prince Keleseth",
 		drop_rate = "Unknown",
 		name = "Royal Crimson Cloak",
@@ -9669,7 +9669,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Icecrown Citadel"
 	},
-	967 = {
+	id967 = {
 		source = "Halion",
 		drop_rate = "0.0",
 		name = "Cloak of Burning Dusk",
@@ -9679,7 +9679,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "The Ruby Sanctum"
 	},
-	968 = {
+	id968 = {
 		source = "Twilight Inferno Lord",
 		drop_rate = "0.0",
 		name = "Swamplight Cloak",
@@ -9689,7 +9689,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Mount Hyjal"
 	},
-	969 = {
+	id969 = {
 		source = "Lodestone Elemental",
 		drop_rate = "0.0",
 		name = "Sishir Cloak",
@@ -9699,7 +9699,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Deepholm"
 	},
-	970 = {
+	id970 = {
 		source = "Halion",
 		drop_rate = "0.0",
 		name = "Cloak of Burning Dusk",
@@ -9709,7 +9709,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "The Ruby Sanctum"
 	},
-	971 = {
+	id971 = {
 		source = "Halion",
 		drop_rate = "0.0",
 		name = "Abduction's Cover",
@@ -9719,7 +9719,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "The Ruby Sanctum"
 	},
-	972 = {
+	id972 = {
 		source = "Twilight Zealot",
 		drop_rate = "0.0",
 		name = "Moonbrook Cloak",
@@ -9729,7 +9729,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Blackrock Caverns"
 	},
-	973 = {
+	id973 = {
 		source = "Oh, Deer!",
 		drop_rate = "quest",
 		name = "Cloak of Cheerful Flowers",
@@ -9739,7 +9739,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Mount Hyjal"
 	},
-	974 = {
+	id974 = {
 		source = "Prepping the Soil",
 		drop_rate = "quest",
 		name = "Flameward Cloak",
@@ -9749,7 +9749,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Mount Hyjal"
 	},
-	975 = {
+	id975 = {
 		source = "Crushing the Cores",
 		drop_rate = "quest",
 		name = "Drape of Smoldering Dreams",
@@ -9759,7 +9759,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Mount Hyjal"
 	},
-	976 = {
+	id976 = {
 		source = "An Occupation of Time",
 		drop_rate = "quest",
 		name = "Improvisational Historian's Cloak",
@@ -9769,7 +9769,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Shimmering Expanse"
 	},
-	977 = {
+	id977 = {
 		source = "An Occupation of Time",
 		drop_rate = "quest",
 		name = "Improvisational Historian's Cloak",
@@ -9779,7 +9779,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Shimmering Expanse"
 	},
-	978 = {
+	id978 = {
 		source = "Stick it to Them",
 		drop_rate = "quest",
 		name = "Stolen Idra'kess Drape",
@@ -9789,7 +9789,7 @@ cloaks_url_db = {
 		expansion = "Cataclysm",
 		location = "Shimmering Expanse"
 	},
-	979 = {
+	id979 = {
 		source = "Gluth",
 		drop_rate = "0.0",
 		name = "Cloak of Armed Strife",
@@ -9799,7 +9799,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	980 = {
+	id980 = {
 		source = "Gluth",
 		drop_rate = "0.0",
 		name = "Dark Shroud of the Scourge",
@@ -9809,7 +9809,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	981 = {
+	id981 = {
 		source = "Gluth",
 		drop_rate = "0.0",
 		name = "Drape of Surgery",
@@ -9819,7 +9819,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	982 = {
+	id982 = {
 		source = "Gluth",
 		drop_rate = "0.0",
 		name = "Cloak of Darkening",
@@ -9829,7 +9829,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	983 = {
+	id983 = {
 		source = "Sapphiron",
 		drop_rate = "0.0",
 		name = "Cloak of Mastery",
@@ -9839,7 +9839,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	984 = {
+	id984 = {
 		source = "Sapphiron",
 		drop_rate = "0.0",
 		name = "Shroud of the Citadel",
@@ -9849,7 +9849,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	985 = {
+	id985 = {
 		source = "KelThuzad",
 		drop_rate = "0.0",
 		name = "Cloak of the Dying",
@@ -9859,7 +9859,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	986 = {
+	id986 = {
 		source = "Maexxna",
 		drop_rate = "0.0",
 		name = "Aged Winter Cloak",
@@ -9869,7 +9869,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	987 = {
+	id987 = {
 		source = "Maexxna",
 		drop_rate = "0.0",
 		name = "Shroud of Luminosity",
@@ -9879,7 +9879,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	988 = {
+	id988 = {
 		source = "Maexxna",
 		drop_rate = "0.0",
 		name = "Cloak of the Shadowed Sun",
@@ -9889,7 +9889,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	989 = {
+	id989 = {
 		source = "Maexxna",
 		drop_rate = "0.0",
 		name = "Shawl of the Old Maid",
@@ -9899,7 +9899,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	990 = {
+	id990 = {
 		source = "Maexxna",
 		drop_rate = "0.0",
 		name = "Cloak of Averted Crisis",
@@ -9909,7 +9909,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	991 = {
+	id991 = {
 		source = "KelThuzad",
 		drop_rate = "0.0",
 		name = "Drape of the Deadly Foe",
@@ -9919,7 +9919,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	992 = {
+	id992 = {
 		source = "KelThuzad",
 		drop_rate = "0.0",
 		name = "Cape of the Unworthy Wizard",
@@ -9929,7 +9929,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	993 = {
+	id993 = {
 		source = "Plagued Bat",
 		drop_rate = "0.0",
 		name = "Shadow of the Ghoul",
@@ -9939,7 +9939,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Naxxramas"
 	},
-	994 = {
+	id994 = {
 		source = "Norvin Alderman",
 		drop_rate = "Unknown",
 		name = "Hammerhead Sharkskin Cloak",
@@ -9949,7 +9949,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Dalaran"
 	},
-	995 = {
+	id995 = {
 		source = "Norvin Alderman",
 		drop_rate = "Unknown",
 		name = "Platinum Mesh Cloak",
@@ -9959,7 +9959,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Dalaran"
 	},
-	996 = {
+	id996 = {
 		source = "Norvin Alderman",
 		drop_rate = "Unknown",
 		name = "Disguise of the Kumiho",
@@ -9969,7 +9969,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Dalaran"
 	},
-	997 = {
+	id997 = {
 		source = "Norvin Alderman",
 		drop_rate = "Unknown",
 		name = "Cloak of Kea Feathers",
@@ -9979,7 +9979,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Dalaran"
 	},
-	998 = {
+	id998 = {
 		source = "Emalon the Storm Watcher",
 		drop_rate = "0.0",
 		name = "Deadly Gladiator's Cloak of Dominance",
@@ -9989,7 +9989,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	999 = {
+	id999 = {
 		source = "Emalon the Storm Watcher",
 		drop_rate = "0.0",
 		name = "Deadly Gladiator's Cloak of Subjugation",
@@ -9999,7 +9999,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1000 = {
+	id1000 = {
 		source = "Emalon the Storm Watcher",
 		drop_rate = "0.0",
 		name = "Deadly Gladiator's Cloak of Ascendancy",
@@ -10009,7 +10009,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1001 = {
+	id1001 = {
 		source = "Emalon the Storm Watcher",
 		drop_rate = "0.0",
 		name = "Deadly Gladiator's Cloak of Salvation",
@@ -10019,7 +10019,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1002 = {
+	id1002 = {
 		source = "Emalon the Storm Watcher",
 		drop_rate = "0.0",
 		name = "Deadly Gladiator's Cloak of Deliverance",
@@ -10029,7 +10029,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1003 = {
+	id1003 = {
 		source = "Emalon the Storm Watcher",
 		drop_rate = "0.0",
 		name = "Deadly Gladiator's Cloak of Triumph",
@@ -10039,7 +10039,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1004 = {
+	id1004 = {
 		source = "Emalon the Storm Watcher",
 		drop_rate = "0.0",
 		name = "Deadly Gladiator's Cloak of Victory",
@@ -10049,7 +10049,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1005 = {
+	id1005 = {
 		source = "Koralon the Flame Watcher",
 		drop_rate = "0.0",
 		name = "Furious Gladiator's Cloak of Dominance",
@@ -10059,7 +10059,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1006 = {
+	id1006 = {
 		source = "Koralon the Flame Watcher",
 		drop_rate = "0.0",
 		name = "Furious Gladiator's Cloak of Subjugation",
@@ -10069,7 +10069,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1007 = {
+	id1007 = {
 		source = "Koralon the Flame Watcher",
 		drop_rate = "0.0",
 		name = "Furious Gladiator's Cloak of Ascendancy",
@@ -10079,7 +10079,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1008 = {
+	id1008 = {
 		source = "Koralon the Flame Watcher",
 		drop_rate = "0.0",
 		name = "Furious Gladiator's Cloak of Salvation",
@@ -10089,7 +10089,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1009 = {
+	id1009 = {
 		source = "Koralon the Flame Watcher",
 		drop_rate = "0.0",
 		name = "Furious Gladiator's Cloak of Deliverance",
@@ -10099,7 +10099,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1010 = {
+	id1010 = {
 		source = "Koralon the Flame Watcher",
 		drop_rate = "0.0",
 		name = "Furious Gladiator's Cloak of Triumph",
@@ -10109,7 +10109,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1011 = {
+	id1011 = {
 		source = "Koralon the Flame Watcher",
 		drop_rate = "0.0",
 		name = "Furious Gladiator's Cloak of Victory",
@@ -10119,7 +10119,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1012 = {
+	id1012 = {
 		source = "Toravon the Ice Watcher",
 		drop_rate = "0.0",
 		name = "Relentless Gladiator's Cloak of Dominance",
@@ -10129,7 +10129,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1013 = {
+	id1013 = {
 		source = "Toravon the Ice Watcher",
 		drop_rate = "0.0",
 		name = "Relentless Gladiator's Cloak of Subjugation",
@@ -10139,7 +10139,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1014 = {
+	id1014 = {
 		source = "Toravon the Ice Watcher",
 		drop_rate = "0.0",
 		name = "Relentless Gladiator's Cloak of Ascendancy",
@@ -10149,7 +10149,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1015 = {
+	id1015 = {
 		source = "Toravon the Ice Watcher",
 		drop_rate = "0.0",
 		name = "Relentless Gladiator's Cloak of Salvation",
@@ -10159,7 +10159,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1016 = {
+	id1016 = {
 		source = "Toravon the Ice Watcher",
 		drop_rate = "0.0",
 		name = "Relentless Gladiator's Cloak of Deliverance",
@@ -10169,7 +10169,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1017 = {
+	id1017 = {
 		source = "Toravon the Ice Watcher",
 		drop_rate = "0.0",
 		name = "Relentless Gladiator's Cloak of Triumph",
@@ -10179,7 +10179,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1018 = {
+	id1018 = {
 		source = "Toravon the Ice Watcher",
 		drop_rate = "0.0",
 		name = "Relentless Gladiator's Cloak of Victory",
@@ -10189,7 +10189,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Vault of Archavon"
 	},
-	1019 = {
+	id1019 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Durable Nerubhide Cape",
@@ -10199,7 +10199,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	1020 = {
+	id1020 = {
 		source = "Celea",
 		drop_rate = "Unknown",
 		name = "Ice Striker's Cloak",
@@ -10209,7 +10209,7 @@ cloaks_url_db = {
 		expansion = "Legion",
 		location = "Azsuna"
 	},
-	1021 = {
+	id1021 = {
 		source = "Sartharion",
 		drop_rate = "0.0",
 		name = "Gale-Proof Cloak",
@@ -10219,7 +10219,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "The Obsidian Sanctum"
 	},
-	1022 = {
+	id1022 = {
 		source = "Sartharion",
 		drop_rate = "0.0",
 		name = "Pennant Cloak",
@@ -10229,7 +10229,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "The Obsidian Sanctum"
 	},
-	1023 = {
+	id1023 = {
 		source = "Razorscale",
 		drop_rate = "0.0",
 		name = "Drape of the Drakerider",
@@ -10239,7 +10239,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Ulduar"
 	},
-	1024 = {
+	id1024 = {
 		source = "Runemaster Molgeim",
 		drop_rate = "0.0",
 		name = "Drape of the Lithe",
@@ -10249,7 +10249,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Ulduar"
 	},
-	1025 = {
+	id1025 = {
 		source = "Stormcaller Brundir",
 		drop_rate = "Unknown",
 		name = "Drape of Mortal Downfall",
@@ -10259,7 +10259,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Ulduar"
 	},
-	1026 = {
+	id1026 = {
 		source = "Ignis the Furnace Master",
 		drop_rate = "0.0",
 		name = "Shawl of the Caretaker",
@@ -10269,7 +10269,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Ulduar"
 	},
-	1027 = {
+	id1027 = {
 		source = "Ignis the Furnace Master",
 		drop_rate = "0.0",
 		name = "Drape of Fuming Anger",
@@ -10279,7 +10279,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Ulduar"
 	},
-	1028 = {
+	id1028 = {
 		source = "Auriaya",
 		drop_rate = "0.0",
 		name = "Cloak of the Makers",
@@ -10289,7 +10289,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Ulduar"
 	},
-	1029 = {
+	id1029 = {
 		source = "Runemaster Molgeim",
 		drop_rate = "0.0",
 		name = "Cloak of the Iron Council",
@@ -10299,7 +10299,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Ulduar"
 	},
-	1030 = {
+	id1030 = {
 		source = "Yogg-Saron",
 		drop_rate = "0.0",
 		name = "Shawl of Haunted Memories",
@@ -10309,7 +10309,7 @@ cloaks_url_db = {
 		expansion = "Wrath Of The Lich King",
 		location = "Ulduar"
 	},
-	1031 = {
+	id1031 = {
 		source = "Hardened Iron Golem",
 		drop_rate = "0.0",
 		name = "Shroud of Alteration",
@@ -10318,9 +10318,5 @@ cloaks_url_db = {
 		id = "1031",
 		expansion = "Wrath Of The Lich King",
 		location = "Ulduar"
-	},
-	1032 = {
-		source = "Heroic: All Is Well That Ends Well",
-		drop_rate = "quest",
-		name = "Drape of the Skyborn",
-		category_territo
+	}
+}
