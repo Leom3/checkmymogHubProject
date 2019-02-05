@@ -1,13 +1,9 @@
 wowItemDB = {}
 
 function getExpansion(itemName)
-	print(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
 	isCraftingReagent = GetItemInfo(itemName)
-	print(itemEquipLoc);
-	print(itemType);
-	print(itemSubType);
 
 	--For Head Armor:
 	if (itemEquipLoc == "INVTYPE_HEAD" and itemType == "Armor" and itemSubType == "Cloth") then
@@ -288,6 +284,12 @@ function getExpansion(itemName)
 		end
 	elseif (itemType == "Weapon" and itemSubType == "Wands") then
 		for key, value in pairs(wands_db) do
+			if (value.name == itemName) then
+				return (value.expansion)
+			end
+		end
+	elseif (itemType == "Weapon" and itemSubType == "Warglaives") then
+		for key, value in pairs(warglaives_db) do
 			if (value.name == itemName) then
 				return (value.expansion)
 			end
@@ -297,13 +299,9 @@ function getExpansion(itemName)
 end
 
 function getId(itemName)
-	print(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
 	isCraftingReagent = GetItemInfo(itemName)
-	print(itemEquipLoc);
-	print(itemType);
-	print(itemSubType);
 
 	--For Head Armor:
 	if (itemEquipLoc == "INVTYPE_HEAD" and itemType == "Armor" and itemSubType == "Cloth") then
@@ -584,6 +582,12 @@ function getId(itemName)
 		end
 	elseif (itemType == "Weapon" and itemSubType == "Wands") then
 		for key, value in pairs(wands_db) do
+			if (value.name == itemName) then
+				return (value.id)
+			end
+		end
+	elseif (itemType == "Weapon" and itemSubType == "Warglaives") then
+		for key, value in pairs(warglaives_db) do
 			if (value.name == itemName) then
 				return (value.id)
 			end
@@ -593,13 +597,9 @@ function getId(itemName)
 end
 
 function getTerritory(itemName)
-	print(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
 	isCraftingReagent = GetItemInfo(itemName)
-	print(itemEquipLoc);
-	print(itemType);
-	print(itemSubType);
 
 	--For Head Armor:
 	if (itemEquipLoc == "INVTYPE_HEAD" and itemType == "Armor" and itemSubType == "Cloth") then
@@ -880,6 +880,12 @@ function getTerritory(itemName)
 		end
 	elseif (itemType == "Weapon" and itemSubType == "Wands") then
 		for key, value in pairs(wands_db) do
+			if (value.name == itemName) then
+				return (value.territory)
+			end
+		end
+	elseif (itemType == "Weapon" and itemSubType == "Warglaives") then
+		for key, value in pairs(warglaives_db) do
 			if (value.name == itemName) then
 				return (value.territory)
 			end
@@ -889,13 +895,9 @@ function getTerritory(itemName)
 end
 
 function getCategoryTerritory(itemName)
-	print(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
 	isCraftingReagent = GetItemInfo(itemName)
-	print(itemEquipLoc);
-	print(itemType);
-	print(itemSubType);
 
 	--For Head Armor:
 	if (itemEquipLoc == "INVTYPE_HEAD" and itemType == "Armor" and itemSubType == "Cloth") then
@@ -1176,6 +1178,12 @@ function getCategoryTerritory(itemName)
 		end
 	elseif (itemType == "Weapon" and itemSubType == "Wands") then
 		for key, value in pairs(wands_db) do
+			if (value.name == itemName) then
+				return (value.category_territory)
+			end
+		end
+	elseif (itemType == "Weapon" and itemSubType == "Warglaives") then
+		for key, value in pairs(warglaives_db) do
 			if (value.name == itemName) then
 				return (value.category_territory)
 			end
@@ -1185,13 +1193,9 @@ function getCategoryTerritory(itemName)
 end
 
 function getDropRate(itemName)
-	print(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
 	isCraftingReagent = GetItemInfo(itemName)
-	print(itemEquipLoc);
-	print(itemType);
-	print(itemSubType);
 
 	--For Head Armor:
 	if (itemEquipLoc == "INVTYPE_HEAD" and itemType == "Armor" and itemSubType == "Cloth") then
@@ -1472,6 +1476,12 @@ function getDropRate(itemName)
 		end
 	elseif (itemType == "Weapon" and itemSubType == "Wands") then
 		for key, value in pairs(wands_db) do
+			if (value.name == itemName) then
+				return (value.drop_rate)
+			end
+		end
+	elseif (itemType == "Weapon" and itemSubType == "Warglaives") then
+		for key, value in pairs(warglaives_db) do
 			if (value.name == itemName) then
 				return (value.drop_rate)
 			end
@@ -1481,13 +1491,9 @@ function getDropRate(itemName)
 end
 
 function getSource(itemName)
-	print(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
 	isCraftingReagent = GetItemInfo(itemName)
-	print(itemEquipLoc);
-	print(itemType);
-	print(itemSubType);
 
 	--For Head Armor:
 	if (itemEquipLoc == "INVTYPE_HEAD" and itemType == "Armor" and itemSubType == "Cloth") then
@@ -1768,6 +1774,12 @@ function getSource(itemName)
 		end
 	elseif (itemType == "Weapon" and itemSubType == "Wands") then
 		for key, value in pairs(wands_db) do
+			if (value.name == itemName) then
+				return (value.source)
+			end
+		end
+	elseif (itemType == "Weapon" and itemSubType == "Warglaives") then
+		for key, value in pairs(warglaives_db) do
 			if (value.name == itemName) then
 				return (value.source)
 			end
@@ -1777,13 +1789,12 @@ function getSource(itemName)
 end
 
 function getLocation(itemName)
-	print(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
 	isCraftingReagent = GetItemInfo(itemName)
-	print(itemEquipLoc);
-	print(itemType);
-	print(itemSubType);
+	print (itemType)
+	print (itemSubType)
+	print (itemIcon)
 
 	--For Head Armor:
 	if (itemEquipLoc == "INVTYPE_HEAD" and itemType == "Armor" and itemSubType == "Cloth") then
@@ -2064,6 +2075,12 @@ function getLocation(itemName)
 		end
 	elseif (itemType == "Weapon" and itemSubType == "Wands") then
 		for key, value in pairs(wands_db) do
+			if (value.name == itemName) then
+				return (value.location)
+			end
+		end
+	elseif (itemType == "Weapon" and itemSubType == "Warglaives") then
+		for key, value in pairs(warglaives_db) do
 			if (value.name == itemName) then
 				return (value.location)
 			end

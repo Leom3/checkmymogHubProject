@@ -112,9 +112,9 @@ def write_into_file(db_file, object_dic):
 	lastkey = list(object_dic.keys())[-1]
 	for keys, value in object_dic.items():
 		if (keys == lastkey):
-			db_file.write("\t\t" + keys + " = " + '"' + str(value) + '"\n')
+			db_file.write("\t\t" + keys + " = " + '"' + str(value).replace('\\', '').replace('"', "") + '"\n')
 		else:
-			db_file.write("\t\t" + keys + " = " + '"' + str(value) + '",\n')
+			db_file.write("\t\t" + keys + " = " + '"' + str(value).replace('\\', '').replace('"', "") + '",\n')
 	db_file.write("\t},\n")
 
 #####################################################################
