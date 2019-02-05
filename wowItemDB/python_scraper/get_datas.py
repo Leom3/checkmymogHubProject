@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 from bs4 import BeautifulSoup
@@ -7,6 +7,7 @@ import re
 import sys
 import time
 import os
+import signal
 import json
 import progressbar
 
@@ -107,7 +108,7 @@ def calculate_loot_rate(loot_rate):
 		return loot_rate
 
 def write_into_file(db_file, object_dic):
-	db_file.write("\t" + str(object_dic['id']) + " = {\n")
+	db_file.write("\tid" + str(object_dic['id']) + " = {\n")
 	lastkey = list(object_dic.keys())[-1]
 	for keys, value in object_dic.items():
 		if (keys == lastkey):
@@ -127,7 +128,7 @@ def loop_over_files(location_json):
 	for files in os.listdir("../links"):
 		db_file_name = files.replace("_url.txt", "_db.lua")
 		db_file = open("../DB/" + db_file_name, "w")
-		db_file.write(files.replace(".txt", "_db") + " = {\n")
+		db_file.write(files.replace(".txt", "_db").replace("-", "_") + " = {\n")
 		filename = "../links/" + files
 		print("ENTERING " + db_file_name)
 		with open(filename) as f:
@@ -147,8 +148,11 @@ def loop_over_files(location_json):
 				loot_rate = ''
 				try:
 					page_response = requests.get(item, timeout=10)
-				except:
-					print("Timeout occured requesting " + item)
+				except KeyboardInterrupt:
+					print ("Exiting")
+					exit(0)
+				except requests.exceptions.Timeout:
+					print("Timed out URLS")
 					continue
 
 				page_content = BeautifulSoup(page_response.content, "html.parser")
@@ -183,7 +187,6 @@ def loop_over_files(location_json):
 							try:
 								object_dic['source'] = str(source_name)
 							except:
-								print("Error Assigning source name")
 								continue
 					else:
 						#print (json_string)
