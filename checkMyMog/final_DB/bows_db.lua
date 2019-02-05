@@ -2888,6 +2888,5 @@ bows_db = {
 		id = "288",
 		expansion = "Mists Of Pandaria",
 		location = "Echo Isles"
-	},
-	end = "true"
+	}
 }

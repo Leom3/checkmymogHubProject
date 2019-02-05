@@ -2162,7 +2162,7 @@ leather_leg_db = {
 	id216 = {
 		source = "Preventing the Worst",
 		drop_rate = "quest",
-		name = ""Super Sterilized" Blastguard Britches",
+		name = "Super Sterilized Blastguard Britches",
 		category_territory = "",
 		territory = "Horde",
 		id = "216",
@@ -6098,6 +6098,5 @@ leather_leg_db = {
 		id = "609",
 		expansion = "Wrath Of The Lich King",
 		location = "Crusaders' Coliseum: Trial of the Crusader"
-	},
-	end = "true"
+	}
 }

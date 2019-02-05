@@ -34,6 +34,7 @@ local defaults = {
 local playerInfos = {
 	gear = {
 		head = "",
+		headLoc = "",
 		shoulders = "",
 		chest = "",
 		back = "",
@@ -293,6 +294,7 @@ function Cmm_UpdateInfos()
 				appearanceName = select(1, GetItemInfo(itemLink));
 				if i == 1 then
 					playerInfos.gear.head = appearanceName;
+					print(wowItemDB.getLocation(itemLink));
 				elseif i == 3 then
 					playerInfos.gear.shoulders = appearanceName;
 				elseif i == 5 then
