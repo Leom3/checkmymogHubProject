@@ -30,15 +30,20 @@ git clone @git
 
 ### Running 
 
-Once you have everything installed, you have access to a Docker environment with 2 commands :
-* loadUrls
-* getDatas
+Once you have everything installed, you have access to a Docker environment with 2 programs :
+* load_urls
+* get_datas
 
-### LoadUrls
+You'll need to launch the Docker in order to use those programs. To do so :
 
-loadUrls is a Python program that will load all wowhead urls from a certain category into a .txt files. Those files will be the ones that the getData program will use to create the database.
 
-loadUrls can take multiple arguments given multiple categorys :
+GIF DOCKER 
+
+### Load_urls
+
+load_urls is a Python program that will load all wowhead urls from a certain category into a .txt file. Those files will be the ones that the getData program will use to create the database. They will be stocked in wowItemDB/links folder.
+
+load_urls can take multiple arguments given multiple categorys :
 
 |Category|Argument Available|
 |---|---|
@@ -49,10 +54,17 @@ loadUrls can take multiple arguments given multiple categorys :
 |Leather   | leather-shoulder, leather-chest, leather-foot, leather-hand, leather-head, leather-belts, leather-leg  |
 |Cloth| cloth-shoulder, cloth-chest, cloth-foot, cloth-hand, cloth-head, cloth-belts, cloth-leg|
 
+first , go to the scraping folder :
+
+```
+$> cd wowItemDB/python_scraper
+```
+
+
 You can choose from 1 to all arguments. Example : 
 
 ```
-./loadUrls cloth-leg cloth-belts
+$> ./loadUrls cloth-leg cloth-belts
 
 # This will load all the item url's from those categorys
 ```
@@ -60,41 +72,91 @@ You can choose from 1 to all arguments. Example :
 Or you can put no arguments. Example : 
 
 ```
-./loadUrls
+$> ./load_urls
 
 
 # This will load all the item url's from all categorys
 ```
 
-### GetDatas
+If it works correctly, you'll see something like : 
+
+![gif](https://media.giphy.com/media/1wmxDKa2UhHqJcuoPH/giphy.gif)
+
+### get_datas
+
+get_datas is the program that will build LUA database file, based on all the wowhead links files that are gathered in the wowItemDB/links folder.
+
+It will show you a progressbar of the gathering of every category and will end when all the categorys will be done.
+
+You also need to launch this command in your docker. It takes no arguments and will look like :
+
+```
+$> ./get_datas
+
+
+# This will load a database from the .txt files
+```
+
+![gif2](https://media.giphy.com/media/452YCnEIToU6KEZTVi/giphy.gif)
+
+Once a category is ended, the next one is automatically launched after. 
+
+You can stop the program by doing a CTRL + C but be if you do it in the middle of a loading, you will need to start again the collection that has been stoped.
+
+![gif3](https://media.giphy.com/media/3gMrpZg2B4UiubmJRL/giphy.gif)
+
+
+If you do it collection by collection and not everything at a time, remember to remove the links.txt in the /links folder to not reload it again !
+
+#### How does it work ?
+
+get_datas use all the links in the .txt files to then request the HTML pages of wowhead to get the informations, and then write them down in an LUA-like way in the db.lua files, so that we can use them in wow addons.
+
+Here is a simple explanation : 
+
+![gif4](https://media.giphy.com/media/SKwbdbnPtOXaUTJYwg/giphy.gif)
+
+To conclude, get_datas will build a complete lua database folder that can be used with some functions that we created and that we explain [here](#wowitemdb)
+
+## wowItemDB
+
+
+wowItemDB is a LUA file that you need to include in your .toc file of your addon in addition to the database file that we created [here](#get_datas)
+
+your .toc file must include all of those file in order to use our functions.
+
+![imagetoc](/ressources/filetocscreen.png)
+
+Once you have include everything inside your addon folder, you can use those functions :
+
+|function name|Arguments|return value|
+|-------------|---------|------------|
+|wowItemDB.getSource|item name, item ID|name of the source. Example : Yogg'Saron|
+|wowItemDB.getLocation|item name, item ID|name of the location. Example : Ulduar|
+|wowItemDB.getExpansion|item name, item ID|name of the expansion. Example : Battle For Azeroth|
+|wowItemDB.getTerritory|item name, item ID|name of the territory. Alliance, Horde or War Zone|
+|wowItemDB.getCategoryTerritory|item name, item ID|name of the location. Example : Raid, Dungeon, Open World|
+|wowItemDB.getDropRate|item name, item ID|drop rate of the Item. Example : 15.0 (it's in percentage|
+
+all those functions can be used in all of your lua files.
 
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [requests](http://docs.python-requests.org/en/master/) - Request handler used
+* [bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - HTML parser
+* [progressbar](https://pypi.org/project/progressbar2/) - Progressbar Handler
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+The Addon is still considered as "BETA" version because of the lack of PVP items. the db generator is version 1.0.0
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Leo Maignan** - *DB generator, addon frame*
+* **Matthias Gayaud** - *Docker, wowItemDB librairy*
+* **Charly Dai** - *DB generator, addon*
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
