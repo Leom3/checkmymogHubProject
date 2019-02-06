@@ -36,8 +36,7 @@ Once you have everything installed, you have access to a Docker environment with
 
 You'll need to launch the Docker in order to use those programs. To do so :
 
-
-GIF DOCKER 
+![dockergif](ressources/dockergif.gif)
 
 ### Load_urls
 
