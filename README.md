@@ -25,7 +25,7 @@ sudo apt install docker-ce
 Then, clone the repisitory from github or by the command-line :
 
 ```
-git clone @git
+git clone https://github.com/Leom3/checkmymogHubProject.git
 ```
 
 ### Running 
