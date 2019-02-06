@@ -230,5 +230,4 @@ def main():
 		print("Error ")
 		exit(84)
 
->>>>>>> ee256e8f56a16b8d48fd7dd7a1c2743e3abf157a
 main()
