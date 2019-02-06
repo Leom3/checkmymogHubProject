@@ -42,7 +42,7 @@ def main():
 	if len(sys.argv) <= 1:
 		get_all_categories(cat_names)
 	else:
-		for args in sys.argv:
+		for args in sys.argv[1:]:
 			for cat in cat_names:
 				if args == cat:
 					get_category(args)

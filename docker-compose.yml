@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+    compilation:
+        image: "itemdb_dependencies"
+        volumes:
+            - C:\Users\mgayaud\Desktop\umgayaud\checkmymogHubProject\wowItemDB:/gate
+        stdin_open: true
+        tty: true
+        command: /bin/sh

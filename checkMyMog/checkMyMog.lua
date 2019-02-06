@@ -33,14 +33,87 @@ local defaults = {
 
 local playerInfos = {
 	gear = {
-		head = "",
-		shoulders = "",
-		chest = "",
-		back = "",
-		legs = "",
-		gloves = "",
-		waist = "",
-		boots = ""
+		head = {
+			name = "",
+			sourceName = "",
+			location = "",
+			locationTerritory = "",
+			locationCategory = "",
+			dropRate = "",
+			expansion = ""
+		},
+		shoulders = {
+			name = "",
+			sourceName = "",
+			location = "",
+			locationTerritory = "",
+			locationCategory = "",
+			dropRate = "",
+			expansion = ""
+		},
+		chest = {
+			name = "",
+			sourceName = "",
+			location = "",
+			locationTerritory = "",
+			locationCategory = "",
+			dropRate = "",
+			expansion = ""
+		},
+		back = {
+			name = "",
+			sourceName = "",
+			location = "",
+			locationTerritory = "",
+			locationCategory = "",
+			dropRate = "",
+			expansion = ""
+		},
+		legs = {
+			name = "",
+			sourceName = "",
+			location = "",
+			locationTerritory = "",
+			locationCategory = "",
+			dropRate = "",
+			expansion = ""
+		},
+		gloves = {
+			name = "",
+			sourceName = "",
+			location = "",
+			locationTerritory = "",
+			locationCategory = "",
+			dropRate = "",
+			expansion = ""
+		},
+		waist = {
+			name = "",
+			sourceName = "",
+			location = "",
+			locationTerritory = "",
+			locationCategory = "",
+			dropRate = "",
+			expansion = ""
+		},
+		boots = {
+			name = "",
+			sourceName = "",
+			location = "",
+			locationTerritory = "",
+			locationCategory = "",
+			dropRate = "",
+			expansion = ""
+		},
+		weapon = {
+			name = "",
+			sourceName = "",
+			location = "",
+			locationTerritory = "",
+			locationCategory = "",
+			dropRate = "",
+			expansion = ""
+		}
 	},
 	name = ""
 }
@@ -89,7 +162,7 @@ local function SetTabs(frame, numTabs, ...)
 		tab:SetScript("OnClick", Tab_OnClick);
 		
 		tab.content = CreateFrame("Frame", nil, UIConfig.ScrollFrame);
-		tab.content:SetSize(160, 260);
+		tab.content:SetSize(400, 260);
 		tab.content:Hide();
 		
 		-- just for tutorial only:
@@ -148,7 +221,7 @@ local function SetTabs(frame, numTabs, ...)
 		tab:SetScript("OnClick", Tab_OnClick);
 		
 		tab.content = CreateFrame("Frame", nil, UIConfig.ScrollFrame);
-		tab.content:SetSize(350, 450);
+		tab.content:SetSize(600, 450);
 		tab.content:Hide();
 		
 		table.insert(contents, tab.content);
@@ -167,81 +240,81 @@ end
 
 function fillContent(UIConfig, headContent, shoulderContent, backContent, chestContent, handsContent, beltContent, legsContent, bootsContent, weaponsContent)
 	if headContent.gearName then
-		headContent.gearName:SetText(playerInfos.gear.head);
+		headContent.gearName:SetText(playerInfos.gear.head.name);
 	else 
 		headContent.gearName = headContent:CreateFontString(nil, "OVERLAY", "GameFontNormal");
 		headContent.gearName:SetPoint("CENTER");
-		headContent.gearName:SetText(playerInfos.gear.head);
+		headContent.gearName:SetText(playerInfos.gear.head.name);
 	end
 
 	if shoulderContent.gearName then
-		shoulderContent.gearName:SetText(playerInfos.gear.shoulders);
+		shoulderContent.gearName:SetText(playerInfos.gear.shoulders.name);
 	else 
 		shoulderContent.gearName = shoulderContent:CreateFontString(nil, "OVERLAY", "GameFontNormal");
 		shoulderContent.gearName:SetPoint("CENTER");
-		shoulderContent.gearName:SetText(playerInfos.gear.shoulders);
+		shoulderContent.gearName:SetText(playerInfos.gear.shoulders.name);
 	end
 
 	if backContent.gearName then
-		backContent.gearName:SetText(playerInfos.gear.back);
+		backContent.gearName:SetText(playerInfos.gear.back.name);
 	else 
 		backContent.gearName = backContent:CreateFontString(nil, "OVERLAY", "GameFontNormal");
 		backContent.gearName:SetPoint("CENTER");
-		backContent.gearName:SetText(playerInfos.gear.back);
+		backContent.gearName:SetText(playerInfos.gear.back.name);
 	end
 
 	if chestContent.gearName then
-		chestContent.gearName:SetText(playerInfos.gear.chest);
+		chestContent.gearName:SetText(playerInfos.gear.chest.name);
 	else 
 		chestContent.gearName = chestContent:CreateFontString(nil, "OVERLAY", "GameFontNormal");
 		chestContent.gearName:SetPoint("CENTER");
-		chestContent.gearName:SetText(playerInfos.gear.chest);
+		chestContent.gearName:SetText(playerInfos.gear.chest.name);
 	end
 
 	if handsContent.gearName then
-		handsContent.gearName:SetText(playerInfos.gear.hands);
+		handsContent.gearName:SetText(playerInfos.gear.gloves.name);
 	else 
 		handsContent.gearName = handsContent:CreateFontString(nil, "OVERLAY", "GameFontNormal");
 		handsContent.gearName:SetPoint("CENTER");
-		handsContent.gearName:SetText(playerInfos.gear.hands);
+		handsContent.gearName:SetText(playerInfos.gear.gloves.name);
 	end
 
 	if beltContent.gearName then
-		beltContent.gearName:SetText(playerInfos.gear.waist);
+		beltContent.gearName:SetText(playerInfos.gear.waist.name);
 	else 
 		beltContent.gearName = beltContent:CreateFontString(nil, "OVERLAY", "GameFontNormal");
 		beltContent.gearName:SetPoint("CENTER");
-		beltContent.gearName:SetText(playerInfos.gear.waist);
+		beltContent.gearName:SetText(playerInfos.gear.waist.name);
 	end
 
 	if legsContent.gearName then
-		legsContent.gearName:SetText(playerInfos.gear.legs);
+		legsContent.gearName:SetText(playerInfos.gear.legs.name);
 	else 
 		legsContent.gearName = legsContent:CreateFontString(nil, "OVERLAY", "GameFontNormal");
 		legsContent.gearName:SetPoint("CENTER");
-		legsContent.gearName:SetText(playerInfos.gear.legs);
+		legsContent.gearName:SetText(playerInfos.gear.legs.name);
 	end
 
 	if bootsContent.gearName then
-		bootsContent.gearName:SetText(playerInfos.gear.boots);
+		bootsContent.gearName:SetText(playerInfos.gear.boots.name);
 	else 
 		bootsContent.gearName = bootsContent:CreateFontString(nil, "OVERLAY", "GameFontNormal");
 		bootsContent.gearName:SetPoint("CENTER");
-		bootsContent.gearName:SetText(playerInfos.gear.boots);
+		bootsContent.gearName:SetText(playerInfos.gear.boots.name);
 	end
 
 	if weaponsContent.gearName then
-		weaponsContent.gearName:SetText(playerInfos.gear.weapons);
+		weaponsContent.gearName:SetText(playerInfos.gear.weapon.name);
 	else 
 		weaponsContent.gearName = weaponsContent:CreateFontString(nil, "OVERLAY", "GameFontNormal");
 		weaponsContent.gearName:SetPoint("CENTER");
-		weaponsContent.gearName:SetText(playerInfos.gear.weapons);
+		weaponsContent.gearName:SetText(playerInfos.gear.weapon.name);
 	end
 end
 
 function Config:CreateMenu()
 	UIConfig = CreateFrame("Frame", "CheckMyMogConfig", UIParent, "UIPanelDialogTemplate");
-	UIConfig:SetSize(350, 450);
+	UIConfig:SetSize(600, 450);
 	UIConfig:SetPoint("CENTER");
 
 	UIConfig.Title:ClearAllPoints();
@@ -260,11 +333,11 @@ function Config:CreateMenu()
 	UIConfig.ScrollFrame.ScrollBar:SetPoint("BOTTOMRIGHT", UIConfig.ScrollFrame, "BOTTOMRIGHT", -7, 18);
 
 	local child = CreateFrame("Frame", nil, UIConfig.ScrollFrame);
-	child:SetSize(350, 450);
+	child:SetSize(600, 450);
 	UIConfig.ScrollFrame:SetScrollChild(child);	
 
 	headContent, shoulderContent, backContent, chestContent,
-	handsContent, beltContent, legsContent, bootsContent, weaponsContent = SetTabs(UIConfig, 9, "H", "S", "B", "C", "G", "W", "L", "B", "WP");
+	handsContent, beltContent, legsContent, bootsContent, weaponsContent = SetTabs(UIConfig, 9, "Head", "Shoulder", "Back", "Chest", "Gloves", "Waist", "Legs", "Boots", "Weapons");
 
 	UIConfig:Hide();
 	return UIConfig;
@@ -279,7 +352,6 @@ function CmmOnEvent(Event, arg1, arg2, ...)
 	elseif Event == "INSPECT_READY" then
 		Cmm_UpdateInfos();
 	elseif Event == "ITEM_DATA_LOAD_RESULT" then
-		print("AYOOYOYOYOYOO");
 		print(arg1);
 	end
 end
@@ -292,30 +364,30 @@ function Cmm_UpdateInfos()
 				local categoryID , appearanceID, unknownBoolean1, itemTexture, unknownBoolean2, itemLink, appearanceLink, unknownFlag = C_TransmogCollection.GetAppearanceSourceInfo(appearanceSources[i]);
 				appearanceName = select(1, GetItemInfo(itemLink));
 				if i == 1 then
-					playerInfos.gear.head = appearanceName;
+					playerInfos.gear.head.name = appearanceName;
 				elseif i == 3 then
-					playerInfos.gear.shoulders = appearanceName;
+					playerInfos.gear.shoulders.name = appearanceName;
 				elseif i == 5 then
-					playerInfos.gear.chest = appearanceName;
+					playerInfos.gear.chest.name = appearanceName;
 				elseif i == 6 then
-					playerInfos.gear.waist = appearanceName;
+					playerInfos.gear.waist.name = appearanceName;
 				elseif i == 7 then
-					playerInfos.gear.legs = appearanceName;
+					playerInfos.gear.legs.name = appearanceName;
 				elseif i == 8 then
-					playerInfos.gear.boots = appearanceName;
+					playerInfos.gear.boots.name = appearanceName;
 				elseif i == 10 then
-					playerInfos.gear.hands = appearanceName;
+					playerInfos.gear.gloves.name = appearanceName;
 				elseif i == 15 then
-					playerInfos.gear.back = appearanceName;
+					playerInfos.gear.back.name = appearanceName;
 				elseif i == 16 then
-					playerInfos.gear.weapons = appearanceName;
+					playerInfos.gear.weapon.name = appearanceName;
+					print(wowItemDB.getLocation(itemLink));
 				end
 			end
 		end
 	end
 	local playerName = UnitName("target");
 	playerInfos.name = playerName;
-	print(playerInfos.name);
 end
 
 function checkMyMog_buttonInspect_Attach()
