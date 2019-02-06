@@ -151,7 +151,7 @@ def loop_over_files(location_json):
 				except KeyboardInterrupt:
 					print ("Exiting")
 					exit(0)
-				except requests.exceptions.Timeout:
+				except:
 					print("Timed out URLS")
 					continue
 
