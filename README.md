@@ -40,6 +40,8 @@ First, change the "volume" line in the docker-compose.yml to chose your own path
 
 ![gifdockerchange](https://media.giphy.com/media/NsEMVEJJpVAcMt36MP/giphy.gif)
 
+Now you can launch the docker container, here is how on Ubuntu windows 10 : 
+
 ![dockergif](ressources/dockergif.gif)
 
 ### Load_urls
