@@ -298,6 +298,8 @@ function getExpansion(itemName)
 	return ("Item not found")
 end
 
+wowItemDB.getExpansion = getExpansion
+
 function getId(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
@@ -595,6 +597,8 @@ function getId(itemName)
 	end
 	return ("Item not found")
 end
+
+wowItemDB.getId = getId
 
 function getTerritory(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
@@ -894,6 +898,8 @@ function getTerritory(itemName)
 	return ("Item not found")
 end
 
+wowItemDB.getTerritory = getTerritory
+
 function getCategoryTerritory(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
@@ -1191,6 +1197,8 @@ function getCategoryTerritory(itemName)
 	end
 	return ("Item not found")
 end
+
+wowItemDB.getCategoryTerritory = getCategoryTerritory
 
 function getDropRate(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
@@ -1490,6 +1498,8 @@ function getDropRate(itemName)
 	return ("Item not found")
 end
 
+wowItemDB.getDropRate = getDropRate
+
 function getSource(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
@@ -1788,13 +1798,15 @@ function getSource(itemName)
 	return ("Item not found")
 end
 
+wowItemDB.getSource = getSource
+
 function getLocation(itemName)
 	itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 	itemEquipLoc, itemIcon, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID,
 	isCraftingReagent = GetItemInfo(itemName)
-	print (itemType)
-	print (itemSubType)
-	print (itemIcon)
+	--print (itemType)
+	--print (itemSubType)
+	--print (itemIcon)
 
 	--For Head Armor:
 	if (itemEquipLoc == "INVTYPE_HEAD" and itemType == "Armor" and itemSubType == "Cloth") then
