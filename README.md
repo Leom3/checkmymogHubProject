@@ -34,7 +34,13 @@ Once you have everything installed, you have access to a Docker environment with
 * load_urls
 * get_datas
 
-You'll need to launch the Docker in order to use those programs. To do so :
+You'll need to launch the Docker in order to use those programs. To do so 
+
+First, change the "volume" line in the docker-compose.yml to chose your own path to the wowItemDB folder. It's automatically set as "./" but you need to change it:
+
+![gifdockerchange](https://media.giphy.com/media/NsEMVEJJpVAcMt36MP/giphy.gif)
+
+Now you can launch the docker container, here is how on Ubuntu windows 10 : 
 
 ![dockergif](ressources/dockergif.gif)
 
