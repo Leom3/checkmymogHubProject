@@ -19,7 +19,7 @@ For Linux :
 ```
 sudo apt install docker-ce
 ```
-
+For Windows, click here : [docker windows](https://docs.docker.com/docker-for-windows/install/)
 ### Installing
 
 Then, clone the repisitory from github or by the command-line :
