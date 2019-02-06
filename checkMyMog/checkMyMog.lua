@@ -993,7 +993,6 @@ function Cmm_UpdateInfos()
 					if playerInfos.gear.weapon.expansion == "" then
 						playerInfos.gear.weapon.expansion = "Unknown"
 					end
-					print(wowItemDB.getLocation(itemLink));
 				end
 			end
 		end
