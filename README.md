@@ -14,7 +14,7 @@ We made a docker to avoid any dependencies issues, you can clone it from our git
 
 Install the latest version of docker.
 
-For Linux : 
+For Linux Distribution: 
 
 ```
 sudo apt install docker-ce
